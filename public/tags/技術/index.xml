@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>サブカル科学研究会のブログ</title>
-    <link>https://angry-perlman-f69509.netlify.app/</link>
-    <description>Recent content on サブカル科学研究会のブログ</description>
+    <title>技術 on サブカル科学研究会のブログ</title>
+    <link>https://angry-perlman-f69509.netlify.app/tags/%E6%8A%80%E8%A1%93/</link>
+    <description>Recent content in 技術 on サブカル科学研究会のブログ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 10 Jan 2021 14:28:33 +0900</lastBuildDate><atom:link href="https://angry-perlman-f69509.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Jan 2021 14:28:33 +0900</lastBuildDate><atom:link href="https://angry-perlman-f69509.netlify.app/tags/%E6%8A%80%E8%A1%93/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>hugo での作業手順メモ</title>
       <link>https://angry-perlman-f69509.netlify.app/post/20210110/</link>
@@ -24,15 +24,6 @@ hugo server -D hugo new post/my-first-post.md  publicの作成 hugoは以上の�
 hugo -D  githubでレポジトリの作成 レポジトリの作成して、 ローカルのgitと紐付けする。
 リモートレポジトリにpushする。 git pull git push
 netlifyでデプロイ  アカウントの作成 githubとの紐付け レポジトリの選択 netlify.tomlの作成 公開  参考リンク  https://gohugo.io/getting-started/quick-start/#step-2-create-a-new-site https://themes.gohugo.io/mainroad/#configtoml-example   </description>
-    </item>
-    
-    <item>
-      <title>First</title>
-      <link>https://angry-perlman-f69509.netlify.app/post/first/</link>
-      <pubDate>Sun, 10 Jan 2021 11:02:58 +0900</pubDate>
-      
-      <guid>https://angry-perlman-f69509.netlify.app/post/first/</guid>
-      <description>こんにちは </description>
     </item>
     
   </channel>

@@ -17,7 +17,8 @@ cd themes git submodule add https://github.com/vimux/mainroad  config.tomlの設
 hugo server -D hugo new post/my-first-post.md  publicの作成 hugoは以上の設定と記事を元にindex.htmlと関連するファイルを自動で生成する。
 生成は以下のコマンドでいい。
 hugo -D  githubでレポジトリの作成 レポジトリの作成して、 ローカルのgitと紐付けする。
-netlifyでデプロイ  アカウントの作成 githubとの紐付け レポジトリの選択 公開  参考リンク  https://gohugo.io/getting-started/quick-start/#step-2-create-a-new-site https://themes.gohugo.io/mainroad/#configtoml-example   " />
+リモートレポジトリにpushする。 git pull git push
+netlifyでデプロイ  アカウントの作成 githubとの紐付け レポジトリの選択 netlify.tomlの作成 公開  参考リンク  https://gohugo.io/getting-started/quick-start/#step-2-create-a-new-site https://themes.gohugo.io/mainroad/#configtoml-example   " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://angry-perlman-f69509.netlify.app/post/20210110/" />
 <meta property="article:published_time" content="2021-01-10T14:28:33+09:00" />
@@ -33,14 +34,15 @@ cd themes git submodule add https://github.com/vimux/mainroad  config.tomlの設
 hugo server -D hugo new post/my-first-post.md  publicの作成 hugoは以上の設定と記事を元にindex.htmlと関連するファイルを自動で生成する。
 生成は以下のコマンドでいい。
 hugo -D  githubでレポジトリの作成 レポジトリの作成して、 ローカルのgitと紐付けする。
-netlifyでデプロイ  アカウントの作成 githubとの紐付け レポジトリの選択 公開  参考リンク  https://gohugo.io/getting-started/quick-start/#step-2-create-a-new-site https://themes.gohugo.io/mainroad/#configtoml-example   ">
+リモートレポジトリにpushする。 git pull git push
+netlifyでデプロイ  アカウントの作成 githubとの紐付け レポジトリの選択 netlify.tomlの作成 公開  参考リンク  https://gohugo.io/getting-started/quick-start/#step-2-create-a-new-site https://themes.gohugo.io/mainroad/#configtoml-example   ">
 <meta itemprop="datePublished" content="2021-01-10T14:28:33+09:00" />
 <meta itemprop="dateModified" content="2021-01-10T14:28:33+09:00" />
-<meta itemprop="wordCount" content="56">
+<meta itemprop="wordCount" content="62">
 
 
 
-<meta itemprop="keywords" content="" />
+<meta itemprop="keywords" content="技術," />
 
 		<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="hugo での作業手順メモ"/>
@@ -53,7 +55,8 @@ cd themes git submodule add https://github.com/vimux/mainroad  config.tomlの設
 hugo server -D hugo new post/my-first-post.md  publicの作成 hugoは以上の設定と記事を元にindex.htmlと関連するファイルを自動で生成する。
 生成は以下のコマンドでいい。
 hugo -D  githubでレポジトリの作成 レポジトリの作成して、 ローカルのgitと紐付けする。
-netlifyでデプロイ  アカウントの作成 githubとの紐付け レポジトリの選択 公開  参考リンク  https://gohugo.io/getting-started/quick-start/#step-2-create-a-new-site https://themes.gohugo.io/mainroad/#configtoml-example   "/>
+リモートレポジトリにpushする。 git pull git push
+netlifyでデプロイ  アカウントの作成 githubとの紐付け レポジトリの選択 netlify.tomlの作成 公開  参考リンク  https://gohugo.io/getting-started/quick-start/#step-2-create-a-new-site https://themes.gohugo.io/mainroad/#configtoml-example   "/>
 
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
@@ -153,11 +156,15 @@ hugo new post/my-first-post.md
 <h2 id="githubでレポジトリの作成">githubでレポジトリの作成</h2>
 <p>レポジトリの作成して、
 ローカルのgitと紐付けする。</p>
+<p>リモートレポジトリにpushする。
+git pull
+git push</p>
 <h2 id="netlifyでデプロイ">netlifyでデプロイ</h2>
 <ul>
 <li>アカウントの作成</li>
 <li>githubとの紐付け</li>
 <li>レポジトリの選択</li>
+<li>netlify.tomlの作成</li>
 <li>公開</li>
 </ul>
 <h2 id="参考リンク">参考リンク</h2>
@@ -168,6 +175,17 @@ hugo new post/my-first-post.md
 </ul>
 
 		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/%E6%8A%80%E8%A1%93/" rel="tag">技術</a>
+		</li>
+	</ul>
+</div>
+		</footer>
 	</article>
 </main>
 

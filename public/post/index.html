@@ -77,7 +77,8 @@ cd themes git submodule add https://github.com/vimux/mainroad  config.tomlの設
 hugo server -D hugo new post/my-first-post.md  publicの作成 hugoは以上の設定と記事を元にindex.htmlと関連するファイルを自動で生成する。
 生成は以下のコマンドでいい。
 hugo -D  githubでレポジトリの作成 レポジトリの作成して、 ローカルのgitと紐付けする。
-netlifyでデプロイ  アカウントの作成 githubとの紐付け レポジトリの選択 公開  参考リンク  https://gohugo.io/getting-started/quick-start/#step-2-create-a-new-site https://themes.gohugo.io/mainroad/#configtoml-example   
+リモートレポジトリにpushする。 git pull git push
+netlifyでデプロイ  アカウントの作成 githubとの紐付け レポジトリの選択 netlify.tomlの作成 公開  参考リンク  https://gohugo.io/getting-started/quick-start/#step-2-create-a-new-site https://themes.gohugo.io/mainroad/#configtoml-example   
 	</div>
 </article><article class="list__item post">
 	<header class="list__header">
@@ -107,7 +108,7 @@ netlifyでデプロイ  アカウントの作成 githubとの紐付け レポジ
 			<input class="widget-search__field" type="search" placeholder="SEARCH…" value="" name="q" aria-label="SEARCH…">
 		</label>
 		<input class="widget-search__submit" type="submit" value="Search">
-		<input type="hidden" name="sitesearch" value="https://angry-perlman-f69509.netlify.app/" />
+		<input type="hidden" name="sitesearch" value="https://angry-perlman-f69509.netlify.app" />
 	</form>
 </div>
 <div class="widget-recent widget">
@@ -117,6 +118,12 @@ netlifyでデプロイ  アカウントの作成 githubとの紐付け レポジ
 			<li class="widget__item"><a class="widget__link" href="/post/20210110/">hugo での作業手順メモ</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/first/">First</a></li>
 		</ul>
+	</div>
+</div>
+<div class="widget-taglist widget">
+	<h4 class="widget__title">Tags</h4>
+	<div class="widget__content">
+		<a class="widget-taglist__link widget__link btn" href="/tags/%E6%8A%80%E8%A1%93/" title="技術">技術 (1)</a>
 	</div>
 </div>
 <div class="widget-social widget">
