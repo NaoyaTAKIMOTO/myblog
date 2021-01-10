@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>hugo での作業手順メモ - サブカル科学研究会のブログ</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta property="og:title" content="hugo での作業手順メモ" />
+<meta property="og:description" content="hugoを導入するにあたってのメモ
+環境 Mac OS Big Sur
+ローカルの作業 hugoのインストール brew install hugo  hugoでプロジェクトの作成 hugoで任意の名前のプロジェクトを作成する。 今回は&quot;quickstart&quot;とした。
+この名前はなんでもいい。
+hugo new site quickstart cd quickstart git init  hugoのthemeの追加 今回はmainroadを選択した。
+cd themes git submodule add https://github.com/vimux/mainroad  config.tomlの設定 記事の作成 記事の名前を今回は&quot;my-first-post.md&quot;とした。
+hugo server -D hugo new post/my-first-post.md  publicの作成 hugoは以上の設定と記事を元にindex.htmlと関連するファイルを自動で生成する。
+生成は以下のコマンドでいい。
+hugo -D  githubでレポジトリの作成 レポジトリの作成して、 ローカルのgitと紐付けする。
+netlifyでデプロイ  アカウントの作成 githubとの紐付け レポジトリの選択 公開  参考リンク  https://gohugo.io/getting-started/quick-start/#step-2-create-a-new-site https://themes.gohugo.io/mainroad/#configtoml-example   " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://angry-perlman-f69509.netlify.app/post/20210110/" />
+<meta property="article:published_time" content="2021-01-10T14:28:33+09:00" />
+<meta property="article:modified_time" content="2021-01-10T14:28:33+09:00" />
+
+		<meta itemprop="name" content="hugo での作業手順メモ">
+<meta itemprop="description" content="hugoを導入するにあたってのメモ
+環境 Mac OS Big Sur
+ローカルの作業 hugoのインストール brew install hugo  hugoでプロジェクトの作成 hugoで任意の名前のプロジェクトを作成する。 今回は&quot;quickstart&quot;とした。
+この名前はなんでもいい。
+hugo new site quickstart cd quickstart git init  hugoのthemeの追加 今回はmainroadを選択した。
+cd themes git submodule add https://github.com/vimux/mainroad  config.tomlの設定 記事の作成 記事の名前を今回は&quot;my-first-post.md&quot;とした。
+hugo server -D hugo new post/my-first-post.md  publicの作成 hugoは以上の設定と記事を元にindex.htmlと関連するファイルを自動で生成する。
+生成は以下のコマンドでいい。
+hugo -D  githubでレポジトリの作成 レポジトリの作成して、 ローカルのgitと紐付けする。
+netlifyでデプロイ  アカウントの作成 githubとの紐付け レポジトリの選択 公開  参考リンク  https://gohugo.io/getting-started/quick-start/#step-2-create-a-new-site https://themes.gohugo.io/mainroad/#configtoml-example   ">
+<meta itemprop="datePublished" content="2021-01-10T14:28:33+09:00" />
+<meta itemprop="dateModified" content="2021-01-10T14:28:33+09:00" />
+<meta itemprop="wordCount" content="56">
+
+
+
+<meta itemprop="keywords" content="" />
+
+		<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="hugo での作業手順メモ"/>
+<meta name="twitter:description" content="hugoを導入するにあたってのメモ
+環境 Mac OS Big Sur
+ローカルの作業 hugoのインストール brew install hugo  hugoでプロジェクトの作成 hugoで任意の名前のプロジェクトを作成する。 今回は&quot;quickstart&quot;とした。
+この名前はなんでもいい。
+hugo new site quickstart cd quickstart git init  hugoのthemeの追加 今回はmainroadを選択した。
+cd themes git submodule add https://github.com/vimux/mainroad  config.tomlの設定 記事の作成 記事の名前を今回は&quot;my-first-post.md&quot;とした。
+hugo server -D hugo new post/my-first-post.md  publicの作成 hugoは以上の設定と記事を元にindex.htmlと関連するファイルを自動で生成する。
+生成は以下のコマンドでいい。
+hugo -D  githubでレポジトリの作成 レポジトリの作成して、 ローカルのgitと紐付けする。
+netlifyでデプロイ  アカウントの作成 githubとの紐付け レポジトリの選択 公開  参考リンク  https://gohugo.io/getting-started/quick-start/#step-2-create-a-new-site https://themes.gohugo.io/mainroad/#configtoml-example   "/>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo">
+		<a class="logo__link" href="/" title="サブカル科学研究会のブログ" rel="home">
+			<div class="logo__item logo__text">
+					<div class="logo__title">サブカル科学研究会のブログ</div>
+					
+				</div>
+		</a>
+	</div>
+		<div class="divider"></div>
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">hugo での作業手順メモ</h1>
+			<div class="post__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">サブカル科学研究会</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-01-10T14:28:33&#43;09:00">2021-01-10</time></div></div>
+		</header>
+<div class="post__toc toc">
+	<div class="toc__title">Page content</div>
+	<div class="toc__menu">
+		<nav id="TableOfContents">
+  <ul>
+    <li><a href="#環境">環境</a></li>
+    <li><a href="#ローカルの作業">ローカルの作業</a>
+      <ul>
+        <li><a href="#hugoのインストール">hugoのインストール</a></li>
+        <li><a href="#hugoでプロジェクトの作成">hugoでプロジェクトの作成</a></li>
+        <li><a href="#hugoのthemeの追加">hugoのthemeの追加</a></li>
+        <li><a href="#configtomlの設定">config.tomlの設定</a></li>
+        <li><a href="#記事の作成">記事の作成</a></li>
+        <li><a href="#publicの作成">publicの作成</a></li>
+      </ul>
+    </li>
+    <li><a href="#githubでレポジトリの作成">githubでレポジトリの作成</a></li>
+    <li><a href="#netlifyでデプロイ">netlifyでデプロイ</a></li>
+    <li><a href="#参考リンク">参考リンク</a></li>
+  </ul>
+</nav>
+	</div>
+</div>
+<div class="content post__content clearfix">
+			<p>hugoを導入するにあたってのメモ</p>
+<h2 id="環境">環境</h2>
+<p>Mac OS Big Sur</p>
+<h2 id="ローカルの作業">ローカルの作業</h2>
+<h3 id="hugoのインストール">hugoのインストール</h3>
+<pre><code>brew install hugo
+</code></pre>
+<h3 id="hugoでプロジェクトの作成">hugoでプロジェクトの作成</h3>
+<p>hugoで任意の名前のプロジェクトを作成する。
+今回は&quot;quickstart&quot;とした。</p>
+<p>この名前はなんでもいい。</p>
+<pre><code>hugo new site quickstart
+cd quickstart
+git init
+</code></pre>
+<h3 id="hugoのthemeの追加">hugoのthemeの追加</h3>
+<p>今回はmainroadを選択した。</p>
+<pre><code>cd themes
+git submodule add https://github.com/vimux/mainroad
+</code></pre>
+<h3 id="configtomlの設定">config.tomlの設定</h3>
+<h3 id="記事の作成">記事の作成</h3>
+<p>記事の名前を今回は&quot;my-first-post.md&quot;とした。</p>
+<pre><code>hugo server -D
+hugo new post/my-first-post.md
+</code></pre>
+<h3 id="publicの作成">publicの作成</h3>
+<p>hugoは以上の設定と記事を元にindex.htmlと関連するファイルを自動で生成する。</p>
+<p>生成は以下のコマンドでいい。</p>
+<pre><code>hugo -D
+</code></pre>
+<h2 id="githubでレポジトリの作成">githubでレポジトリの作成</h2>
+<p>レポジトリの作成して、
+ローカルのgitと紐付けする。</p>
+<h2 id="netlifyでデプロイ">netlifyでデプロイ</h2>
+<ul>
+<li>アカウントの作成</li>
+<li>githubとの紐付け</li>
+<li>レポジトリの選択</li>
+<li>公開</li>
+</ul>
+<h2 id="参考リンク">参考リンク</h2>
+<ul>
+<li><a href="https://gohugo.io/getting-started/quick-start/#step-2-create-a-new-site">https://gohugo.io/getting-started/quick-start/#step-2-create-a-new-site</a></li>
+<li><a href="https://themes.gohugo.io/mainroad/#configtoml-example">https://themes.gohugo.io/mainroad/#configtoml-example</a></li>
+<li></li>
+</ul>
+
+		</div>
+	</article>
+</main>
+
+<div class="authorbox clearfix">
+	<figure class="authorbox__avatar">
+		<img alt="サブカル科学研究会 avatar" src="/img/avatar.png" class="avatar" height="90" width="90">
+	</figure>
+	<div class="authorbox__header">
+		<span class="authorbox__name">About サブカル科学研究会</span>
+	</div>
+	<div class="authorbox__description">
+		大学院で情報数理学を専攻、現職で機械学習やDNNを用いた自然言語処理に携わる。数理最適化、機械学習、DNNに関心がある。またギター、イラストなどの創作活動にも勤しむ。自販機でジュースを買うのが最大の楽しみ。
+	</div>
+</div>
+
+<nav class="pager flex">
+	<div class="pager__item pager__item--prev">
+		<a class="pager__link" href="/post/first/" rel="prev">
+			<span class="pager__subtitle">«&thinsp;Previous</span>
+			<p class="pager__title">First</p>
+		</a>
+	</div>
+</nav>
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2021 サブカル科学研究会.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+</body>
+</html>
