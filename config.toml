@@ -2,6 +2,8 @@ baseURL = "https://angry-perlman-f69509.netlify.app"
 languageCode = "ja"
 title = "サブカル科学研究会のブログ"
 theme = "mainroad"
+hasCJKLanguage = true
+summaryLength = 120
 
 
 [Author] # Used in authorbox
@@ -26,6 +28,8 @@ theme = "mainroad"
   mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
   mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
   googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" # Load Google Fonts
+  customCSS = ["css/custom-font.css"]
+
 
 [Params.sidebar]
   home = "right" # Configure layout for home page
@@ -47,3 +51,7 @@ theme = "mainroad"
 [[Params.widgets.social.custom]]
   title = "pixiv"
   url = "https://www.pixiv.net/users/2289886" 
+
+  [[Menus.footer]]
+    Name = "プライバシーポリシー"
+    URL = "/privacy/"
