@@ -1,0 +1,110 @@
+---
+title: 'python を用いた自然言語処理の環境を整える。'
+date: 2020-06-18T07:34:00.004+09:00
+draft: false
+aliases: [ "/2020/06/python.html" ]
+tags : [技術系]
+---
+
+[![](https://1.bp.blogspot.com/-Hfn3KpibOuY/Xurepq-smKI/AAAAAAAAg70/y4-SSiS1Mc4gMmbTywgn9jCzZboq6XAJACK4BGAsYHg/s320/74C0A734-70D2-4846-A316-312BA6691D8B.jpeg)](https://1.bp.blogspot.com/-Hfn3KpibOuY/Xurepq-smKI/AAAAAAAAg70/y4-SSiS1Mc4gMmbTywgn9jCzZboq6XAJACK4BGAsYHg/s1920/74C0A734-70D2-4846-A316-312BA6691D8B.jpeg)
+
+この記事はコマンドラインをある程度利用できる方に向けて書いています。
+
+コマンドラインがなにか分からないけど、pythonを使いたい方はGoogle Colaboratory というサービスの利用を検討してください。
+
+**実行環境の整備**
+-----------
+
+まずはpythonの実行環境を整えます。
+
+今回はMac+コマンドラインの利用を前提としています。
+
+詳細は以下のリンクを参考にします。
+
+  
+
+> #### [Mac でpythonの環境構築](https://www.subcul-science.com/2020/06/mac-python.html)
+> 
+> python の実行環境をプロジェクトごとに管理する必要がある場合に以下の手順を行う。 利点としては、1.システムの環境を汚さないこと…
+
+**形態素解析 **
+----------
+
+次に前処理を行ます。日本語の場合は形態素解析を用いたトークナイズが必須となります。
+
+python 上で形態素解析を行えるライブラリとしてjanomeやginzaがあります。
+
+どちらもpipコマンドを実行することで簡単にインストールできます。
+
+詳細は各ホームページを参照してください。
+
+  
+
+> #### [Janome v0.3 documentation (ja)](https://mocobeta.github.io/janome/)
+> 
+> Janome (蛇の目; ◉) は，Pure Python で書かれた，辞書内包の形態素解析器です。…
+
+  
+
+> #### [GiNZA - Japanese NLP Library](https://megagonlabs.github.io/ginza/)
+> 
+> pip install ginza 実行時…
+
+  
+
+**文や単語の特徴量**
+------------
+
+文はそのままでは計算機は単語や文章の意味を扱うことができません。そこでいくつかの方法で単語の意味を表現しようという試みがあります。
+
+**単語の出現頻度による特徴量**
+-----------------
+
+単語の出現頻度を特徴量として扱うものとして、TF-IDFがあります。
+
+TF-IDF の詳細や利用方法については工事中です。
+
+とりあえずは以下を参照してください。
+
+> #### [scikit-learn で tf-idf を求める](https://tex2e.github.io/blog/python/tf-idf)
+> 
+> Python で scikit-learn を使った tf-idf の求め方について説明します。 TF とは Term Frequency の略で、…
+
+  
+
+  
+
+  
+
+  
+
+  
+
+**分散表現を用いる方法**
+--------------
+
+単語の意味を分散表現(ベクトル)を用いて表そうという方法があります。すでにライブラリが整備されているのでそれらを利用するのが懸命です。
+
+各種ライブラリの手順については以下のリンクを参考にしてください。
+
+> #### [Fasttext で文書分類問題まで出来るってすごくない？](https://www.subcul-science.com/2020/06/fasttext.html)
+> 
+> Facebook research がFasttextを使った文書分類ライブラリを公開している Fasttext のpython 環境でのinstall 方法は簡単 実行時間は早い 文書分類のタスクに取り組むことになり、当初は、 NeuralClassifier: An Open-source Neural Hierarchical Multi-label Text Classification Toolkit を使っていたのですが、あまり精度が出ませんでした。 上司に教えてもらったのが、 \[2\] A. Joulin, E. Grave, P. Bojanowski, T.
+
+> #### [NeuralClassifier の使い方メモ](https://www.subcul-science.com/2020/06/neuralclassifier.html)
+> 
+> NeuralClassifier: An Open-source Neural Hierarchical Multi-label Text Classification Toolkit はTencentが公開しているマルチラベルな文書分類問題用のpythonライブラリである。 詳しくは
+
+> ####   
+
+> #### [日本語Wikipediaで学習済みのBERTが公開されているので使い方メモ](https://www.subcul-science.com/2020/06/wikipediabert.html)
+> 
+> huggingface がBERTの日本語モデルを公開した。 日本語モデルはtransformersに含まれている。 しかし、Mac 環境で実際に動かすまでにいくつか躓いたので、メモを残しておく。
+
+  
+
+実際のアルゴリズムの動作に興味がある人は以下を参照してください。
+
+> #### [Google colaboratory を使ってWord2Vec の仕組みからモデルの学習まで](https://www.subcul-science.com/2020/06/google-colaboratory-word2vec.html)
+> 
+> word2vec はラベル無しの文章から単語の意味ベクトルを学習することが出来るモデルです。 単語のベクトルを扱うことで、単語の類似度の計算やクラスタリングといった応用が可能になります。そしてその技術の延長であるBERTはGoogleの検索サービスにも用いられています。 しかし、皆さんはword2vec ...

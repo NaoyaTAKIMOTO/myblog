@@ -1,0 +1,77 @@
+---
+title: 'vue でモーダルウィンドウに複数の種類のコメントを表示する'
+date: 2021-01-02T10:31:00.002+09:00
+draft: false
+aliases: [ "/2021/01/vue.html" ]
+tags : ["技術系"]
+---
+## vue でモーダルウィンドウに複数の種類のコメントを表示する
+
+vue でモーダルウィンドウに複数の種類のコメントを表示する[](#vue_でモーダルウィンドウに複数の種類のコメントを表示する "vue_でモーダルウィンドウに複数の種類のコメントを表示する")
+==================================================================================================
+
+postItem変数を介して、親から子へと情報をやり取りする。
+
+コードサンプル[](#コードサンプル "コードサンプル")
+-----------------------------
+
+親js
+
+```
+  
+new Vue({  
+  
+data:{postItem},  
+methods:{  
+  
+openModal: function (item) {  
+      console.log("openModal "+item)  
+      this.showContent = true  
+      this.postItem = item  
+      console.log("this.postItem "+this.postItem)  
+    },  
+closeModal: function () {  
+      console.log("closeModal")  
+      this.showContent = false  
+    },  
+}  
+})  
+  
+
+```
+
+子js
+
+```
+  
+Vue.component('open-modal', {  
+  props: ["val"],  
+  template: `  
+    <div id="overlay" v-on:click="clickEvent">  
+        <div id="content">  
+          <p>{{ val }}</p>  
+          <button v-on:click="clickEvent">close</button>  
+        </div>  
+    </div>  
+    `,  
+  methods: {  
+    clickEvent: function () {  
+      this.$emit('from-child')  
+    }  
+  }  
+})  
+
+```
+
+html
+
+```
+<open-modal :val="postItem" v-show="showContent" v-on:from-child="closeModal"></open-modal>  
+  
+
+```
+
+参考資料[](#参考資料 "参考資料")
+--------------------
+
+[https://shimablogs.com/vue-modal](https://shimablogs.com/vue-modal)
