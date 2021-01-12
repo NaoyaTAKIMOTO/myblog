@@ -55,3 +55,8 @@ summaryLength = 120
   [[Menus.footer]]
     Name = "プライバシーポリシー"
     URL = "/privacy/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
