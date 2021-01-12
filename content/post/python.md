@@ -3,7 +3,7 @@ title: 'python を用いた自然言語処理の環境を整える。'
 date: 2020-06-18T07:34:00.004+09:00
 draft: false
 aliases: [ "/2020/06/python.html" ]
-tags : [技術系]
+tags : [技術系,python,自然言語処理]
 ---
 
 [![](https://1.bp.blogspot.com/-Hfn3KpibOuY/Xurepq-smKI/AAAAAAAAg70/y4-SSiS1Mc4gMmbTywgn9jCzZboq6XAJACK4BGAsYHg/s320/74C0A734-70D2-4846-A316-312BA6691D8B.jpeg)](https://1.bp.blogspot.com/-Hfn3KpibOuY/Xurepq-smKI/AAAAAAAAg70/y4-SSiS1Mc4gMmbTywgn9jCzZboq6XAJACK4BGAsYHg/s1920/74C0A734-70D2-4846-A316-312BA6691D8B.jpeg)
@@ -12,8 +12,8 @@ tags : [技術系]
 
 コマンドラインがなにか分からないけど、pythonを使いたい方はGoogle Colaboratory というサービスの利用を検討してください。
 
-**実行環境の整備**
------------
+## **実行環境の整備**
+
 
 まずはpythonの実行環境を整えます。
 
@@ -27,8 +27,8 @@ tags : [技術系]
 > 
 > python の実行環境をプロジェクトごとに管理する必要がある場合に以下の手順を行う。 利点としては、1.システムの環境を汚さないこと…
 
-**形態素解析 **
-----------
+## **形態素解析 **
+
 
 次に前処理を行ます。日本語の場合は形態素解析を用いたトークナイズが必須となります。
 
@@ -52,13 +52,13 @@ python 上で形態素解析を行えるライブラリとしてjanomeやginza�
 
   
 
-**文や単語の特徴量**
-------------
+## **文や単語の特徴量**
+
 
 文はそのままでは計算機は単語や文章の意味を扱うことができません。そこでいくつかの方法で単語の意味を表現しようという試みがあります。
 
-**単語の出現頻度による特徴量**
------------------
+## **単語の出現頻度による特徴量**
+
 
 単語の出現頻度を特徴量として扱うものとして、TF-IDFがあります。
 
@@ -70,34 +70,22 @@ TF-IDF の詳細や利用方法については工事中です。
 > 
 > Python で scikit-learn を使った tf-idf の求め方について説明します。 TF とは Term Frequency の略で、…
 
-  
+## **分散表現を用いる方法**
 
-  
-
-  
-
-  
-
-  
-
-**分散表現を用いる方法**
---------------
 
 単語の意味を分散表現(ベクトル)を用いて表そうという方法があります。すでにライブラリが整備されているのでそれらを利用するのが懸命です。
 
 各種ライブラリの手順については以下のリンクを参考にしてください。
 
-> #### [Fasttext で文書分類問題まで出来るってすごくない？](https://www.subcul-science.com/2020/06/fasttext.html)
+> #### [Fasttext で文書分類問題までやったった]({{<ref "post/fasttext.md">}})
 > 
 > Facebook research がFasttextを使った文書分類ライブラリを公開している Fasttext のpython 環境でのinstall 方法は簡単 実行時間は早い 文書分類のタスクに取り組むことになり、当初は、 NeuralClassifier: An Open-source Neural Hierarchical Multi-label Text Classification Toolkit を使っていたのですが、あまり精度が出ませんでした。 上司に教えてもらったのが、 \[2\] A. Joulin, E. Grave, P. Bojanowski, T.
 
-> #### [NeuralClassifier の使い方メモ](https://www.subcul-science.com/2020/06/neuralclassifier.html)
+> #### [文書分類問題を解くモデルを提供するNeuralClassifier の使い方メモ]({{<ref "post/neuralclassifier.md">}})
 > 
 > NeuralClassifier: An Open-source Neural Hierarchical Multi-label Text Classification Toolkit はTencentが公開しているマルチラベルな文書分類問題用のpythonライブラリである。 詳しくは
 
-> ####   
-
-> #### [日本語Wikipediaで学習済みのBERTが公開されているので使い方メモ](https://www.subcul-science.com/2020/06/wikipediabert.html)
+> #### [日本語Wikipediaで学習済みのBERTが公開されているので使い方メモ]({{<ref "post/wikipediabert.md">}})
 > 
 > huggingface がBERTの日本語モデルを公開した。 日本語モデルはtransformersに含まれている。 しかし、Mac 環境で実際に動かすまでにいくつか躓いたので、メモを残しておく。
 
@@ -105,6 +93,6 @@ TF-IDF の詳細や利用方法については工事中です。
 
 実際のアルゴリズムの動作に興味がある人は以下を参照してください。
 
-> #### [Google colaboratory を使ってWord2Vec の仕組みからモデルの学習まで](https://www.subcul-science.com/2020/06/google-colaboratory-word2vec.html)
+> #### [Google colaboratory を使ってWord2Vec の仕組みからモデルの学習まで]({{<ref "post/google-colaboratory-word2vec.md">}})
 > 
 > word2vec はラベル無しの文章から単語の意味ベクトルを学習することが出来るモデルです。 単語のベクトルを扱うことで、単語の類似度の計算やクラスタリングといった応用が可能になります。そしてその技術の延長であるBERTはGoogleの検索サービスにも用いられています。 しかし、皆さんはword2vec ...

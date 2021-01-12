@@ -10,11 +10,6 @@ tags : [思考のネタ]
 
 私は最近その楽しみ方が出来るようになって、幅が広がった気がするんよ。
 
-#### 目次
-
-1.  世界観のコンテンツ
-2.  公式は解釈違い？
-3.  IP かクリエーターか
 
 ### 世界観のコンテンツ
 
@@ -41,7 +36,3 @@ IP でいくと [#けものフレンズ](https://note.com/hashtag/%E3%81%91%E3%
 私としてはそういうIPで遊ぶ側に回りたいから、制作の気持ちとかを知りたいと常々考えている。
 
 そのためにはまずは脚本や小説に詳しくなろうと、脚本の書き方とか調べたけど。
-
-(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a; b\[a\]=b\[a\]||function(){arguments.currentScript=c.currentScript ||c.scripts\[c.scripts.length-2\];(b\[a\].q=b\[a\].q||\[\]).push(arguments)}; c.getElementById(a)||(d=c.createElement(f),d.src=g, d.id=a,e=c.getElementsByTagName("body")\[0\],e.appendChild(d))}) (window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js","msmaflink"); msmaflink({"n":"ＳＡＶＥ　ＴＨＥ　ＣＡＴの法則 ＳＡＶＥ ＴＨＥ ＣＡＴの法則","b":"","t":"","d":"https:\\/\\/m.media-amazon.com","c\_p":"","p":\["\\/images\\/I\\/41OICwBEkkL.jpg"\],"u":{"u":"https:\\/\\/www.amazon.co.jp\\/dp\\/B0776P5DX8","t":"amazon","r\_v":""},"aid":{"amazon":"2220302","rakuten":"2220301","yahoo":"2220303"},"eid":"lOXqs","s":"s"});
-
-リンク

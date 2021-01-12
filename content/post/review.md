@@ -3,27 +3,17 @@ title: 'Re:VIEW の始め方メモ'
 date: 2020-07-16T20:46:00.002+09:00
 draft: false
 aliases: [ "/2020/07/review.html" ]
-tags : [技術系]
+tags : [技術系,re:view,技術書]
 ---
 
-     .markdown-body { box-sizing: border-box; min-width: 200px; max-width: 980px; margin: 0 auto; padding: 45px; } .markdown-body pre { background: #23241f; } .markdown-body strong, .markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5 { font-weight: 700; } @media (max-width: 767px) { .markdown-body { padding: 15px; } }Re:VIEW の始め方メモ
+## Re:VIEW の始め方メモ[](#Re:VIEW_の始め方メモ "Re:VIEW_の始め方メモ")
 
-Re:VIEW の始め方メモ[](#Re:VIEW_の始め方メモ "Re:VIEW_の始め方メモ")
-==================================================
 
 mac でのRe：VIEW を導入した時のメモ。
 
-目次
 
-*   [作業用ディレクトリの作成](#作業用ディレクトリの作成)
-*   [Docker を用意](#Docker_を用意)
-*   [Dockerfileとdocker-compose.ymlの作成](#Dockerfileとdocker-compose.ymlの作成)
-*   [文章の編集](#文章の編集)
-*   [文章ファイルの作成](#文章ファイルの作成)
-*   [参考文献](#参考文献)
+## 作業用ディレクトリの作成[](#作業用ディレクトリの作成 "作業用ディレクトリの作成")
 
-作業用ディレクトリの作成[](#作業用ディレクトリの作成 "作業用ディレクトリの作成")
-============================================
 
 適当なディレクトリをつくる。
 
@@ -31,8 +21,8 @@ mac でのRe：VIEW を導入した時のメモ。
 mkdir “project_name”
 ```
 
-Docker を用意[](#Docker_を用意 "Docker_を用意")
-======================================
+## Docker を用意[](#Docker_を用意 "Docker_を用意")
+
 
 Docker のインストールは各自でされたし。
 
@@ -40,8 +30,8 @@ Docker のインストールは各自でされたし。
 
 詳しくはググるといい。
 
-Dockerfileとdocker-compose.ymlの作成[](#Dockerfileとdocker-compose.ymlの作成 "Dockerfileとdocker-compose.ymlの作成")
-========================================================================================================
+## Dockerfileとdocker-compose.ymlの作成[](#Dockerfileとdocker-compose.ymlの作成 "Dockerfileとdocker-compose.ymlの作成")
+
 
 作業用ディレクトリに以下の二つのファイルを作成する。
 
@@ -49,7 +39,8 @@ Dockerfileとdocker-compose.ymlの作成[](#Dockerfileとdocker-compose.ymlの�
 Dockerfile  
   
 FROM vvakame/review
-``````
+```
+```yml
 docker-compose.yml  
   
 version: '3'  
@@ -75,8 +66,8 @@ docker-compose run --rm review review-init "project_name"
 cp Dockerfile docker-compose.yml "project_name"
 ```
 
-文章の編集[](#文章の編集 "文章の編集")
-=======================
+## 文章の編集[](#文章の編集 "文章の編集")
+
 
 実際の文書は"project\_name".reを編集する。
 
@@ -88,8 +79,8 @@ Visual Studio Code は.reに対応したプラグインがある。
 
 扉の編集の仕方はまだ分からん。
 
-文章ファイルの作成[](#文章ファイルの作成 "文章ファイルの作成")
-===================================
+## 文章ファイルの作成[](#文章ファイルの作成 "文章ファイルの作成")
+
 
 作成されたプロジェクトディレクトリでdocker-composeを実行する。
 
@@ -102,8 +93,8 @@ docker-compose run --rm review rake pdf
 
 あとは文章の中身を作っていく。
 
-参考文献[](#参考文献 "参考文献")
-====================
+## 参考文献[](#参考文献 "参考文献")
+
 
 詳しくは以下のリンクを参照する。
 
@@ -113,5 +104,3 @@ docker-compose run --rm review rake pdf
     
 *   [Re:VIEWクイックスタートガイド](https://github.com/kmuto/review/blob/master/doc/quickstart.ja.md)
     
-
-hljs.initHighlightingOnLoad(); $(document).on("mouseover", "h1,h2,h3,h4,h5", function(e) { $(e.currentTarget).find(".fa-link").text("🔗").show(); }); $(document).on("mouseout", "h1,h2,h3,h4,h5", function(e) { $(e.currentTarget).find(".fa-link").hide(); });

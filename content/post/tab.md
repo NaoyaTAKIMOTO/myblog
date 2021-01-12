@@ -3,24 +3,16 @@ title: 'tab譜の読み方使い方'
 date: 2018-11-13T16:23:00.002+09:00
 draft: false
 aliases: [ "/2018/11/tab.html" ]
-tags : [音楽]
+tags : [音楽,tab譜]
 ---
 
 TuxGuitarを使いましょう。以上！  
 では少々味気ないので配布されているtab譜のファイル形式と実際の利用の仕方について解説しようと思います。  
   
 
-*   [tab譜って何？](https://ayano-gutiar-cover-tab.blogspot.com/2018/11/tab.html#01)
-*   [tab譜の読み方](https://ayano-gutiar-cover-tab.blogspot.com/2018/11/tab.html#02)
-*   [tab譜の使い方](https://ayano-gutiar-cover-tab.blogspot.com/2018/11/tab.html#03)
-*   [TuxGuitarの利用方法](https://ayano-gutiar-cover-tab.blogspot.com/2018/11/tab.html#04)
-*   [tab譜の探し方](https://ayano-gutiar-cover-tab.blogspot.com/2018/11/tab.html#05)
 
-  
-  
+## tab譜って何？
 
-tab譜って何？
---------
 
 ギターの指板の位置とリズムが書いてある楽譜のことです。
 
@@ -40,8 +32,8 @@ tab譜って何？
 
 なのでtab譜はギタリストにとって最強の友の一つです。
 
-tab譜の読み方
---------
+## tab譜の読み方
+
 
 [![](https://1.bp.blogspot.com/-FeGVsMx4CRA/W-oo3vyicjI/AAAAAAAAWP4/1Tt6u0XygqsNK1v1criCD5ka9Ssj-Cd6wCK4BGAYYCw/s320/tab.PNG)](http://1.bp.blogspot.com/-FeGVsMx4CRA/W-oo3vyicjI/AAAAAAAAWP4/1Tt6u0XygqsNK1v1criCD5ka9Ssj-Cd6wCK4BGAYYCw/s1600/tab.PNG)
 
@@ -65,8 +57,8 @@ tab譜は六本の線が書いてあります。これはギターの弦を表�
 
 そのリズムの読み方については別の記事で紹介しようと思います。
 
-tab譜の使い方
---------
+## tab譜の使い方
+
 
 練習に活用しよう！
 
@@ -94,8 +86,8 @@ tab譜の使い方
 
   
 
-TuxGuitarの利用方法
---------------
+## TuxGuitarの利用方法
+
 
 tab譜を見る為にTuxGuitarを使おう！
 
@@ -117,8 +109,8 @@ tab譜を見る為にTuxGuitarを使おう！
 
   
 
-tab譜の探し方
---------
+## tab譜の探し方
+
 
 かつては[ultimate guitar](https://www.ultimate-guitar.com/)というサイトを活用していましたが、玉石混交であり、また邦楽に弱いという側面があります。
 

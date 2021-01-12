@@ -3,25 +3,16 @@ title: 'Google Apps Scriptで後輩系line bot 作ったった'
 date: 2020-06-25T03:55:00.003+09:00
 draft: false
 aliases: [ "/2020/06/line-bot.html" ]
-tags : [技術系]
+tags : [技術系, Google App Script,line bot]
 ---
 
-     .markdown-body { box-sizing: border-box; min-width: 200px; max-width: 980px; margin: 0 auto; padding: 45px; } .markdown-body pre { background: #23241f; } .markdown-body strong, .markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5 { font-weight: 700; } @media (max-width: 767px) { .markdown-body { padding: 15px; } }Google Apps Scriptで後輩系line bot 作ったった
-
-Google Apps Scriptで後輩系line bot 作ったった　[](#Google_Apps_Scriptで後輩系line_bot_作ったった_ "Google_Apps_Scriptで後輩系line_bot_作ったった_")
-=======================================================================================================================
 
 そういえばLINE botを個人開発したことがありました！
 
-目次
 
-*   [動機](#動機)
-*   [botの概要](#botの概要)
-*   [サンプルコード](#サンプルコード)
-*   [結果](#結果)
 
-動機[](#動機 "動機")
---------------
+## 動機[](#動機 "動機")
+
 
 当時、仲間内でDTMが流行りまして、作った曲を共有するためにGoogleドライブを利用してました。
 
@@ -31,8 +22,8 @@ Google Apps Scriptで後輩系line bot 作ったった　[](#Google_Apps_Script�
 
 あれは完全に自分に需要があるという理由で作ったけど、よく作れたなと思います。
 
-botの概要[](#botの概要 "botの概要")
---------------------------
+## botの概要[](#botの概要 "botの概要")
+
 
 定期的に共有フォルダの更新をチェックして、更新があればそのファイルのリンクをLINEグループに投稿してくれるものです。
 
@@ -44,8 +35,8 @@ LINE botはGASを使ってサーバーレスの仕様にしたので、今でも
 
 当時FGOにハマっていたので後輩系のキャラなんです。
 
-サンプルコード[](#サンプルコード "サンプルコード")
------------------------------
+## サンプルコード[](#サンプルコード "サンプルコード")
+
 
 Googleドライブとラインの設定は以下のリンクを参考にしました。
 
@@ -72,7 +63,7 @@ Googleドライブとラインの設定は以下のリンクを参考にしま�
     line developersのアクセストークン
     
 
-```
+```js
 var bangdore_FOLDER_ID = 'google drive directoy id';  
 var SEND_MAIL_ADDRESS = ['eｰmail＠dot.com'];  
 var ADD_FILE_COUNT = 0;  
@@ -93,7 +84,7 @@ var access_token = "hogehoge";
 
 スクリプトの起動を通知するためにメールを送る関数。別になくても動きます。
 
-```
+```js
 function sendMail(){  
   SEND_MAIL_ADDRESS.forEach(function(o,i) {  
     MailApp.sendEmail(SEND_MAIL_ADDRESS[i],"バンドリチェッカー起動通知", "run bandre checker"  
@@ -104,7 +95,7 @@ function sendMail(){
 
 lineにメッセージを送るための関数。
 
-```
+```js
 function sendHttpPost(message){  
   var token = [access_token];  
   Logger.log('token '+token);  
@@ -124,7 +115,7 @@ Googleドライブのフォルダ内のファイルを全てサーチして、�
 
 もっとエレガントな実装があるとは思うので、あくまで参考程度に。
 
-```
+```js
 function stackFiles(file){  
   updateFileList.push(file.getName());  
   updateFileLinkList.push(file.getUrl());  
@@ -159,7 +150,7 @@ botがランダムで挨拶をしてくれる部分。
 
 今回は心配性な後輩キャラ。マ○ュにインスパイアされました。
 
-```
+```js
 function greeting(){  
   var results=["一緒にがんばりましょうね","無理は禁物ですよ","お茶でも飲みませんか？","私はちゃんと分かってますから","食事はきちんと取りましょうね","頑張ってますね","いい加減にしましょうね？"];  
   var greet = results[Math.floor(Math.random()*results.length)]  
@@ -172,7 +163,7 @@ function greeting(){
 
 更新されたファイルのリンクをメッセージとしてlineに投稿します。
 
-```
+```js
 function main() {  
   //sendMail()  
   var dateobj = new Date();  
@@ -231,8 +222,8 @@ function main() {
 
 ```
 
-結果[](#結果 "結果")
---------------
+## 結果[](#結果 "結果")
+
 
 結局はメンバーの熱が冷めて、活躍の場面も無くなっていきました。メンバーのエンゲージメントを保つのは難しいですね。
 
@@ -241,5 +232,3 @@ function main() {
 だけど、それはメンバーのモチベーションには繋がらなかったようです。
 
 botを可愛がってもらえるようにするには各メンバーの好みを把握するのは次回に活かします。
-
-hljs.initHighlightingOnLoad(); $(document).on("mouseover", "h1,h2,h3,h4,h5", function(e) { $(e.currentTarget).find(".fa-link").text("🔗").show(); }); $(document).on("mouseout", "h1,h2,h3,h4,h5", function(e) { $(e.currentTarget).find(".fa-link").hide(); });

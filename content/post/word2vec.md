@@ -3,7 +3,7 @@ title: 'word2vecのアルゴリズムを把握するために'
 date: 2020-06-17T07:36:00.004+09:00
 draft: false
 aliases: [ "/2020/06/word2vec.html" ]
-tags : [技術系]
+tags : [技術系,自然言語処理,word2vec]
 ---
 
 [![](https://1.bp.blogspot.com/-jk493l0cRu0/XurebGYeZHI/AAAAAAAAg7c/a0zNCAp-MP4OSr9a0fFhIiv-y8Cr-NdbQCK4BGAsYHg/s320/30729925-02B8-4287-82F8-A8C6660E54C8.jpeg)](https://1.bp.blogspot.com/-jk493l0cRu0/XurebGYeZHI/AAAAAAAAg7c/a0zNCAp-MP4OSr9a0fFhIiv-y8Cr-NdbQCK4BGAsYHg/s1920/30729925-02B8-4287-82F8-A8C6660E54C8.jpeg)
@@ -25,13 +25,13 @@ Googleの計算資源を利用できるものです。
 このプログラムは技術書典というイベントで頒布させていただき、  
 50以上の方に利用していただきました。
 
-実行可能なプログラム
-----------
+## 実行可能なプログラム
+
 
 詳細は以下のリンクからどうぞ。
 
   
 
-> #### [Google colaboratory を使ってWord2Vec の仕組みからモデルの学習まで](https://www.subcul-science.com/2020/06/google-colaboratory-word2vec.html)
+> #### [Google colaboratory を使ってWord2Vec の仕組みからモデルの学習まで]({{<ref "post/google-colaboratory-word2vec.md">}})
 > 
 > word2vec はラベル無しの文章から単語の意味ベクトルを学習することが出来るモデルです。 単語のベクトルを扱うことで、単語の類似度の計算やクラスタリングといった応用が可能になります。そしてその技術の延長であるBERTはGoogleの検索サービスにも用いられています。 しかし、皆さんはword2vec ...

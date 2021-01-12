@@ -6,31 +6,26 @@ aliases: [ "/2020/06/google-colaboratory-word2vec.html" ]
 tags : [技術系]
 ---
 
-     .markdown-body { box-sizing: border-box; min-width: 200px; max-width: 980px; margin: 0 auto; padding: 45px; } .markdown-body pre { background: #23241f; } .markdown-body strong, .markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5 { font-weight: 700; } @media (max-width: 767px) { .markdown-body { padding: 15px; } }Google colaboratory を使ってWord2Vec の仕組みからモデルの学習まで
+   
+## Google colaboratory を使ってWord2Vec の仕組みからモデルの学習まで[](#Google_colaboratory_を使ってWord2Vec_の仕組みからモデルの学習まで "Google_colaboratory_を使ってWord2Vec_の仕組みからモデルの学習まで")
 
-*   [Word2Vec から始めよう](#Word2Vec_から始めよう)
-*   [概念の理解が難しい](#概念の理解が難しい)
-*   [Google Colaboratory を使おう](#Google_Colaboratory_を使おう)
 
-Google colaboratory を使ってWord2Vec の仕組みからモデルの学習まで[](#Google_colaboratory_を使ってWord2Vec_の仕組みからモデルの学習まで "Google_colaboratory_を使ってWord2Vec_の仕組みからモデルの学習まで")
-=====================================================================================================================================================
+## Word2Vec から始めよう[](#Word2Vec_から始めよう "Word2Vec_から始めよう")
 
-Word2Vec から始めよう[](#Word2Vec_から始めよう "Word2Vec_から始めよう")
------------------------------------------------------
 
 word2vec はラベル無しの文章から単語の意味ベクトルを学習することが出来るモデルです。
 
 単語のベクトルを扱うことで、単語の類似度の計算やクラスタリングといった応用が可能になります。そしてその技術の延長であるBERTはGoogleの検索サービスにも用いられています。
 
-概念の理解が難しい[](#概念の理解が難しい "概念の理解が難しい")
------------------------------------
+## 概念の理解が難しい[](#概念の理解が難しい "概念の理解が難しい")
+
 
 しかし、皆さんはword2vec について勉強しようとして、苦戦していませんか？なかなかその概念を理解することは、馴染みが無いものですから、難しいです。
 
 word2vec について解説している資料はすでにあります。しかし、図解だけでは仕組みを理解して扱うレベルに至るのは難しいでしょう。そして実際に動くプログラムで記述されると、解説のコメントがあっても、その一行が何をしているのか飲み込みづらいものです。
 
-Google Colaboratory を使おう[](#Google_Colaboratory_を使おう "Google_Colaboratory_を使おう")
---------------------------------------------------------------------------------
+## Google Colaboratory を使おう[](#Google_Colaboratory_を使おう "Google_Colaboratory_を使おう")
+
 
 そこで一行単位でプログラムを実行できるGoogle Colaboratoryを利用することをおすすめします。
 
@@ -53,5 +48,3 @@ word2vec以外の機械学習にも応用が効くことが挙げられます。
 以下のリンクからどうぞ。
 
 [https://subcul-science.booth.pm/items/1562211](https://subcul-science.booth.pm/items/1562211)
-
-hljs.initHighlightingOnLoad(); $(document).on("mouseover", "h1,h2,h3,h4,h5", function(e) { $(e.currentTarget).find(".fa-link").text("🔗").show(); }); $(document).on("mouseout", "h1,h2,h3,h4,h5", function(e) { $(e.currentTarget).find(".fa-link").hide(); });

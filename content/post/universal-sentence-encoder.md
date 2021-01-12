@@ -3,16 +3,10 @@ title: 'Universal Sentence Encoder の使い方メモ'
 date: 2020-06-22T18:29:00.006+09:00
 draft: false
 aliases: [ "/2020/06/universal-sentence-encoder.html" ]
-tags : [技術系]
+tags : [技術系,自然言語処理,universal sentence encoder]
 ---
 
 Universal Sentence Encoder を使って文書のベクトルが得られる。
-
-#### 目次
-
-1.  特徴
-2.  使い道
-3.  使い方
 
 ### 特徴
 
@@ -72,10 +66,6 @@ print(texts[0], texts[4], cos_sim(vectors[0], vectors[4]), sep="\t"
 
 得られた分散表現の利用方法は以下を参照
 
-> #### [文書分類問題の応用はなにがある？](https://www.subcul-science.com/2020/06/blog-post_54.html)
+> #### [文書分類問題の応用はなにがある？]({{<ref "post/blog-post_54.md" >}})
 > 
 > 機械学習について勉強したけど、その使い道が分からん！ってなってないですか？
-
-(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a; b\[a\]=b\[a\]||function(){arguments.currentScript=c.currentScript ||c.scripts\[c.scripts.length-2\];(b\[a\].q=b\[a\].q||\[\]).push(arguments)}; c.getElementById(a)||(d=c.createElement(f),d.src=g, d.id=a,e=c.getElementsByTagName("body")\[0\],e.appendChild(d))}) (window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js","msmaflink"); msmaflink({"n":"自然言語処理の基本と技術","b":"","t":"","d":"https:\\/\\/m.media-amazon.com","c\_p":"","p":\["\\/images\\/I\\/51V9d2v9Z9L.jpg"\],"u":{"u":"https:\\/\\/www.amazon.co.jp\\/dp\\/B01CGAPLLO","t":"amazon","r\_v":""},"aid":{"amazon":"2220302","rakuten":"2220301","yahoo":"2220303"},"eid":"Vza6T","s":"s"});
-
-リンク

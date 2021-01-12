@@ -41,7 +41,3 @@ tags : [音楽, 歌ってみた]
 それは余人が真似して容易く再現できるものではない。
 
 りぶ氏の持つ歌声と表現の幅、そしてそれらが表出するポテンシャルを持った原曲が噛み合ってこそ、この柔らかな感動を味わえるのだ。
-
-(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a; b\[a\]=b\[a\]||function(){arguments.currentScript=c.currentScript ||c.scripts\[c.scripts.length-2\];(b\[a\].q=b\[a\].q||\[\]).push(arguments)}; c.getElementById(a)||(d=c.createElement(f),d.src=g, d.id=a,e=c.getElementsByTagName("body")\[0\],e.appendChild(d))}) (window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js","msmaflink"); msmaflink({"n":"ドラマツルギー","b":"","t":"","d":"https:\\/\\/m.media-amazon.com","c\_p":"","p":\["\\/images\\/I\\/41vbqrtVyoL.jpg"\],"u":{"u":"https:\\/\\/www.amazon.co.jp\\/dp\\/B077CL2JHT","t":"amazon","r\_v":""},"aid":{"amazon":"2220302","rakuten":"2220301","yahoo":"2220303"},"eid":"CRRVI","s":"s"});
-
-リンク

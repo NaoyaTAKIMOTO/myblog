@@ -3,7 +3,7 @@ title: 'Macの iMovieで動画の音量調整、オーディオ抽出'
 date: 2020-12-15T18:48:00.003+09:00
 draft: false
 aliases: [ "/2020/12/mac-imovie.html" ]
-tags : [技術系]
+tags : [技術系,mac, imovie, 動画編集]
 ---
 
 楽器の練習、私の場合はソロギターの練習のために動画の撮影を行うことにした。
@@ -14,18 +14,10 @@ tags : [技術系]
 
 手持ちの環境(iPhone、MacBook)で動画とオーディオの作成を行う手順をメモする。
 
-目次
 
-*   [撮影](#撮影)
-*   [iMovieで動画編集](#iMovieで動画編集)
-    *   [動画取り込み](#動画取り込み)
-    *   [音量調整](#音量調整)
-    *   [顔のトリミング](#顔のトリミング)
-    *   [動画と音声の保存](#動画と音声の保存)
-*   [アップロード](#アップロード)
 
-撮影[](#撮影 "撮影")
---------------
+## 撮影[](#撮影 "撮影")
+
 
 機材:三脚とiPhone
 
@@ -35,8 +27,8 @@ iPhone は優れたカメラとマイクを搭載しており、 個人練習用
 
 標準のカメラアプリで動画を撮影する。
 
-iMovieで動画編集[](#iMovieで動画編集 "iMovieで動画編集")
------------------------------------------
+## iMovieで動画編集[](#iMovieで動画編集 "iMovieで動画編集")
+
 
 撮影した動画には不必要な部分が撮影されていることや音量のバランスが悪いなどの問題がある。
 
@@ -77,13 +69,9 @@ iCloud上に撮影した動画を保存する。
 
 フォーマットがビデオとオーディオなら動画、 オーディオのみなら音声ファイルが作成される。
 
-アップロード[](#アップロード "アップロード")
---------------------------
+## アップロード[](#アップロード "アップロード")
+
 
 YouTube、ニコニコ動画、Anchor、stand.fmなどにアップしておいて視聴しやすいようにしておく。
 
 ここは別にしなくてもいい。
-
-(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a; b\[a\]=b\[a\]||function(){arguments.currentScript=c.currentScript ||c.scripts\[c.scripts.length-2\];(b\[a\].q=b\[a\].q||\[\]).push(arguments)}; c.getElementById(a)||(d=c.createElement(f),d.src=g, d.id=a,e=c.getElementsByTagName("body")\[0\],e.appendChild(d))}) (window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js","msmaflink"); msmaflink({"n":"三脚 スマホ三脚 リモコン付き ビデオカメラ 一眼レフカメラ ミニ三脚 さんきゃく 3WAY雲台 4段階伸縮 360回転 収納袋付きiPhone\\/Android スマホ等対応…","b":"XXZU","t":"XZ-06","d":"https:\\/\\/m.media-amazon.com","c\_p":"\\/images\\/I","p":\["\\/41OEskDh9WL.jpg","\\/51lNpmlbg-L.jpg","\\/51x4p6FwkAL.jpg","\\/41-k507nygL.jpg","\\/5140uFUPr+L.jpg","\\/51Go1emTAsL.jpg","\\/41PWgLQotuL.jpg"\],"u":{"u":"https:\\/\\/www.amazon.co.jp\\/dp\\/B07PVNBL74","t":"amazon","r\_v":""},"aid":{"amazon":"2220302","rakuten":"2220301","yahoo":"2220303"},"eid":"eViVm","s":"s"});
-
-リンク
