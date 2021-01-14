@@ -1,0 +1,20 @@
+{{ $aws_api_url := "https://jlvqxai4yj.execute-api.ap-northeast-1.amazonaws.com/default/get_meta_tag" }}
+{{ $req_url := .Get 0 }}
+{{ $meta_data := getJSON $aws_api_url $req_url }}
+
+<style type="text/css">
+.heisakuCard {min-height:90px;width:auto;border: solid 1px #aaa;padding: 10px;box-sizing:content-box;position: relative;}
+.heisakuCard:after {content:"";clear:both;display:block;}
+.heisakuCard a {position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
+.heisakuCard_content {float:left;padding:0px 10px;box-sizing:border-box;width: calc(100% - 200px);}
+.heisakuCard_title {font-weight: bold;font-size: 16px;}
+.heisakuCard_desc {;font-size: 16px;}
+</style>
+<div class="heisakuCard">
+        <img alt="og_title" height="90" width="180" src="{{ $meta_data.og_image}}" style="float:left;" />
+        <div class="heisakuCard_content">
+                <span class="heisakuCard_title">{{$meta_data.og_title}}</span><br />
+                <span class="heisakuCard_desc">{{$meta_data.og_desc}}</span>
+        </div>
+        <a href="{{ $meta_data.og_url }}" target="_blank"></a>
+</div>
