@@ -4,6 +4,8 @@ title = "サブカル科学研究会のブログ"
 theme = "mainroad"
 hasCJKLanguage = true
 summaryLength = 120
+disqusShortname = "https-www-subcul-science-com"
+
 
 
 [Author] # Used in authorbox
