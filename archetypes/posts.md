@@ -5,5 +5,3 @@ date: "{{ .Date }}"
 thumbnail: ""
 tags: []
 ---
-
-
