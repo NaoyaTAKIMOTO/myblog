@@ -57,6 +57,9 @@ max_lengthが生成される文の長さを調整する。
 
 二つのパラメータは計算時間とのトレードオフなので小さいものから試していくのがいい。
 
+## 参考リンク
+- [transformers 公式ドキュメント](https://huggingface.co/transformers/model_doc/bart.html)
+
 ## 最後に
 不明点などあればコメントお願いします！
 
