@@ -5,8 +5,6 @@ draft: false
 aliases: [ "/2020/06/blog-post_54.html" ]
 tags : [技術系,自然言語処理]
 ---
-
-
 ## 文書分類問題の応用[](#文書分類問題の応用 "文書分類問題の応用")
 
 
@@ -72,12 +70,9 @@ tags : [技術系,自然言語処理]
 
 実際の利用方法は以下のリンクにメモしています。
 
-[Universal Sentence Encoder の使い方メモ]({{<ref "post/universal-sentence-encoder.md">}})
-
-[日本語Wikipediaで学習したBERTが公開されたので使い方のメモ](https://www.subcul-science.com/2020/06/wikipediabert.html)
-
-[Google colaboratory を使ってWord2Vecの仕組みからモデルの学習まで](https://www.subcul-science.com/2020/06/google-colaboratory-word2vec.html)
-
-[Fasttext で文書分類問題までやったった]({{<ref "post/fasttext.md">}})
-
-[文書分類問題を解くモデルを提供するNeuralClassifier の使い方メモ]({{<ref "neuralclassifier.md">}})
+- [Universal Sentence Encoder の使い方メモ]({{<ref "post/universal-sentence-encoder.md">}})
+- [日本語Wikipediaで学習したBERTが公開されたので使い方のメモ]({{<ref "post/wikipediabert.md">}})
+- [Google colaboratory を使ってWord2Vecの仕組みからモデルの学習まで]({{<ref "post/google-colaboratory-word2vec.md">}})
+- [Fasttext で文書分類問題までやったった]({{<ref "post/fasttext.md">}})
+- [文書分類問題を解くモデルを提供するNeuralClassifier の使い方メモ]({{<ref "post/neuralclassifier.md">}})
+- [Sentence BERT 日本語モデルの学習 メモ]({{<ref "post/20210203SBERT.md">}})

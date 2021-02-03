@@ -3,7 +3,7 @@ title: 'Macの iMovieで動画の音量調整、オーディオ抽出'
 date: 2020-12-15T18:48:00.003+09:00
 draft: false
 aliases: [ "/2020/12/mac-imovie.html" ]
-tags : [技術系,mac, imovie, 動画編集]
+tags : [技術系,mac os, imovie, 動画編集]
 ---
 
 楽器の練習、私の場合はソロギターの練習のために動画の撮影を行うことにした。
