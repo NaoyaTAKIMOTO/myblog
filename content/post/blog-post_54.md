@@ -76,3 +76,4 @@ tags : [技術系,自然言語処理]
 - [Fasttext で文書分類問題までやったった]({{<ref "post/fasttext.md">}})
 - [文書分類問題を解くモデルを提供するNeuralClassifier の使い方メモ]({{<ref "post/neuralclassifier.md">}})
 - [Sentence BERT 日本語モデルの学習 メモ]({{<ref "post/20210203SBERT.md">}})
+- [分散表現の利用法 バギングによるクラス分類や汎化性能についてのメモ]({{<ref "/post/20210204classifier.md">}})
