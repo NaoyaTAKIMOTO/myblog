@@ -11,7 +11,7 @@ disqusShortname = "https-www-subcul-science-com"
 [Author] # Used in authorbox
   name = "サブカル科学研究会"
   bio = "大学院で情報数理学を専攻、現職で機械学習やDNNを用いた自然言語処理に携わる。数理最適化、機械学習、DNNに関心がある。またギター、イラストなどの創作活動にも勤しむ。自販機でジュースを買うのが最大の楽しみ。"
-  avatar = "img/avatar.png"
+  avatar = "img/profile.png"
 [Params]
   subtitle = "" # Deprecated in favor of .Site.Params.logo.subtitle
   description = "数理最適化などの技術的なメモと創作活動のログを残すための雑記ブログです。" # Site description. Used in meta description
