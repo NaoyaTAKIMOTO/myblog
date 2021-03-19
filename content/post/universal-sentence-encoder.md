@@ -26,26 +26,21 @@ Universal Sentence Encoder を使って文書のベクトルが得られる。
 
 準備として以下のコマンドを実行する。
 
-```
+```sh
 pip install tensorflow tensorflow_hub numpy tf_sentencepiece   
-
 ```
 
 学習済みのモデルが公開されている。
 
 具体的な利用方法は以下のpythonの記述を参照
 
-```
+```py
 import tensorflow_hub as hub  
 import numpy as np  
 # for avoiding error  
 import ssl  
 ssl._create_default_https_context = ssl._create_unverified_context  
-  
 
-``````
-import ssl  
-ssl._create_default_https_context = ssl._create_unverified_context  
 def cos_sim(v1, v2):  
    return np.dot(v1, v2) / (np.linalg.norm(v1) * np.linalg.norm(v2))  
   
@@ -53,11 +48,6 @@ embed = hub.load("https://tfhub.dev/google/universal-sentence-encoder-multilingu
   
 texts = ["昨日、お笑い番組を見た。", "昨夜、テレビで漫才をやっていた。", "昨日、公園に行った。", "I saw a comedy show last night.", "Yesterday, I went to the park."]  
 vectors = embed(texts)  
-  
-print(texts[0], texts[1], cos_sim(vectors[0], vectors[1]), sep="\t")  
-print(texts[0], texts[2], cos_sim(vectors[0], vectors[2]), sep="\t")  
-print(texts[0], texts[3], cos_sim(vectors[0], vectors[3]), sep="\t")  
-print(texts[0], texts[4], cos_sim(vectors[0], vectors[4]), sep="\t"
 ```
 
 詳細は以下のリンクを参照
