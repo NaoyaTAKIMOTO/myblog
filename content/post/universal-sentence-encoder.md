@@ -50,9 +50,9 @@ texts = ["昨日、お笑い番組を見た。", "昨夜、テレビで漫才を
 vectors = embed(texts)  
 ```
 
-詳細は以下のリンクを参照
+より詳細は以下のリンクを参照
 
-[Universal Sentence Encoderを日本語で試す - QiitaUniversal Sentence Encoderとは その名の通り、文をエンコード、すなわち文をベクトル化する手qiita.com](https://qiita.com/kenta1984/items/9613da23766a2578a27a)[](https://qiita.com/kenta1984/items/9613da23766a2578a27a)
+[Universal Sentence Encoderを日本語で試す](https://qiita.com/kenta1984/items/9613da23766a2578a27a)
 
 得られた分散表現の利用方法は以下を参照
 
