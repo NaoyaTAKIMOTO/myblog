@@ -3,7 +3,7 @@ title: 'Fasttext で文書分類問題までやったった'
 date: 2020-06-13T07:29:00.016+09:00
 draft: false
 aliases: [ "/2020/06/fasttext.html" ]
-tags : [技術系,自然言語処理, fasttext]
+tags : [技術系,自然言語処理, fasttext,技術]
 ---
 Fasttext で文書分類問題までやったった
 

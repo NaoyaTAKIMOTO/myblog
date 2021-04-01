@@ -3,7 +3,7 @@ title: '短文ニュースを作るAIをつくったった'
 date: 2020-06-13T00:24:00.004+09:00
 draft: false
 aliases: [ "/2020/06/ai.html" ]
-tags : [技術系,DNN,文短縮]
+tags : [技術系,DNN,文短縮,技術]
 ---
 
 

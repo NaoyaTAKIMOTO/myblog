@@ -3,7 +3,7 @@ title: '社会実装と研究'
 date: 2020-06-13T11:37:00.003+09:00
 draft: false
 aliases: [ "/2020/06/blog-post_13.html" ]
-tags : [技術系]
+tags : [技術系,技術]
 ---
 
 

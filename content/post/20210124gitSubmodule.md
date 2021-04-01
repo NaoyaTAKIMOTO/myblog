@@ -3,7 +3,7 @@ title: "git submoduleでのpullの仕方　メモ"
 description: ""
 date: "2021-01-24T12:54:44+09:00"
 thumbnail: ""
-tags: [git]
+tags: [git,技術]
 ---
 
 hugoのthemeを`git submodule add`で導入したため、少し手順を踏まないとthemeの更新が反映されない。

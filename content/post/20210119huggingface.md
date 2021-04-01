@@ -3,7 +3,7 @@ title: "hugging face でBARTの利用 メモ"
 description: ""
 date: "2021-01-19T03:03:11+09:00"
 thumbnail: ""
-tags: [技術系,自然言語処理,hugging face,python]
+tags: [技術系,自然言語処理,hugging face,python,技術]
 ---
 
 - BARTは文書要約のためのモデル

@@ -3,7 +3,7 @@ title: 'vue.jsでtodoリスト作成'
 date: 2020-10-13T02:03:00.000+09:00
 draft: false
 aliases: [ "/2020/10/vuejstodo.html" ]
-tags : [技術系,vue,todo,アプリ作成]
+tags : [技術系,vue,todo,アプリ作成,技術]
 ---
 
   

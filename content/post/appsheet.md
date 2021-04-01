@@ -3,7 +3,7 @@ title: 'AppSheet でゲーミフィケーションのアプリをつくったっ
 date: 2020-07-06T12:19:00.004+09:00
 draft: false
 aliases: [ "/2020/07/appsheet.html" ]
-tags : [技術系,appsheet,ローコード,アプリ開発]
+tags : [技術系,appsheet,ローコード,アプリ開発,技術]
 ---
 
 

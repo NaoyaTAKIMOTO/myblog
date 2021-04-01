@@ -3,7 +3,7 @@ title: "Mac bash zsh移行 メモ"
 description: ""
 date: "2021-02-08T20:54:54+09:00"
 thumbnail: ""
-tags: [mac,bash,zsh]
+tags: [mac,bash,zsh,技術]
 ---
 
 ## 手順

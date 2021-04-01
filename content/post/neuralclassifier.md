@@ -3,7 +3,7 @@ title: '文書分類問題を解くモデルを提供するNeuralClassifier の�
 date: 2020-06-15T02:11:00.007+09:00
 draft: false
 aliases: [ "/2020/06/neuralclassifier.html" ]
-tags : [技術系,自然言語処理,neural classifier]
+tags : [技術系,自然言語処理,neural classifier,技術,python]
 ---
 
   
