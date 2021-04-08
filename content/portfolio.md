@@ -20,10 +20,14 @@ tags: [自己紹介,ポートフォリオ,実績]
 ## 実績
 - 画像処理による観賞魚の品種推定モデルの作成
   - [AI を用いて観賞魚の品種識別]({{<ref "/post/20210408imageclassifier.md">}})
+- 画像処理による犬猫の品種推定モデルのデモ作成
+  - [アテンションを用いた画像処理モデルの作成]({{<ref "/post/20210408attentionimage.md">}})
 - NVIDIAが公開した画像生成モデルの実行に関するアドバイス
   - [coconala ](https://coconala.com/users/1117897/services)
 - 自然言語処理における単語の分散表現モデルの実装と解説を行う本の執筆
   - [Googlecolaboratory と pythonで学ぶ初めての 自然言語処理入門](https://subcul-science.booth.pm/items/1562211)
+- ネットニュースなどの見出し作成モデルの実装
+  - [短文ニュースを作るAIをつくったった]({{<ref "/post/ai.md">}})
 
 ## お仕事のご依頼
 お問い合わせからご連絡ください。

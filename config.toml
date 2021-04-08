@@ -64,7 +64,7 @@ disqusShortname = "https-www-subcul-science-com"
 
   [[Menus.footer]]
     Name = "ポートフォリオ"
-    URL = "/portfolio/20210408"
+    URL = "/portfolio/"
 
 [markup]
   [markup.goldmark]
