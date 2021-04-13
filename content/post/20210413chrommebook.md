@@ -35,7 +35,7 @@ git submodule foreach git pull origin master
 8. linuxアプリの日本語入力設定
 
 """
-sudo apt-get install fcitx-mozc -y
+sudo aptitude install fcitx-mozc -y
 """
     8. fxitxの実行
 """
@@ -50,6 +50,16 @@ mozcを入れる。
 9. 再起動後に日本語の設定を維持するためにprofileに設定を記述する。
 """
 echo "fcitx > /dev/null 2>&1" >> ~/.profile
+"""
+
+10. gemコマンドを使うために rubygems のインストール
+"""
+sudo aptitude install rubygems
+"""
+
+11. re:view のインストール
+"""
+sudo gem install review
 """
 
 ## 参考リンク

@@ -1,5 +1,5 @@
 ---
-title: "git submoduleでのpullの仕方　メモ"
+title: "git submoduleでのpullで更新する方法"
 description: ""
 date: "2021-01-24T12:54:44+09:00"
 thumbnail: ""

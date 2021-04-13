@@ -1,5 +1,5 @@
 ---
-title: 'やる気アップWOOPの法則'
+title: 'やる気アップWOOPの法則を実行するこつ'
 date: 2020-10-13T02:25:00.003+09:00
 draft: false
 aliases: [ "/2020/10/woop.html" ]

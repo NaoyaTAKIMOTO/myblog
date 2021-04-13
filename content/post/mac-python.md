@@ -1,5 +1,5 @@
 ---
-title: 'Mac でpythonの環境構築'
+title: 'Mac におけるpythonの環境構築'
 date: 2020-06-16T04:58:00.010+09:00
 draft: false
 aliases: [ "/2020/06/mac-python.html" ]

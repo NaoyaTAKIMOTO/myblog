@@ -1,5 +1,5 @@
 ---
-title: 'python でmlflow使うメモ'
+title: 'python でのmlflowの使い方'
 date: 2020-07-18T16:24:00.000+09:00
 draft: false
 aliases: [ "/2020/07/python-mlflow.html" ]

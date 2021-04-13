@@ -1,5 +1,5 @@
 ---
-title: 'word2vecのアルゴリズムを把握するために'
+title: 'word2vecのアルゴリズムを把握するためにnotebookで動かしながら挙動を理解しよう'
 date: 2020-06-17T07:36:00.004+09:00
 draft: false
 aliases: [ "/2020/06/word2vec.html" ]

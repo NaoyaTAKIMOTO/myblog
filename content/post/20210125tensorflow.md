@@ -1,5 +1,5 @@
 ---
-title: "tensorflow GPUメモリを一気に確保しない設定"
+title: "tensorflow GPUメモリを一気に確保しない設定の仕方"
 description: ""
 date: "2021-01-25T08:17:54+09:00"
 thumbnail: ""

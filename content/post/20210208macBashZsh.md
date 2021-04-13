@@ -1,5 +1,5 @@
 ---
-title: "Mac bash zsh移行 メモ"
+title: "Macでbashからzshへ移行する方法 メモ"
 description: ""
 date: "2021-02-08T20:54:54+09:00"
 thumbnail: ""

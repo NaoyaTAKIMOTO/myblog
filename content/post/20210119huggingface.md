@@ -1,5 +1,5 @@
 ---
-title: "hugging face でBARTの利用 メモ"
+title: "hugging face でBART(文章要約モデル)の使い方をメモ"
 description: ""
 date: "2021-01-19T03:03:11+09:00"
 thumbnail: ""

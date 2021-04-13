@@ -1,5 +1,5 @@
 ---
-title: "AI を用いて観賞魚の品種識別"
+title: "AI(深層学習) を用いて観賞魚の品種識別"
 description: ""
 date: "2021-04-08T13:18:55+09:00"
 thumbnail: ""
