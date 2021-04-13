@@ -3,7 +3,7 @@ title: 'Universal Sentence Encoder の使い方メモ'
 date: 2020-06-22T18:29:00.006+09:00
 draft: false
 aliases: [ "/2020/06/universal-sentence-encoder.html" ]
-tags : [技術系,自然言語処理,universal sentence encoder,技術,python]
+tags : [技術系,自然言語処理,universal sentence encoder,技術,python,分散表現]
 ---
 
 Universal Sentence Encoder を使って文書のベクトルが得られる。

@@ -3,7 +3,7 @@ title: 'word2vecのアルゴリズムを把握するために'
 date: 2020-06-17T07:36:00.004+09:00
 draft: false
 aliases: [ "/2020/06/word2vec.html" ]
-tags : [技術系,自然言語処理,word2vec,python,技術]
+tags : [技術系,自然言語処理,word2vec,python,技術,分散表現]
 ---
 
 [![](https://1.bp.blogspot.com/-jk493l0cRu0/XurebGYeZHI/AAAAAAAAg7c/a0zNCAp-MP4OSr9a0fFhIiv-y8Cr-NdbQCK4BGAsYHg/s320/30729925-02B8-4287-82F8-A8C6660E54C8.jpeg)](https://1.bp.blogspot.com/-jk493l0cRu0/XurebGYeZHI/AAAAAAAAg7c/a0zNCAp-MP4OSr9a0fFhIiv-y8Cr-NdbQCK4BGAsYHg/s1920/30729925-02B8-4287-82F8-A8C6660E54C8.jpeg)

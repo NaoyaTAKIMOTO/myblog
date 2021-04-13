@@ -32,8 +32,28 @@ git submodule foreach git stash
 git submodule foreach git checkout master
 git submodule foreach git pull origin master
 ```
+8. linuxアプリの日本語入力設定
+
+"""
+sudo apt-get install fcitx-mozc -y
+"""
+    8. fxitxの実行
+"""
+fcitx-configtool
+"""
+下のーボタンでデフォルトのキーボード設定を削除する。
+
+チェックボックスを外してmozcで検索する。
+
+mozcを入れる。
+
+9. 再起動後に日本語の設定を維持するためにprofileに設定を記述する。
+"""
+echo "fcitx > /dev/null 2>&1" >> ~/.profile
+"""
 
 ## 参考リンク
 - [git submodule 更新](https://m-tmatma.github.io/git/update-submodule.html)
 - [visual studio code公式サイト](https://code.visualstudio.com)
+- [ChromeBookのVSCodeで日本語入力できるようにする](https://gotoblog.org/chromebook-vscode-japanese/)
 

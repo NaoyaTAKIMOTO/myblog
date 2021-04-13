@@ -3,7 +3,7 @@ title: 'Google colaboratory を使ってWord2Vec の仕組みからモデルの�
 date: 2020-06-15T02:13:00.006+09:00
 draft: false
 aliases: [ "/2020/06/google-colaboratory-word2vec.html" ]
-tags : [技術系,技術]
+tags : [技術系,技術,分散表現,word2vec,google colaboratory]
 ---
 
    
