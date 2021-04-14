@@ -24,7 +24,7 @@ sudo aptitude safe-upgrade
 6. GitHubのSSHの設定
 6. hugoの設定
 
-```
+```sh
 sudo aptitude install hugo
 git clone my_repository
 
@@ -34,13 +34,13 @@ git submodule foreach git pull origin master
 ```
 8. linuxアプリの日本語入力設定
 
-"""
+```sh
 sudo aptitude install fcitx-mozc -y
-"""
+```
     8. fxitxの実行
-"""
+```sh
 fcitx-configtool
-"""
+```
 下のーボタンでデフォルトのキーボード設定を削除する。
 
 チェックボックスを外してmozcで検索する。
@@ -48,19 +48,19 @@ fcitx-configtool
 mozcを入れる。
 
 9. 再起動後に日本語の設定を維持するためにprofileに設定を記述する。
-"""
+```sh
 echo "fcitx > /dev/null 2>&1" >> ~/.profile
-"""
+```
 
 10. gemコマンドを使うために rubygems のインストール
-"""
+```sh
 sudo aptitude install rubygems
-"""
+```
 
 11. re:view のインストール
-"""
+```sh
 sudo gem install review
-"""
+```
 
 ## 参考リンク
 - [git submodule 更新](https://m-tmatma.github.io/git/update-submodule.html)
