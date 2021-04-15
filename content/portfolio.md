@@ -3,7 +3,7 @@ title: "自己紹介　ポートフォリオ"
 description: ""
 date: "2021-04-08T13:07:22+09:00"
 thumbnail: ""
-tags: [自己紹介,ポートフォリオ,実績]
+tags: [自己紹介,ポートフォリオ,実績,制作物]
 ---
 ## 背景
 国立大学院にて機械学習、統計解析、数理最適化を研究しておりました。
@@ -27,7 +27,12 @@ tags: [自己紹介,ポートフォリオ,実績]
 - 自然言語処理における単語の分散表現モデルの実装と解説を行う本の執筆
   - [Googlecolaboratory と pythonで学ぶ初めての 自然言語処理入門](https://subcul-science.booth.pm/items/1562211)
 - ネットニュースなどの見出し作成モデルの実装
-  - [短文ニュースを作るAIをつくったった]({{<ref "/post/ai.md">}})
+  - [短文ニュースを作るAIをつくったった]({{<ref "/post/20200613abstractNews.md">}})
+- google driveの更新を通知するline botの作成
+  - [Google Apps Scriptで後輩系line bot 作ったった]({{<ref "post/20200625line-bot.md">}})
+- スコアを計算するtodoアプリの作成
+  - [AppSheet でゲーミフィケーション要素のあるtodoのアプリをつくったった]({{<ref "post/20200706appsheet.md">}})
+  - [vue.jsでtodoリスト作成]({{<ref "post/20201013vuejstodo.md">}})
 
 ## お仕事のご依頼
 お問い合わせからご連絡ください。

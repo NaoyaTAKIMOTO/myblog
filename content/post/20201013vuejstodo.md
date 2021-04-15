@@ -3,18 +3,17 @@ title: 'vue.jsでtodoリスト作成'
 date: 2020-10-13T02:03:00.000+09:00
 draft: false
 aliases: [ "/2020/10/vuejstodo.html" ]
-tags : [技術系,vue,todo,アプリ作成,技術]
+tags : [技術系,vue,todo,制作物,技術]
 ---
 
   
 
 
-## 開発環境[](#開発環境 "開発環境")
-
+## 開発環境
 
 macOS
 
-## firebase cli　のインストール[](#firebase_cli_のインストール "firebase_cli_のインストール")
+## firebase cli　のインストール
 
 
 ```
@@ -23,12 +22,11 @@ npm install -g firebase-tools
 
 多分yarn add でも可
 
-## todo list の作成[](#todo_list_の作成 "todo_list_の作成")
-
+## todo list の作成
 
 vueとjavascriptについてはまだあんまり理解していない。
 
-## firebase でローカルでテスト[](#firebase_でローカルでテスト "firebase_でローカルでテスト")
+## firebase でローカルでテスト
 
 
 ```
@@ -39,8 +37,7 @@ firebase serve --only hosting
 
 表示されたリンクをブラウザで開いてチェックする。
 
-## firebase でデプロイ[](#firebase_でデプロイ "firebase_でデプロイ")
-
+## firebase でデプロイ
 
 ```
 firebase deploy
@@ -50,8 +47,7 @@ firebase deploy
 
 [HabitsMaker](https://daily-task-e6c33.web.app)
 
-## todo実装[](#todo実装 "todo実装")
-
+## todo実装
 
 1.  ログインの実装
 

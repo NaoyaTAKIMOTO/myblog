@@ -3,7 +3,7 @@ title: "Macでbashからzshへ移行する方法 メモ"
 description: ""
 date: "2021-02-08T20:54:54+09:00"
 thumbnail: ""
-tags: [mac,bash,zsh,技術]
+tags: [bash,zsh,技術]
 ---
 
 ## 手順
