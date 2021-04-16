@@ -26,6 +26,8 @@ tags: [自己紹介,ポートフォリオ,実績,制作物]
   - [coconala ](https://coconala.com/users/1117897/services)
 - 自然言語処理における単語の分散表現モデルの実装と解説を行う本の執筆
   - [Googlecolaboratory と pythonで学ぶ初めての 自然言語処理入門](https://subcul-science.booth.pm/items/1562211)
+- word2vecを使った検索システムのデモ作成
+  - [word2vecでteratailの検索システムっぽいものを作る]({{<ref "/post/20210416teratailWord2vec.md">}})
 - ネットニュースなどの見出し作成モデルの実装
   - [短文ニュースを作るAIをつくったった]({{<ref "/post/20200613abstractNews.md">}})
   - [深層学習でニュースタイトルの自動生成モデルつくったった]({{<ref "/post/20200612dnnAbstractNewsTitle.md">}})
