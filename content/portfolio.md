@@ -28,6 +28,7 @@ tags: [自己紹介,ポートフォリオ,実績,制作物]
   - [Googlecolaboratory と pythonで学ぶ初めての 自然言語処理入門](https://subcul-science.booth.pm/items/1562211)
 - ネットニュースなどの見出し作成モデルの実装
   - [短文ニュースを作るAIをつくったった]({{<ref "/post/20200613abstractNews.md">}})
+  - [深層学習でニュースタイトルの自動生成モデルつくったった]({{<ref "/post/20200612dnnAbstractNewsTitle.md">}})
 - google driveの更新を通知するline botの作成
   - [Google Apps Scriptで後輩系line bot 作ったった]({{<ref "post/20200625line-bot.md">}})
 - スコアを計算するtodoアプリの作成

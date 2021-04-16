@@ -6,13 +6,12 @@ aliases: [ "/2020/07/review.html" ]
 tags : [技術系,re:view,技術書,技術]
 ---
 
-## Re:VIEW の始め方メモ[](#Re:VIEW_の始め方メモ "Re:VIEW_の始め方メモ")
-
+## Re:VIEW の始め方メモ
 
 mac でのRe：VIEW を導入した時のメモ。
 
 
-## 作業用ディレクトリの作成[](#作業用ディレクトリの作成 "作業用ディレクトリの作成")
+## 作業用ディレクトリの作成
 
 
 適当なディレクトリをつくる。
@@ -21,8 +20,7 @@ mac でのRe：VIEW を導入した時のメモ。
 mkdir “project_name”
 ```
 
-## Docker を用意[](#Docker_を用意 "Docker_を用意")
-
+## Docker を用意
 
 Docker のインストールは各自でされたし。
 
@@ -30,8 +28,7 @@ Docker のインストールは各自でされたし。
 
 詳しくはググるといい。
 
-## Dockerfileとdocker-compose.ymlの作成[](#Dockerfileとdocker-compose.ymlの作成 "Dockerfileとdocker-compose.ymlの作成")
-
+## Dockerfileとdocker-compose.ymlの作成
 
 作業用ディレクトリに以下の二つのファイルを作成する。
 
@@ -40,6 +37,7 @@ Dockerfile
   
 FROM vvakame/review
 ```
+
 ```yml
 docker-compose.yml  
   
@@ -66,8 +64,7 @@ docker-compose run --rm review review-init "project_name"
 cp Dockerfile docker-compose.yml "project_name"
 ```
 
-## 文章の編集[](#文章の編集 "文章の編集")
-
+## 文章の編集
 
 実際の文書は"project\_name".reを編集する。
 
@@ -79,8 +76,7 @@ Visual Studio Code は.reに対応したプラグインがある。
 
 扉の編集の仕方はまだ分からん。
 
-## 文章ファイルの作成[](#文章ファイルの作成 "文章ファイルの作成")
-
+## 文章ファイルの作成
 
 作成されたプロジェクトディレクトリでdocker-composeを実行する。
 
@@ -93,9 +89,7 @@ docker-compose run --rm review rake pdf
 
 あとは文章の中身を作っていく。
 
-## 参考文献[](#参考文献 "参考文献")
-
-
+## 参考文献
 詳しくは以下のリンクを参照する。
 
 面倒くさい場合に本記事を読む。

@@ -6,12 +6,12 @@ aliases: [ "/2020/06/mac-python.html" ]
 tags : [技術系,mac os,python,環境構築,技術]
 ---
 
-## Mac でpythonの環境構築[](#Mac_でpythonの環境構築 "Mac_でpythonの環境構築")
+## Mac でpythonの環境構築
 
 
 Mac にpythonをどうやってインストールしたらいいのか悩んでいませんか？
 
-## 独立したpython の環境構築[](#独立したpython_の環境構築 "独立したpython_の環境構築")
+## 独立したpython の環境構築
 
 
 python の実行環境をプロジェクトごとに管理する必要がある場合に以下の手順を行います。
@@ -32,8 +32,7 @@ python の実行環境をプロジェクトごとに管理する必要がある�
 
 以上から、Dockerについて勉強する時間が無く、多少のコマンドラインは扱え、複数のプロジェクトに対応する必要がある人間を対象としています。
 
-## homebrew[](#homebrew "homebrew")
-
+## homebrew
 
 以下のリンクに従ってhomebrewをセットアップします 。
 
@@ -44,8 +43,7 @@ python の実行環境をプロジェクトごとに管理する必要がある�
 
 ```
 
-## pyenv[](#pyenv "pyenv")
-
+## pyenv
 
 コマンドラインからpythonのバージョン管理をするために、homebrew でpyenvをinstallします。
 
@@ -53,7 +51,7 @@ python の実行環境をプロジェクトごとに管理する必要がある�
 brew install pyenv
 ```
 
-## pyenv + virtualenv で環境構築[](#pyenv_+_virtualenv_で環境構築 "pyenv_+_virtualenv_で環境構築")
+## pyenv + virtualenv で環境構築
 
 
 pyenv + virtualenv で名前を付けて、指定したバージョン(今回は3.6.3)のpythonをインストールします。
@@ -69,7 +67,7 @@ cd project-dir
 pyenv local PROJECT-NAME
 ```
 
-## Mac でpythonの環境構築まとめ[](#Mac_でpythonの環境構築まとめ "Mac_でpythonの環境構築まとめ")
+## Mac でpythonの環境構築まとめ
 
 
 *   homebrew のセットアップ

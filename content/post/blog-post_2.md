@@ -1,5 +1,5 @@
 ---
-title: '数理最適化の事例集'
+title: '数理最適化の事例集まとめたった'
 date: 2020-06-25T03:57:00.009+09:00
 draft: false
 aliases: [ "/2020/06/blog-post_2.html" ]

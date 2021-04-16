@@ -13,7 +13,7 @@ huggingface がBERTの日本語モデルを公開しました。
 
 しかし、Mac 環境で実際に動かすまでにいくつか躓いたので、メモを残しておきます。
 
-## 前準備:mecabのインストール[](#前準備:mecabのインストール "前準備:mecabのインストール")
+## 前準備:mecabのインストール
 
 
 形態素解析エンジンであるmecabが BERT の日本語モデルを利用する際に必要になります。おそらくトークナイザがmecabを要求する仕組みになっています。
@@ -24,35 +24,35 @@ MecabをPythonで使うまで - QiitaMecabとは 形態素解析エンジンで�
 
 homebrew を利用して、Mecab とipadicをインストールします。
 
-```
+```sh
 brew install mecab mecab-ipadic
 ```
 
 辞書を更新するために、適当な辞書用のディレクトリを作成し、以下のコマンドを実行します。
 
-```
+```sh
 git clone --depth 1 https://github.com/neologd/mecab-ipadic-neologd.git  
 ./bin/install-mecab-ipadic-neologd -n -a
 ```
 
 python のmecabラッパーをインストールします。
 
-```
+```sh
 pip install mecab-python3
 ```
 
-## transformersのインストール[](#transformersのインストール "transformersのインストール")
+## transformersのインストール
 
 
 [huggingface/transformers](https://github.com/huggingface/transformers)
 
 公式のドキュメントに従ってtransformersをインストールします。
 
-```
+```sh
 pip install transformers
 ```
 
-## BERT の利用方法については下記の例を参考にします。[](#BERT_の利用方法については下記の例を参考にします。 "BERT_の利用方法については下記の例を参考にします。")
+## BERT の利用方法については下記の例を参考にします。
 
 
 [clｰtohoku](https://github.com/cl-tohoku/bert-japanese)
@@ -82,14 +82,14 @@ input_ids = tokenizer.encode(f'''
 
 トークナイザを利用して、トークンを対応する辞書番号に変換します。
 
-```python
+```py
 print(input_ids)  
 print(tokenizer.convert_ids_to_tokens(input_ids[0].tolist()))
 ```
 
 id番号を対応する辞書のトークンに置き換えます。
 
-```python
+```py
 masked_index = torch.where(input_ids == tokenizer.mask_token_id)[1].tolist()[0]  
 print(masked_index)  
 result = model(input_ids)  
@@ -104,7 +104,7 @@ for pred_id in pred_ids:
 
 BERT のモデルを指定することで、単語の確率だけでなく、分散表現も計算できます。
 
-## 応用範囲[](#応用範囲 "応用範囲")
+## 応用範囲
 
 
 単語の分散表現の応用範囲は以下のリンク

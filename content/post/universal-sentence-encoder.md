@@ -8,7 +8,7 @@ tags : [技術系,自然言語処理,universal sentence encoder,技術,python,�
 
 Universal Sentence Encoder を使って文書のベクトルが得られる。
 
-### 特徴
+## 特徴
 
 多言語に対応している。
 
@@ -16,11 +16,11 @@ Universal Sentence Encoder を使って文書のベクトルが得られる。
 
 日本語の文章をベクトルで扱える
 
-### 使い道
+## 使い道
 
 クラスタリング、類似度の計算、特徴量の抽出
 
-### 使い方
+## 使い方
 
 準備として以下のコマンドを実行する。
 
