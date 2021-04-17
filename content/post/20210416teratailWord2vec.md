@@ -5,8 +5,6 @@ date: "2021-04-16T12:21:29+09:00"
 thumbnail: ""
 tags: [word2vec,分散表現,自然言語処理,技術,技術系,teratail,スクレイピング,pytorch,google colaboratory,制作物]
 ---
-
-
 ## 概要
 分散表現を用いた検索システムを作る。
 
