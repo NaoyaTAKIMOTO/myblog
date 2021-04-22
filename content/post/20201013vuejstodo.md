@@ -1,5 +1,5 @@
 ---
-title: 'vue.jsでtodoリスト作成'
+title: 'vue.jsでtodoリスト作成したった'
 date: 2020-10-13T02:03:00.000+09:00
 draft: false
 aliases: [ "/2020/10/vuejstodo.html" ]

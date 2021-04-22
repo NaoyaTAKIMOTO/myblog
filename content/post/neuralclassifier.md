@@ -1,5 +1,5 @@
 ---
-title: '文書分類問題を解くモデルを提供するNeuralClassifier の使い方メモ'
+title: '文書分類問題に対応する複数のモデルを提供するNeuralClassifier の使い方'
 date: 2020-06-15T02:11:00.007+09:00
 draft: false
 aliases: [ "/2020/06/neuralclassifier.html" ]

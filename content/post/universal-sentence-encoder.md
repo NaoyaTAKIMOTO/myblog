@@ -1,5 +1,5 @@
 ---
-title: 'Universal Sentence Encoder の使い方メモ'
+title: '学習済みUniversal Sentence Encoder を使って日本語の文章の分散表現を得る手順'
 date: 2020-06-22T18:29:00.006+09:00
 draft: false
 aliases: [ "/2020/06/universal-sentence-encoder.html" ]
