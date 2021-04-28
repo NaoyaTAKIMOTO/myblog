@@ -103,6 +103,10 @@ for pred_id in pred_ids:
 マスクトークンが入っている位置に入る確率が高いトークンをk=5個表示します。
 
 BERT のモデルを指定することで、単語の確率だけでなく、分散表現も計算できます。
+```py
+hidden_states = result.hidden_states
+
+```
 
 ## 応用範囲
 
