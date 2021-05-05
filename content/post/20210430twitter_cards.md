@@ -22,5 +22,8 @@ layouts/_default/baseof.html
 
 環境によってはbaseof.htmlではない場合もある。
 
+## 結果
+いまいち上手くいっていないのか？
+
 ## 参考リンク
 [HugoでOGPの設定をする](https://miyahara.hikaru.dev/posts/20200319/)
