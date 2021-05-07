@@ -32,6 +32,9 @@ disqusShortname = "https-www-subcul-science-com"
   googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" # Load Google Fonts
   customCSS = ["css/custom-font.css"]
 
+[Params.logo]
+  image = "img/logo.png"
+  title = "サブカル科学研究会のブログ"
 
 [Params.sidebar]
   home = "right" # Configure layout for home page
