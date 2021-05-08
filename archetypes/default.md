@@ -5,5 +5,11 @@ date: "{{ .Date }}"
 thumbnail: ""
 tags: []
 ---
+## your opinion
 
+## evidence
+
+## anti-opinion
+
+## conclusion
 
