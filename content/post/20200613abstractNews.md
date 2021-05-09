@@ -138,7 +138,7 @@ GPU 11GB✖️2✖️5days で途中経過を観察しました。
 
 [AI2 Leaderboard](https://leaderboard.allenai.org/drop/submissions/public)
 
-まとめ[](#まとめ "まとめ")
+## まとめ
 -----------------
 
 文章を書くのも、要約するのも同じようなものとして深層学習の文脈では扱える。
