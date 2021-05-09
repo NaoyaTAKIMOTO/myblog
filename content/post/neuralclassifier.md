@@ -1,12 +1,10 @@
 ---
-title: '文書分類問題に対応する複数のモデルを提供するNeuralClassifier の使い方'
+title: '文書分類問題に対応するめちゃたくさんのモデルを提供するライブラリNeuralClassifier の使い方について'
 date: 2020-06-15T02:11:00.007+09:00
 draft: false
 aliases: [ "/2020/06/neuralclassifier.html" ]
 tags : [技術系,自然言語処理,neural classifier,技術,python]
 ---
-
-  
 
 [![](https://1.bp.blogspot.com/-YlMb8v77MN4/XurdQSzS1yI/AAAAAAAAg6Y/oSZrJ0c9yxYbzQnNNTynRvZnEp-xGE7NwCK4BGAsYHg/s320/AFE90C8A-A49C-4475-9F05-50E2D56D5B63.jpeg)](https://1.bp.blogspot.com/-YlMb8v77MN4/XurdQSzS1yI/AAAAAAAAg6Y/oSZrJ0c9yxYbzQnNNTynRvZnEp-xGE7NwCK4BGAsYHg/s1920/AFE90C8A-A49C-4475-9F05-50E2D56D5B63.jpeg)
 
@@ -14,40 +12,35 @@ NeuralClassifier: An Open-source Neural Hierarchical Multi-label Text Classifica
 
 詳しくは
 
-  
-
-> #### [Tencent/NeuralNLP-NeuralClassifier](https://github.com/Tencent/NeuralNLP-NeuralClassifier)
-> 
-> NeuralClassifier is designed for quick implementation of neural models for hierarchical multi-label classification task, which is more challenging and common in real-world scenarios. A salient feature is that NeuralClassifier currently provides a variety of text encoders, such as FastText, TextCNN, TextRNN, RCNN, VDCNN, DPCNN, DRNN, AttentiveConvNet and Transformer encoder, etc.
+- [Tencent/NeuralNLP-NeuralClassifier](https://github.com/Tencent/NeuralNLP-NeuralClassifier)
 
 を参照しましょう。
 
+文書分類問題に特化して複数のモデルで学習、分類が可能なライブラリです。
+
+mecabなどを用いて前処理として単語の分割を行えば日本語のデータに対しても利用可能です。
+
 さて、以下ではこのライブラリの使い方を開設します。
 
-
 ## 環境設定
-
-
 pytorch に依存しているライブラリなので、あらかじめ以下のコマンドでinstallしておきます。
 
-```
+```sh
 pip install torch
 ```
 
 また、作業用のディレクトリにレポジトリをcloneします。今回はzipをダウンロードして用いました。
 
 ## 実行方法
-
-
 コマンドラインから.pyファイルをそれぞれ実行することで、学習、評価、予測を行います。
 
-```
+```sh
 python train.py conf/train.json
 ```
 
 conf/train.json に実行時の設定が記述されています。必要に応じて変更します。
 
-```
+```sh
 python eval.py conf/train.json
 ```
 
@@ -56,13 +49,9 @@ python eval.py conf/train.json
 各ラベルに対してprecision、 recall 、f value をまとめたものと混合行列を、それぞれ.txt形式で出力します。
 
 ## conf/train.json の設定
-
-
 各種モデルのハイパーパラメータや学習、評価時に利用されるモデルの選択について記述されています。  
 
 主に必要なのは、cpuかgpuの指定、入力データの情報、学習と評価に用いるモデルの選択に関しての記述になります。
-
-  
 
 num＿workerで警告が出たので0に変更すると解消した。
 
@@ -97,8 +86,7 @@ JSON example:
 またこの例ではマルチラベルの例を示しているが、シングルラベルの場合にも要素数が1のリスト形式とすることに注意しましょう。私はそこでハマりました。
 
 ## **文書分類問題の応用について**
-
-> #### [文書分類問題の応用はなにがある？]({{<ref "/post/20200618blog-post_54.md">}})
+- [文書分類問題の応用はなにがある？]({{<ref "/post/20200618blog-post_54.md">}})
 
 
 ## 分散表現の仕組みについて学ぶ
@@ -110,4 +98,4 @@ JSON example:
 
 詳しくは以下のリンク
 
-[Googlecolaboratory と pythonで学ぶ初めての 自然言語処理入門](https://subcul-science.booth.pm/items/1562211)
+- [Googlecolaboratory と pythonで学ぶ初めての 自然言語処理入門](https://subcul-science.booth.pm/items/1562211)

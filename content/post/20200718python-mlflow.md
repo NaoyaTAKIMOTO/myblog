@@ -6,24 +6,27 @@ aliases: [ "/2020/07/python-mlflow.html" ]
 tags : [技術系,python,devops,mlflow,技術]
 ---
 
-## python でmlflow使うメモ[](#python_でmlflow使うメモ "python_でmlflow使うメモ")
+## python でmlflow使うメモ
 
+実験結果を比較するために便利っぽいのでmlflow を使ってみた。
 
-実験結果を比較するために便利っぽいので使ってみた。使う際の手順をメモしておく。
+パラメータと実験結果の記録をある程度自動化できる。
 
-## mlflow のインストール[](#mlflow_のインストール "mlflow_のインストール")
+機械学習の実践はある種の黒魔術となることが多いので再現性を担保するための努力は後々に影響する。
 
+使う際の手順をメモしておく。
 
-```
+## mlflow のインストール
+pip でインストールできる。
+
+```sh
 pip install mlflow
 ```
 
-## クイックスタート[](#クイックスタート "クイックスタート")
-
-
+## クイックスタート
 pythonで以下のような記述を用いる。
 
-```python
+```py
 with mlflow.start_run():  
    mlflow.log_param("a", 1)  
    mlflow.log_metric("b", 2)  
@@ -38,12 +41,10 @@ log\_params({"example":hoge，“example2”：True})の方が便利。 同様�
 
 log\_artifact でファイルを保存できる(csvやjsonなど)。metricの書式に当てはまらないものをこちらで保存する。
 
-## 実験の種類ごとに枠を作る[](#実験の種類ごとに枠を作る "実験の種類ごとに枠を作る")
-
-
+## 実験の種類ごとに枠を作る
 CLI で以下を実行してexperimentを作成する。
 
-```
+```sh
 mlflow experiments create --experiment-name fraud-detection
 ```
 
@@ -51,14 +52,14 @@ CLI でexperimentが作成されたことを確認。
 
 experiment \_idをメモしておく。
 
-```
+```sh
 mlflow experiments list  
 
 ```
 
 以下のようにpythonで記述して、experimentを指定する。
 
-```
+```py
 mlflow.set_experiment('experiment_name')  
   
 with mlflow.start_run():  
@@ -68,16 +69,14 @@ with mlflow.start_run():
 
 ```
 
-## 実験結果の比較[](#実験結果の比較 "実験結果の比較")
-
+## 実験結果の比較
 
 CLIでサーバーを立ち上げる。
 
-```
+```sh
 mlflow ui
 ```
 
 表示されたアドレスをブラウザで開く。
 
 サーバーを落とす時はctrl＋c。
-

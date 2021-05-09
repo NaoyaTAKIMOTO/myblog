@@ -1,5 +1,5 @@
 ---
-title: 'Mac におけるpythonの環境構築'
+title: 'Macでpyenvを利用したpythonの環境構築の方法'
 date: 2020-06-16T04:58:00.010+09:00
 draft: false
 aliases: [ "/2020/06/mac-python.html" ]
@@ -8,11 +8,17 @@ tags : [技術系,mac os,python,環境構築,技術]
 
 ## Mac でpythonの環境構築
 
-
 Mac にpythonをどうやってインストールしたらいいのか悩んでいませんか？
 
-## 独立したpython の環境構築
+単純にhome brewを使ってインストールしてもいいのですが、
+以下のデメリットがあります。
+- 環境を汚してしまう
+- バージョンの管理が難しい
 
+そこでここではpyenvを利用して、
+python環境を構築する方法について説明します。
+
+## 独立したpython の環境構築
 
 python の実行環境をプロジェクトごとに管理する必要がある場合に以下の手順を行います。
 
@@ -47,12 +53,11 @@ python の実行環境をプロジェクトごとに管理する必要がある�
 
 コマンドラインからpythonのバージョン管理をするために、homebrew でpyenvをinstallします。
 
-```bash
+```sh
 brew install pyenv
 ```
 
 ## pyenv + virtualenv で環境構築
-
 
 pyenv + virtualenv で名前を付けて、指定したバージョン(今回は3.6.3)のpythonをインストールします。
 
@@ -62,13 +67,12 @@ pyenv virtualenv 3.6.3 PROJECT-NAME
 
 指定のディレクトリで下記のコマンドを実行することで、特定のディレクトリ下で特定のpython環境を実行するようになります。
 
-```
+```sh
 cd project-dir   
 pyenv local PROJECT-NAME
 ```
 
 ## Mac でpythonの環境構築まとめ
-
 
 *   homebrew のセットアップ
 *   pyenvのインストール
