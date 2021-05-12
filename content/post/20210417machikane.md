@@ -1,6 +1,6 @@
 ---
 title: "ウマ娘　マチカネフクキタルのファンアートと育成の感想"
-description: ""
+description: "/img/horse-60153_1920.jpg"
 date: "2021-04-17T18:11:49+09:00"
 thumbnail: ""
 tags: [イラスト,ウマ娘　プリティーダービー,マチカネフクキタル]
