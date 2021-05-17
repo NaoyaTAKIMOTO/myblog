@@ -16,12 +16,12 @@ tags: [技術系,自然言語処理,python,技術,分散表現]
 ## 手順
 1. transformersのインストール
 
-```bash
+```sh
 pip install transformers
 ```
 2. 要約の実行
 
-```python
+```py
 
 from transformers import BartTokenizer, BartForConditionalGeneration, BartConfig
 

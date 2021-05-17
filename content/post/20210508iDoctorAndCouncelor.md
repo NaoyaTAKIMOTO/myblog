@@ -46,4 +46,42 @@ tags: [うつ病の対処法]
 ## カウンセラーの場合
 ではカウンセリングの場合、何を話すといいのか？
 
-今後確認する。
+- 出来事とそれに対してどう思ったのか
+- どんな夢をみたのか
+
+これらのことからどんな心理状況になっているのかを読み取るらしい。
+
+## なんにせよ治療には協力的に、積極的になるほうがいい
+これは私感だが、治療に協力的でない患者は医療従事者側も治療しにくい。
+
+治療を施しにくいということは治療の効果が見えづらいということだ。
+
+ここでいう協力とは
+
+- 通院を継続する
+- 服薬を継続する
+- 病気である、病気の症状があることを納得する
+- 治療に対して積極的に取り組む
+
+ことだと考えている。
+
+私は幸運にも通院と服薬は継続してこれた。
+
+そして今年に入って、病気の症状に対して自覚的になる、解釈の度合いが深まるなど納得の度合いが進んでいった。
+
+これらによって症状の改善は体感できてきたのでより症状の改善が進むことを期待する。
+
+## 参考リンク
+
+症状については
+
+- [うつ病の症状に対する個人的な感覚]({{<ref "/post/20210509utsu/index.md">}})
+- [うつの症状として妄想を抱えていることに気づいた話]({{<ref "/post/20210430mousou.md">}})
+
+不安感や苦痛の軽減方法については
+
+- [うつによる不安や胸の痛みなど持続する苦痛に対して自覚的になり自分を慰めることで徐々にマシになってきた話]({{<ref "/post/20210412mindfullness.md">}})
+
+また治療に対する考え方が非常に納得のできる手法が紹介されている書籍
+
+<div class="booklink-box" style="text-align:left;padding-bottom:20px;font-size:small;zoom: 1;overflow: hidden;"><div class="booklink-image" style="float:left;margin:0 15px 10px 0;"><a href="//af.moshimo.com/af/c/click?a_id=2220301&p_id=56&pc_id=56&pl_id=637&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F16655192%2F" target="_blank" ><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/book/cabinet/2731/9784866672731.jpg?_ex=64x64" style="border: none;" /></a><img src="//i.moshimo.com/af/i/impression?a_id=2220301&p_id=56&pc_id=56&pl_id=637" width="1" height="1" style="border:none;"></div><div class="booklink-info" style="line-height:120%;zoom: 1;overflow: hidden;"><div class="booklink-name" style="margin-bottom:10px;line-height:120%"><a href="//af.moshimo.com/af/c/click?a_id=2220301&p_id=56&pc_id=56&pl_id=637&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F16655192%2F" target="_blank" >精神科医が教える病気を治す　感情コントロール術</a><img src="//i.moshimo.com/af/i/impression?a_id=2220301&p_id=56&pc_id=56&pl_id=637" width="1" height="1" style="border:none;"><div class="booklink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="https://yomereba.com" rel="nofollow" target="_blank">ヨメレバ</a></div></div><div class="booklink-detail" style="margin-bottom:5px;">樺沢紫苑 あさ出版 2021年04月20日頃    </div><div class="booklink-link2" style="margin-top:10px;"><div class="shoplinkrakuten" style="display:inline;margin-right:5px"><a href="//af.moshimo.com/af/c/click?a_id=2220301&p_id=56&pc_id=56&pl_id=637&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F16655192%2F" target="_blank" >楽天ブックス</a><img src="//i.moshimo.com/af/i/impression?a_id=2220301&p_id=56&pc_id=56&pl_id=637" width="1" height="1" style="border:none;"></div><div class="shoplinkamazon" style="display:inline;margin-right:5px"><a href="//af.moshimo.com/af/c/click?a_id=2220302&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4866672730" target="_blank" >Amazon</a></div><div class="shoplinkkindle" style="display:inline;margin-right:5px"><a href="//af.moshimo.com/af/c/click?a_id=2220302&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fgp%2Fsearch%3Fkeywords%3D%25E7%25B2%25BE%25E7%25A5%259E%25E7%25A7%2591%25E5%258C%25BB%25E3%2581%258C%25E6%2595%2599%25E3%2581%2588%25E3%2582%258B%25E7%2597%2585%25E6%25B0%2597%25E3%2582%2592%25E6%25B2%25BB%25E3%2581%2599%25E3%2580%2580%25E6%2584%259F%25E6%2583%2585%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%2588%25E3%2583%25AD%25E3%2583%25BC%25E3%2583%25AB%25E8%25A1%2593%26__mk_ja_JP%3D%2583J%2583%255E%2583J%2583i%26url%3Dnode%253D2275256051" target="_blank" >Kindle</a></div><div class="shoplinkseven" style="display:inline;margin-right:5px"><a href="//af.moshimo.com/af/c/click?a_id=2317554&p_id=932&pc_id=1188&pl_id=12456&s_v=b5Rz2P0601xu&url=http%3A%2F%2F7net.omni7.jp%2Fsearch%2F%3FsearchKeywordFlg%3D1%26keyword%3D9784866672731" target="_blank" >7net<img src="//i.moshimo.com/af/i/impression?a_id=2317554&p_id=932&pc_id=1188&pl_id=12456" width="1" height="1" style="border:none;"></a></div>            	  	  	  	  	</div></div><div class="booklink-footer" style="clear: left"></div></div>
