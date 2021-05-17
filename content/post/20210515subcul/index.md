@@ -2,7 +2,7 @@
 title: "サブカル科学研究会　第一回定例会　テーマ：ニッチ"
 description: ""
 date: "2021-05-15T21:45:08+09:00"
-thumbnail: "/img/IMG_0413.PNG"
+thumbnail: "/img/IMG_0413_resize.PNG"
 tags: [サブカル科学研究会]
 --- 
 ターキー「Uのところの赤ちゃん、もう離乳かなぁ？」

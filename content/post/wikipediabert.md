@@ -6,7 +6,6 @@ aliases: [ "/2020/06/wikipediabert.html" ]
 tags : [技術系,自然言語処理,bert,技術,python,分散表現]
 ---
 
-
 huggingface がBERTの日本語モデルを公開しました。
 
 日本語モデルはtransformersに含まれています。
@@ -108,12 +107,13 @@ hidden_states = result.hidden_states
 
 ```
 
-## 応用範囲
-
+## 自然言語の分散表現を取得したあとの応用範囲
 
 単語の分散表現の応用範囲は以下のリンク
 
-[文書分類問題の応用はなにがある？]({{<ref "/post/20200618blog-post_54.md">}})
+- [文書分類問題の応用はなにがある？]({{<ref "/post/20200618blog-post_54.md">}})
+- [分散表現の利用法 バギングによるクラス分類や汎化性能について]({{<ref "/post/20210204classifier.md">}})
+
 
 ## 分散表現の仕組みについて学ぶ
 
