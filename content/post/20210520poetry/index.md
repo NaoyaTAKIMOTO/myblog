@@ -49,6 +49,25 @@ export PATH="HOME/.poetry/bin:$PATH"
 
 なんか色々のものが生成される
 
+すでにディレクトリがあるなら
+
+    poetry init
+
+- 仮想環境の設定
+
+poetryはvirtualenvでやっていた仮想環境の構築を勝手にやってくれるらしい
+1. 利用するpythonのインストール
+
+    pyenv install some.ver.sion
+
+2. 該当するプロジェクトのディレクトリで任意のpythonをアクティベイトする
+
+    pyenv local some.ver.sion
+
+3. poetryに任意のpythonを指定する（任意？）
+
+    poetry env use some.ver.sion
+
 - ライブラリのインストール
 
     poetry add library_name
@@ -59,9 +78,12 @@ poetry.lockがあるディレクトリで下記のコマンドを実行する
     poetry install
 
 ## ハマったところ
-- homebrew でインストール
-  - よくわからんが上手く動かなかった
+- homebrew でpoetryのインストール
+  - よくわからんが上手くpythonが動かなかった
   - pyenvでの仮想環境ではなく、システムデフォルトのpythonに紐付いているようだった
+- pyenv自体のアップデート
+  - pyenvでインストールできるpythonのバージョンが古かった
+  - git pull で解決
 - zshへのパスを手動で通す必要がある
   - poetryのインストール時に環境変数通しといたで！みたいな表示が出た気がしたが、自動では設定されないものらしい
 
@@ -71,3 +93,5 @@ poetry.lockがあるディレクトリで下記のコマンドを実行する
 - 依存関係を考慮した環境再現ができるのでよさげ
 - パスはちゃんと通す
 
+## 疑問
+- プライベートレポジトリはどうやって使うんや？
