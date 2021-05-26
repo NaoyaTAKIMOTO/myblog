@@ -10,12 +10,20 @@ tags: [ffmpeg]
 
 後々のために記録しておく。
 ## コマンドの例
-    ffmpeg -i input.mp3 -af loudnorm=I=-16:LRA=11:TP=-1.5 output.mp3
+    ffmpeg -i input.mp3 -af loudnorm=I=-16:LRA=11:TP=-1.5 output_norm.mp3
 
 input.mp3, output.mp3
 は適当な名前に変更すること。
 
 拡張子はmp3以外でも構わない。
+
+## ノイズ削除
+    ffmpeg -i output_norm.mp3 -af "afftdn=nf=-25" output_nf.mp3
+
+    ffmpeg -i output_nf.mp3 -af "highpass=f=200, lowpass=f=3000" output_pass.mp3
+
+## 無音削除
+    ffmpeg -i output_pass.mp3 -af silenceremove=1:0:-50dB output_rm.mp3
 
 ## 感想
 まあ、音量としてはちょうどいい。
