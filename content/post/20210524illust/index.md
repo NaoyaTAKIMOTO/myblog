@@ -19,3 +19,7 @@ tags: [イラスト]
 - 美人じゃなくてもイラストにする分にはあまり関係ない
 - イメージをつかめるようになってきた気がする
 
+## 画像のリサイズ
+      convert sample.PNG -resize 640  resize_sample.png
+
+
