@@ -2,7 +2,7 @@
 title: "サブカル科学研究会　こぼれ話　なぜ人類学？"
 description: ""
 date: "2021-05-26T21:14:48+09:00"
-thumbnail: "/img/IMG_0428_resize.png"
+thumbnail: "/img/IMG_0429_resize.png"
 tags: [サブカル科学研究会]
 ---
 ## 会話めも

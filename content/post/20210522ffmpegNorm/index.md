@@ -23,7 +23,7 @@ input.mp3, output.mp3
     ffmpeg -i output_nf.mp3 -af "highpass=f=200, lowpass=f=3000" output_pass.mp3
 
 ## 無音削除
-    ffmpeg -i output_pass.mp3 -af silenceremove=1:0:-50dB output_rm.mp3
+    ffmpeg -i output_pass.mp3 -af silenceremove=1:0:-10dB output_rm.mp3
 
 ## 感想
 まあ、音量としてはちょうどいい。
