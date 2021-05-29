@@ -25,7 +25,7 @@ Universal Sentence Encoder を使って文書のベクトルが得られる。
 準備として以下のコマンドを実行する。
 
 ```sh
-pip install tensorflow tensorflow_hub numpy tf_sentencepiece   
+pip install tensorflow tensorflow_hub tensorflow_text numpy   
 ```
 
 学習済みのモデルが公開されている。
@@ -34,6 +34,7 @@ pip install tensorflow tensorflow_hub numpy tf_sentencepiece 
 
 ```py
 import tensorflow_hub as hub  
+import tensorflow_text
 import numpy as np  
 # for avoiding error  
 import ssl  
@@ -52,6 +53,35 @@ vectors = embed(texts)
 
 [Universal Sentence Encoderを日本語で試す](https://qiita.com/kenta1984/items/9613da23766a2578a27a)
 
+
+### 追記
+```py
+import tensorflow_text
+```
+この行がないと、sentencepieceが見つからない！的なエラーが出る。
+サンプルのソースでは明示的には使用されていないが、
+実際の実行時には必要になる。
+
+### モデルの保存
+sslの設定はhttps周りの安全な接続を回避する設定らしいので、
+できたら使わないほうがいいよと助言を受けた。
+
+また何回もダウンロードする必要ないよね、とのことだったのでモデルを以下のようにして保存する。
+
+```py
+import tensorflow as tf
+tf.saved_model.save(embed, module_no_signatures_path)
+```
+
+### モデルのロード
+```py
+import tensorflow as tf
+import tensorflow_text
+imported = tf.saved_model.load(module_no_signatures_path)
+
+```
+
+## 参考リンク
 得られた分散表現の利用方法は以下を参照
 
 > #### [文書分類問題の応用はなにがある？]({{<ref "/post/20200618blog-post_54.md" >}})
