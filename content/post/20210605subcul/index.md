@@ -26,6 +26,8 @@ Tarky: 美味しいんかな？
 R: ツテがあったらブツを回して欲しいくらいや。
 
 ## 話した内容
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/o9J_lBtUBxQ=/?moveToViewport=-1161,1745,3456,4722" frameBorder="0" scrolling="no" allowFullScreen></iframe>
+
 - 酒と木
   - ウイスキーの樽
     - 木材
