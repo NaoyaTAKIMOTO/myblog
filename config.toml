@@ -1,5 +1,6 @@
 baseURL = "http://www.subcul-science.com"
-languageCode = "ja"
+DefaultContentLanguage = "ja"
+languageCode = "ja-JP"
 title = "サブカル科学研究会のブログ"
 theme = "mainroad"
 hasCJKLanguage = true
