@@ -7,7 +7,14 @@ hasCJKLanguage = true
 summaryLength = 120
 disqusShortname = "https-www-subcul-science-com"
 
-
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 10
+    title = "Blog of Subculture Science Research Group"
+  [languages.ja]
+    languageName = "Japanese"
+    weight = 20
 
 [Author] # Used in authorbox
   name = "サブカル科学研究会"
@@ -32,6 +39,9 @@ disqusShortname = "https-www-subcul-science-com"
   mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
   googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" # Load Google Fonts
   customCSS = ["css/custom-font.css"]
+
+[Params.style.vars]
+  highlightColor = "#e22d30" # Override highlight color
 
 [Params.logo]
   image = "img/logo.png"
