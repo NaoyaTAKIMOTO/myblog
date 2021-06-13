@@ -1,5 +1,5 @@
 ---
-title: "Index"
+title: "第四回サブカル科学研究会　定例会　NFT"
 description: ""
 date: "2021-06-13T08:32:56+09:00"
 thumbnail: "/img/IMG_0452_resize.png"
