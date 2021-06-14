@@ -37,6 +37,8 @@ input.mp3, output.mp3
 音量の正規化のアプリは色々とあるだろうけれど、
 コマンドで一発で変換したかったので今回はffmpegを利用することにした。
 
+シェルスクリプトにまとめた。
+
 ## 参考リンク
 [(FFmpeg) How to normalize audio?](http://johnriselvato.com/ffmpeg-how-to-normalize-audio/)
 

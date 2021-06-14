@@ -11,7 +11,8 @@ tags : [技術系,文生成,技術,自然言語処理,文生成,制作物,深層
 
 朝日新聞が自動要約生成APIの提供を始めました。
 
-[https://cl.asahi.com/api\_data/headlinegeneration.html](https://cl.asahi.com/api_data/headlinegeneration.html)
+[自動要約生成API: TSUNA
+](https://cl.asahi.com/api_data/headlinegeneration.html)
 
 ## モデル概要
 

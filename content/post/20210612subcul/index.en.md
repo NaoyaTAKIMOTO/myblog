@@ -1,5 +1,5 @@
 ---
-title: "subculture science club　the 4th meeting　NFT"
+title: "Subculture Science Club　the 5th meeting　NFT"
 description: ""
 date: "2021-06-13T08:32:56+09:00"
 thumbnail: "/img/IMG_0452_resize.png"

@@ -1,5 +1,5 @@
 ---
-title: "Subculture Science Research Group Spilling the beans: How to speak with responsibly and evidence"
+title: "Subculture Science Club Spilling the beans: How to speak with responsibly and evidence"
 description: ""
 date: "2021-06-07T23:34:02+09:00"
 thumbnail: "/img/IMG_0445_resize.png"
