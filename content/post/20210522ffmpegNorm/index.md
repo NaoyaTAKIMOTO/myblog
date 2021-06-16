@@ -38,6 +38,16 @@ input.mp3, output.mp3
 コマンドで一発で変換したかったので今回はffmpegを利用することにした。
 
 シェルスクリプトにまとめた。
+```sh
+#! /bin/bash
+ffmpeg -y -i $1 -af loudnorm=I=-16:LRA=11:TP=-1.5  temp.mp3
+ffmpeg -y -i temp.mp3 -af "afftdn=nf=-25" temp1.mp3
+ffmpeg -y -i temp1.mp3 -af "highpass=f=200, lowpass=f=3000"  temp2.mp3
+ffmpeg -y -i temp2.mp3 -af silenceremove=1:0:-10dB $2.mp3
+rm temp*.mp3
+```
+
+`bash ./norm_and_cut.sh input.mp3 output`で利用する。
 
 ## 参考リンク
 [(FFmpeg) How to normalize audio?](http://johnriselvato.com/ffmpeg-how-to-normalize-audio/)
