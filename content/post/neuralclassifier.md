@@ -12,7 +12,8 @@ NeuralClassifier: An Open-source Neural Hierarchical Multi-label Text Classifica
 
 詳しくは
 
-- [Tencent/NeuralNLP-NeuralClassifier](https://github.com/Tencent/NeuralNLP-NeuralClassifier)
+> [NeuralClassifier: An Open-source Neural Hierarchical Multi-label Text Classification Toolkit](https://github.com/Tencent/NeuralNLP-NeuralClassifier)
+>NeuralClassifier is designed for quick implementation of neural models for hierarchical multi-label classification task, which is more challenging and common in real-world scenarios. 
 
 を参照しましょう。
 

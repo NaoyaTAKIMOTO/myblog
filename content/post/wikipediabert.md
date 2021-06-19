@@ -15,13 +15,11 @@ huggingface がBERTの日本語モデルを公開しました。
 ## 前準備:mecabのインストール
 
 
-形態素解析エンジンであるmecabが BERT の日本語モデルを利用する際に必要になります。おそらくトークナイザがmecabを要求する仕組みになっています。
+形態素解析エンジンであるmecabが BERT の日本語モデルを利用する際に必要になります。
 
-以下のサイトを参考にmecabをインストールします。
+おそらくトークナイザがmecabを要求する仕組みになっています。
 
-MecabをPythonで使うまで - QiitaMecabとは 形態素解析エンジンです。 形態素解析については他の方の記事がすごくわかりやすいので割愛します。 なお qiita.com
-
-homebrew を利用して、Mecab とipadicをインストールします。
+今回はhomebrew を利用して、Mecab とipadicをインストールします。
 
 ```sh
 brew install mecab mecab-ipadic
@@ -41,8 +39,6 @@ pip install mecab-python3
 ```
 
 ## transformersのインストール
-
-
 [huggingface/transformers](https://github.com/huggingface/transformers)
 
 公式のドキュメントに従ってtransformersをインストールします。
@@ -52,11 +48,9 @@ pip install transformers
 ```
 
 ## BERT の利用方法については下記の例を参考にします。
-
-
 [clｰtohoku](https://github.com/cl-tohoku/bert-japanese)
 
-```python
+```py
 import torch  
 from transformers.tokenization_bert_japanese import BertJapaneseTokenizer  
 from transformers.modeling_bert import BertForMaskedLM  
@@ -65,7 +59,7 @@ tokenizer = BertJapaneseTokenizer.from_pretrained('bert-base-japanese-whole-word
 
 bert-base-japanese-whole-word-maskingは学習時に用いたトークナイズの方法(単語区切りか文字区切り)を指定しています。
 
-```python
+```py
 model = BertForMaskedLM.from_pretrained('bert-base-japanese-whole-word-masking')
 ```
 
@@ -73,7 +67,7 @@ model = BertForMaskedLM.from_pretrained('bert-base-japanese-whole-word-masking')
 
 今回はMLM(Masked Language Model )となります。マスクトークンが存在する位置に入る単語の確率を返します。
 
-```python
+```py
 input_ids = tokenizer.encode(f'''  
    青葉山で{tokenizer.mask_token}の研究をしています。  
 ''', return_tensors='pt')
@@ -104,7 +98,6 @@ for pred_id in pred_ids:
 BERT のモデルを指定することで、単語の確率だけでなく、分散表現も計算できます。
 ```py
 hidden_states = result.hidden_states
-
 ```
 
 ## 自然言語の分散表現を取得したあとの応用範囲
@@ -123,5 +116,5 @@ hidden_states = result.hidden_states
 分散表現の学習のイメージをつかめるとBERT系で何をどのように学習しているのかについても理解が深まります。
 
 詳しくは以下のリンク
-
-[Googlecolaboratory と pythonで学ぶ初めての 自然言語処理入門](https://subcul-science.booth.pm/items/1562211)
+> ### [Googlecolaboratory と pythonで学ぶ初めての 自然言語処理入門](https://subcul-science.booth.pm/items/1562211)
+> 本ドキュメントを利用することで自然言語処理における分散表現の仕組みが理解でき、読者が新しい自然言語処理のサービスを開発する助けになる。

@@ -3,7 +3,7 @@ title: "hugging face でBART(文章要約モデル)を使ってみた"
 description: ""
 date: "2021-01-19T03:03:11+09:00"
 thumbnail: ""
-tags: [技術系,自然言語処理,python,技術,分散表現]
+tags: [技術系,自然言語処理,python,技術,分散表現,文生成]
 ---
 
 - BARTは文書要約のためのモデル
@@ -22,7 +22,6 @@ pip install transformers
 2. 要約の実行
 
 ```py
-
 from transformers import BartTokenizer, BartForConditionalGeneration, BartConfig
 
 model = BartForConditionalGeneration.from_pretrained('facebook/bart-large')
@@ -34,7 +33,6 @@ inputs = tokenizer([ARTICLE_TO_SUMMARIZE], max_length=1024, return_tensors='pt')
 # Generate Summary
 summary_ids = model.generate(inputs['input_ids'], num_beams=4, max_length=5, early_stopping=True)
 print([tokenizer.decode(g, skip_special_tokens=True, clean_up_tokenization_spaces=False) for g in summary_ids])
-
 ```
 
 2021/01/18ではMyMy friendsと出力された。
@@ -59,6 +57,17 @@ max_lengthが生成される文の長さを調整する。
 
 ## 参考リンク
 - [transformers 公式ドキュメント](https://huggingface.co/transformers/model_doc/bart.html)
+
+## 分散表現の仕組みについて学ぶ
+
+単語の意味を学習する分散表現について、
+実際にプログラムを実行しながら仕組みを理解しませんか？
+
+分散表現の学習のイメージをつかめるとBERT系で何をどのように学習しているのかについても理解が深まります。
+
+詳しくは以下のリンク
+> ### [Googlecolaboratory と pythonで学ぶ初めての 自然言語処理入門](https://subcul-science.booth.pm/items/1562211)
+> 本ドキュメントを利用することで自然言語処理における分散表現の仕組みが理解でき、読者が新しい自然言語処理のサービスを開発する助けになる。
 
 ## 最後に
 不明点などあればコメントお願いします！
