@@ -18,6 +18,14 @@ tags: [テニス]
   - ロブみたいに打ち上げることが多い。
 - サーブで筋肉がつった
   - 水分補給をちゃんとしよう
+  - 甘草の漢方がよく効くらしい。同じレッスンを受けていた方に頂いた。自分用に常備しようかしら？
 
 ## 次回への課題
 - ストロークの方法について情報収集
+
+## 参考資料
+### スライスサーブの方法
+<iframe width="560" height="315" src="https://www.youtube.com/embed/63CUBskGWms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ツムラの漢方
+[芍薬甘草湯（シャクヤクカンゾウトウ](https://www.tsumura.co.jp/kampo/list/detail/068.html)
