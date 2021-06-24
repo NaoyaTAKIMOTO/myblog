@@ -1,9 +1,9 @@
 ---
-title: "Subculture Science Club　the 5th meeting　NFT"
+title: "Subculture Science Research Group the 5th meeting　NFT"
 description: ""
 date: "2021-06-13T08:32:56+09:00"
 thumbnail: "/img/IMG_0452_resize.png"
-tags: [サブカル科学研究会]
+tags: [Subculture Science Research Group]
 ---
 ## interactive
 
@@ -84,5 +84,10 @@ R: Hmm.
         - Well, it's hard to force China to do something when it is a permanent member of the UN and has veto power.
       - When it comes to power consumption, aren't we ignoring the existence of data centers?
       - Who can judge which power consumption is necessary and which is unnecessary?
+
+## Next time
+> [6th Regular Meeting: What's so interesting about soccer?] ({{<ref "/post/20210619subcul/index.en.md">}}
+> 
+> R: I don't know anything about soccer, but tarky can talk a lot, can't he?
 
 Translated with www.DeepL.com/Translator (free version)

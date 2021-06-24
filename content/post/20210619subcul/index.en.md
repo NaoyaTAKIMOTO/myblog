@@ -1,9 +1,9 @@
 ---
-title: "Subculture Science Club　the 6th meeting:　What is the point of football viewing?"
+title: "Subculture Science Research Group the 6th meeting:　What is the point of football viewing?"
 description: ""
 date: "2021-06-20T02:35:35+09:00"
 thumbnail: "/img/IMG_0457_resize.png"
-tags: [サブカル科学研究会]
+tags: [Subculture Science Research Group]
 ---
 ## Dialogue
 R: I don't understand soccer at all, but you can talk a lot, can't you tarky?
