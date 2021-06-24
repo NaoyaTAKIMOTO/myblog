@@ -69,7 +69,7 @@ This time it will be MLM (Masked Language Model ). It returns the probability of
 
 ```py
 input_ids = tokenizer.encode(f''')  
-   We are working on {tokenizer.mask_token} at Aobayama.  
+   青葉山で{tokenizer.mask_token}の研究をしています。  
 ''', return_tensors='pt'')
 ```
 
