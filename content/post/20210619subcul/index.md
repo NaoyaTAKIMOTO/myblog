@@ -1,5 +1,5 @@
 ---
-title: "第6回　定例会　サッカーてどこが面白いん？"
+title: "第6回　定例会　サッカーの面白さって？"
 description: ""
 date: "2021-06-20T02:35:35+09:00"
 thumbnail: "/img/IMG_0457_resize.png"
