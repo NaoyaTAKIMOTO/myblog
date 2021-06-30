@@ -72,3 +72,8 @@ R: ツテがあったらブツを回して欲しいくらいや。
 > [第5回サブカル科学研究会　定例会　NFT]({{<ref "post/20210612subcul/index.ja.md">}})
 > 
 > R：最近NFTというものに興味が出てきた。
+
+
+<!-- MAF Rakuten Widget FROM HERE -->
+<script type="text/javascript">MafRakutenWidgetParam=function() { return{ size:'468x160',design:'slide',recommend:'on',auto_mode:'on',a_id:'2220301', border:'off'};};</script><script type="text/javascript" src="//image.moshimo.com/static/publish/af/rakuten/widget.js"></script>
+<!-- MAF Rakuten Widget TO HERE -->

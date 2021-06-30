@@ -90,3 +90,8 @@ R：ふむ
 > [第6回　定例会　サッカーてどこが面白いん？]({{<ref "/post/20210619subcul/index.md">}})
 > 
 > R: サッカーは全然わからんわけやけど、tarkyは結構喋れるよな。
+
+
+<!-- MAF Rakuten Widget FROM HERE -->
+<script type="text/javascript">MafRakutenWidgetParam=function() { return{ size:'468x160',design:'slide',recommend:'on',auto_mode:'on',a_id:'2220301', border:'off'};};</script><script type="text/javascript" src="//image.moshimo.com/static/publish/af/rakuten/widget.js"></script>
+<!-- MAF Rakuten Widget TO HERE -->

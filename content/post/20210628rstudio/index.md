@@ -28,6 +28,13 @@ sudo passwd "username"
 ```
 ここで入力した"username"とpasswordは次の手順でつかうのでメモしておく。
 
+## 依存するライブラリのインストール
+bash
+`sudo apt install libcurl4-openssl-dev libssl-dev libxml2-dev libfontconfig1-dev libcairo2-dev`
+
+R
+`install.packages("readr")`
+
 ## Rstudio Server へのアクセス
 localhost:8787 をブラウザで開く。
 

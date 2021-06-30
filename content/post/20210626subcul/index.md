@@ -32,4 +32,9 @@ tarky: Rがやりたい意思を表明してくれれば話は通ると思うよ
 R: うん、じゃあ軽いプレゼン資料まとめるわ。
 
 
+<!-- MAF Rakuten Widget FROM HERE -->
+<script type="text/javascript">MafRakutenWidgetParam=function() { return{ size:'468x160',design:'slide',recommend:'on',auto_mode:'on',a_id:'2220301', border:'off'};};</script><script type="text/javascript" src="//image.moshimo.com/static/publish/af/rakuten/widget.js"></script>
+<!-- MAF Rakuten Widget TO HERE -->
+
+
 

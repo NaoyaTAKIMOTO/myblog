@@ -53,3 +53,7 @@ tags : [思考のネタ]
 これを繰り返すことによって、 我慢のレベルを下げていく。
 
 自分の心身の不調に敏感になっていくとともに、 その苦痛を受け流すことを体験として知っていく。
+
+<!-- MAF Rakuten Widget FROM HERE -->
+<script type="text/javascript">MafRakutenWidgetParam=function() { return{ size:'468x160',design:'slide',recommend:'on',auto_mode:'on',a_id:'2220301', border:'off'};};</script><script type="text/javascript" src="//image.moshimo.com/static/publish/af/rakuten/widget.js"></script>
+<!-- MAF Rakuten Widget TO HERE -->
