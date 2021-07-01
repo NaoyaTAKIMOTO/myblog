@@ -1,0 +1,55 @@
+---
+title: "日本語で学習済みのT5がhugging face で公開されたので使い方メモ"
+description: ""
+date: "2021-07-01T20:57:39+09:00"
+thumbnail: ""
+tags: [自然言語処理,T5,技術]
+---
+## T5(Text-To-Text Transfer Transformer) とは
+事前学習における入出力を文に統一してしまうことで、
+複数の形式の問題に対しても適応できる様式となった。
+
+モデルの基本構造としては Transformer が使われており、
+その点はBERTと共通している。
+
+## できること
+下流のタスクとして転移学習を行うことで以下のようなことが実行できる。
+
+- 文書分類
+- タイトル生成
+- 文章生成
+
+## デモを触ってみた感想
+思った以上にうまく出力している印象を受けた。
+
+リンク先のサンプルプログラムを多少改造することでそれぞれのタスクに対応できるという
+柔軟性の高さもいい感じ。
+
+## 参考リンク
+公開元の解説や使用例がわかりやすいので、そちらを是非読んでいただきたい。
+
+google colab で使用例が公開されているので、
+デモプログラムを簡単に実行できる。
+
+[日本語T5のgithub](https://github.com/sonoisa/t5-japanese)
+
+> #### [文書分類問題の応用はなにがある？]({{<ref "/post/20200618blog-post_54.md" >}})
+> 
+> 機械学習について勉強したけど、その使い道が分からん！ってなってないですか？
+
+## 分散表現の仕組みについて学ぶ
+
+単語の意味を学習する分散表現について、
+実際にプログラムを実行しながら仕組みを理解しませんか？
+
+分散表現の学習のイメージをつかめるとBERT系で何をどのように学習しているのかについても理解が深まります。
+
+詳しくは以下のリンク
+
+> ### [Googlecolaboratory と pythonで学ぶ初めての 自然言語処理入門](https://subcul-science.booth.pm/items/1562211)
+> 本ドキュメントを利用することで自然言語処理における分散表現の仕組みが理解でき、読者が新しい自然言語処理のサービスを開発する助けになる。
+
+
+<!-- MAF Rakuten Widget FROM HERE -->
+<script type="text/javascript">MafRakutenWidgetParam=function() { return{ size:'468x160',design:'slide',recommend:'on',auto_mode:'on',a_id:'2220301', border:'off'};};</script><script type="text/javascript" src="//image.moshimo.com/static/publish/af/rakuten/widget.js"></script>
+<!-- MAF Rakuten Widget TO HERE -->
