@@ -25,6 +25,8 @@ tags: [制作物]
       - [アテンションを用いた画像処理モデルの作成]({{<ref "/post/20210408attentionimage.md">}})
     - NVIDIAが公開した画像生成モデルの実行に関するアドバイス
       - [coconala ](https://coconala.com/users/1117897/services)
+    - Rによる統計処理にに関するアドバイス
+      - [coconala ](https://coconala.com/users/1117897/services)
     - 自然言語処理における単語の分散表現モデルの実装と解説を行う本の執筆
       - [Googlecolaboratory と pythonで学ぶ初めての 自然言語処理入門](https://subcul-science.booth.pm/items/1562211)
     - word2vecを使った検索システムのデモ作成
