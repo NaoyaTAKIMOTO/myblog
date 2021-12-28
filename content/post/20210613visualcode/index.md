@@ -3,7 +3,7 @@ title: "visual studio codeをChroomebookでブラウザから使うためのcode
 description: ""
 date: "2021-06-13T16:14:20+09:00"
 thumbnail: "/img/TKL0614_19_TP_V.jpg"
-tags: [開発環境]
+tags: [開発環境, visual studio code]
 ---
 ## 手順
 1. ターミナルで`curl -fsSL https://code-server.dev/install.sh | sh
