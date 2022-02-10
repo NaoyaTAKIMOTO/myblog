@@ -14,7 +14,64 @@ BERTは自然言語処理タスクに強力に応用できるモデルである�
 
 文単位の特徴量を取得できるようにBERTを拡張するモデルがSentence BERTである。
 
-以下はSentence BERT を日本語で作成する際の手順になる。
+## 2022/02/11追記
+(Hugging Face)[https://huggingface.co/sonoisa/sentence-bert-base-ja-mean-tokens-v2]
+で日本語のSentence BERTが公開されているのでそちらを利用してもいい。
+fugashi ipadicが単語分割のために要求されるのでインストールしておく
+```
+pip transformers fugashi ipadic
+```
+### サンプル
+```py
+from transformers import BertJapaneseTokenizer, BertModel
+import torch
+
+
+class SentenceBertJapanese:
+    def __init__(self, model_name_or_path, device=None):
+        self.tokenizer = BertJapaneseTokenizer.from_pretrained(model_name_or_path)
+        self.model = BertModel.from_pretrained(model_name_or_path)
+        self.model.eval()
+
+        if device is None:
+            device = "cuda" if torch.cuda.is_available() else "cpu"
+        self.device = torch.device(device)
+        self.model.to(device)
+
+    def _mean_pooling(self, model_output, attention_mask):
+        token_embeddings = model_output[0] #First element of model_output contains all token embeddings
+        input_mask_expanded = attention_mask.unsqueeze(-1).expand(token_embeddings.size()).float()
+        return torch.sum(token_embeddings * input_mask_expanded, 1) / torch.clamp(input_mask_expanded.sum(1), min=1e-9)
+
+    @torch.no_grad()
+    def encode(self, sentences, batch_size=8):
+        all_embeddings = []
+        iterator = range(0, len(sentences), batch_size)
+        for batch_idx in iterator:
+            batch = sentences[batch_idx:batch_idx + batch_size]
+
+            encoded_input = self.tokenizer.batch_encode_plus(batch, padding="longest", 
+                                           truncation=True, return_tensors="pt").to(self.device)
+            model_output = self.model(**encoded_input)
+            sentence_embeddings = self._mean_pooling(model_output, encoded_input["attention_mask"]).to('cpu')
+
+            all_embeddings.extend(sentence_embeddings)
+
+        # return torch.stack(all_embeddings).numpy()
+        return torch.stack(all_embeddings)
+
+
+MODEL_NAME = "sonoisa/sentence-bert-base-ja-mean-tokens-v2"  # <- v2です。
+model = SentenceBertJapanese(MODEL_NAME)
+
+sentences = ["暴走したAI", "暴走した人工知能"]
+sentence_embeddings = model.encode(sentences, batch_size=8)
+
+print("Sentence embeddings:", sentence_embeddings)
+```
+
+## Sentence Transformer
+以下はSentence Transformer を日本語モデルでで作成する際の手順になる。
 
 ## 環境構築
 Google colabでのモデル学習方法を行う。 
@@ -26,7 +83,7 @@ Google colabでのモデル学習方法を行う。
 ```
 日本語版BERTを使うのでそれに伴ってmecabなどのインストールが必要
 
-## モデル構築
+### モデル構築
 GPUについては指定しない場合、自動で利用する設定になるらしい。
 ```py
 import transformers
@@ -56,7 +113,7 @@ pooling = models.Pooling(
 
 model = SentenceTransformer(modules=[transformer, pooling])
 ```
-## データセット作成
+### データセット作成
 センテンスに対してラベルを予測するモデルを考える。
 
 マルチラベルのデータを用意した。tripletのデータセットを作成する。
@@ -96,23 +153,23 @@ train_dataloader = DataLoader(train_example, batch_size=32)
 
 [Sentence transformer用にNatural Language Inference(NLI)形式でデータ作成]({{<ref "/post/20210217NLIBERT.md">}})
 
-## 学習
+### 学習
 
 ```py
 train_loss = losses.BatchAllTripletLoss(model)
 model.fit(train_objectives=[(train_dataloader, train_loss)], epochs=30, warmup_steps=100)
 ```
 
-## 文章の分散表現の獲得
+### 文章の分散表現の獲得
 文章のリストを入力すると、numpya.arrayの分散表現が得られる。
 ```py
 nunpy_array = model.encode([str,str,])
 ```
-## モデルの保存
+### モデルの保存
 ```py
 model.save(path.join(ROOT, "model","sentenceBERT"))
 ```
-## モデルのロード
+### モデルのロード
 ```py
 model2 = SentenceTransformer(path.join(ROOT, "model","sentenceBERT"))
 ```
@@ -129,7 +186,3 @@ model2 = SentenceTransformer(path.join(ROOT, "model","sentenceBERT"))
 ## 参考リンク
 - [公式ドキュメント](https://www.sbert.net/docs/package_reference/losses.html)
 - [日本語での使用例](https://www.ogis-ri.co.jp/otc/hiroba/technical/similar-document-search/part9.html)
-
-<!-- MAF Rakuten Widget FROM HERE -->
-<script type="text/javascript">MafRakutenWidgetParam=function() { return{ size:'468x160',design:'slide',recommend:'on',auto_mode:'on',a_id:'2220301', border:'off'};};</script><script type="text/javascript" src="//image.moshimo.com/static/publish/af/rakuten/widget.js"></script>
-<!-- MAF Rakuten Widget TO HERE -->
