@@ -73,7 +73,7 @@ print("Sentence embeddings:", sentence_embeddings)
 ## Sentence Transformer
 以下はSentence Transformer を日本語モデルでで作成する際の手順になる。
 
-## 環境構築
+### 環境構築
 Google colabでのモデル学習方法を行う。 
 
 ```
