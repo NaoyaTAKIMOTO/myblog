@@ -8,13 +8,13 @@ tags: [環境構築,python,poetry]
 ## 症状
 pycharmでinterpreterの指定にエラーが出た。
 改めてpoetryの環境構築を行おうとしたところ、以下のエラーが出た。
-'''py
+```py
 ModuleNotFoundError No module named 'virtualenv.activation.xonsh' at <frozen importlib._bootstrap>:984 in _find_and_load_unlocked
-'''
+```
 ## 解決方法
-'''
+```
 pip3 uninstall virtualenv
-'''
+```
 
 ## 原因
 - anyenvのアップデートをかけたのが悪かったか？
