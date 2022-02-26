@@ -31,3 +31,5 @@ tomlにlanguageの設定を追記する。
 ## ファイルの名前を修正するだけで翻訳ページ扱いされる
 `index.md`　と`index.en.md`
 をつかって多言語対応をしていこうと思う。
+
+<script language="javascript" src="//ad.jp.ap.valuecommerce.com/servlet/jsbanner?sid=3563352&pid=887685184"></script><noscript><a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3563352&pid=887685184" rel="nofollow"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3563352&pid=887685184" border="0"></a></noscript>

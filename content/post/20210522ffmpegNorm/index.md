@@ -52,3 +52,4 @@ rm temp*.mp3
 ## 参考リンク
 [(FFmpeg) How to normalize audio?](http://johnriselvato.com/ffmpeg-how-to-normalize-audio/)
 
+<script language="javascript" src="//ad.jp.ap.valuecommerce.com/servlet/jsbanner?sid=3563352&pid=887685185"></script><noscript><a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3563352&pid=887685185" rel="nofollow"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3563352&pid=887685185" border="0"></a></noscript>

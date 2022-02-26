@@ -17,3 +17,5 @@ tags: [開発環境, visual studio code]
 ## 参考リンク
 - [Visual Studio Code を Chromebook で使う方法と、Chrome OS のレンダリングパイプライン](https://blog2.issei.org/2020/09/16/visual-studio-code-on-chromebook/)
 - [code server](https://github.com/cdr/code-server/blob/v3.5.0/doc/guide.md)
+
+<script language="javascript" src="//ad.jp.ap.valuecommerce.com/servlet/jsbanner?sid=3563352&pid=887685184"></script><noscript><a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3563352&pid=887685184" rel="nofollow"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3563352&pid=887685184" border="0"></a></noscript>

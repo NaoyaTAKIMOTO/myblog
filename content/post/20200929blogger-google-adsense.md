@@ -15,3 +15,5 @@ tags : [技術系,blogger,google adsnense]
 bloggerでもhtmlをいじらないといけないということに気がつかなかった…。まあええわ。
 
 [![](//image.moshimo.com/af-img/0288/000000022849.png)](//af.moshimo.com/af/c/click?a_id=2258347&p_id=936&pc_id=1196&pl_id=22849&guid=ON)![](//i.moshimo.com/af/i/impression?a_id=2258347&p_id=936&pc_id=1196&pl_id=22849)
+
+<script language="javascript" src="//ad.jp.ap.valuecommerce.com/servlet/jsbanner?sid=3563352&pid=887685185"></script><noscript><a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3563352&pid=887685185" rel="nofollow"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3563352&pid=887685185" border="0"></a></noscript>
