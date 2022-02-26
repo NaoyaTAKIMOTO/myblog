@@ -66,15 +66,4 @@ tags: [サブカル科学研究会]
 
 [^1]: 双子を裕福な家と貧乏な家に養子にさせて、それぞれにクラシック楽器を練習させるという実験。この実験ではより努力をしたのは裕福な家にもらわれた子ではなかった。もらわれた家に関わらず努力をした双子のペアとしなかった双子のペアが観察されたことから努力をする遺伝的要素があると考えられている。
 
-<!-- START MoshimoAffiliateEasyLink -->
-<script type="text/javascript">
-(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
-b[a]=b[a]||function(){arguments.currentScript=c.currentScript
-||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
-c.getElementById(a)||(d=c.createElement(f),d.src=g,
-d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
-(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20210203","msmaflink");
-msmaflink({"n":"【PS4】サイバーパンク2077","b":"スパイク・チュンソフト","t":"PLJS-36125","d":"https:\/\/m.media-amazon.com","c_p":"\/images\/I","p":["\/51Oob3LV70L._SL500_.jpg","\/41VL6xlroIL._SL500_.jpg","\/41yxEUmMlwL._SL500_.jpg","\/41hN0uagwmL._SL500_.jpg","\/41ih3NwinTL._SL500_.jpg","\/51ob-YWBo2L._SL500_.jpg"],"u":{"u":"https:\/\/www.amazon.co.jp\/dp\/B07SRWS7N7","t":"amazon","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"Amazonで見る","u_bc":"#f79256","u_url":"https:\/\/www.amazon.co.jp\/dp\/B07SRWS7N7","a_id":2220302,"p_id":170,"pl_id":27060,"pc_id":185,"s_n":"amazon","u_so":1},{"id":2,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/search.rakuten.co.jp\/search\/mall\/%E3%80%90PS4%E3%80%91%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E3%83%91%E3%83%B3%E3%82%AF2077\/","a_id":2220301,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":2},{"id":3,"u_tx":"Yahoo!ショッピングで見る","u_bc":"#66a7ff","u_url":"https:\/\/shopping.yahoo.co.jp\/search?first=1\u0026p=%E3%80%90PS4%E3%80%91%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E3%83%91%E3%83%B3%E3%82%AF2077","a_id":2220303,"p_id":1225,"pl_id":27061,"pc_id":1925,"s_n":"yahoo","u_so":3}],"eid":"F3hVa","s":"s"});
-</script>
-<div id="msmaflink-F3hVa">リンク</div>
-<!-- MoshimoAffiliateEasyLink END -->
+<div data-vc_mylinkbox_id="887684968"></div>

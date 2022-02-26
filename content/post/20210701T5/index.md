@@ -40,7 +40,7 @@ tags: [自然言語処理,T5,技術]
 - これでそれなりに上手く動くのが不思議で仕方がない。
 
 ## サンプルコード
-"""
+```
 !pip install -qU torch==1.7.1 torchtext==0.8.0 torchvision==0.8.2
 !pip install -q transformers==4.4.2 pytorch_lightning==1.2.1 sentencepiece
 from os import path
@@ -53,9 +53,9 @@ PRETRAINED_MODEL_NAME = "sonoisa/t5-base-japanese"
 
 # 転移学習済みモデル
 MODEL_DIR = "/content/drive/MyDrive/Colab_data/Tanshin/t5generate"
-"""
+```
 
-"""
+```py
 # https://github.com/neologd/mecab-ipadic-neologd/wiki/Regexp.ja から引用・一部改変
 from __future__ import unicode_literals
 import re
@@ -111,9 +111,9 @@ def normalize_neologd(s):
     s = re.sub('[’]', '\'', s)
     s = re.sub('[”]', '"', s)
     return s
-"""
+```
 
-"""
+```py
 import tarfile
 import re
 
@@ -136,14 +136,14 @@ def read_title_body(file):
     title = normalize_text(remove_brackets(title))
     body = normalize_text(" ".join([line.decode("utf-8").strip() for line in file.readlines()]))
     return title, body
-"""
+```
 
-"""
+```
 report_path=path.join(ROOT, "data","raw", '決算短信要約データ解析.xlsx')
 df = pd.read_excel(report_path, sheet_name="data")
-"""
+```
 
-"""
+```py
 all_data = []
 for i, rows in df.iterrows():
     text = str(rows["原文"])
@@ -160,9 +160,9 @@ for i, rows in df.iterrows():
             "body": "短信要約:"+text,
             "title": abstract_text
             })
-"""
+```
 
-"""
+```py
 import random
 from tqdm import tqdm
 
@@ -192,10 +192,10 @@ with open(path.join(ROOT, "data","processed","train.tsv"), "w", encoding="utf-8"
             f_dev.write(line)
         else:
             f_test.write(line)
-"""
+```
 
 
-"""
+```py
 import argparse
 import glob
 import os
@@ -220,7 +220,7 @@ from transformers import (
     get_linear_schedule_with_warmup
 )
 
-# 乱数シードの設定
+### 乱数シードの設定
 def set_seed(seed):
     random.seed(seed)
     np.random.seed(seed)
@@ -230,10 +230,10 @@ def set_seed(seed):
 
 set_seed(42)
 
-# GPU利用有無
+### GPU利用有無
 USE_GPU = torch.cuda.is_available()
 
-# 各種ハイパーパラメータ
+### 各種ハイパーパラメータ
 args_dict = dict(
     data_dir=path.join(ROOT, "data","processed"),  # データセットのディレクトリ
     model_name_or_path=PRETRAINED_MODEL_NAME,
@@ -259,9 +259,9 @@ args_dict = dict(
     seed=42,
 )
 
-"""
+```
 
-"""
+```py
 class TsvDataset(Dataset):
     def __init__(self, tokenizer, data_dir, type_path, input_max_len=512, target_max_len=512):
         self.file_path = os.path.join(data_dir, type_path)
@@ -319,18 +319,18 @@ class TsvDataset(Dataset):
                 self.inputs.append(tokenized_inputs)
                 self.targets.append(tokenized_targets)
 
-"""
+```
 
-"""
-# トークナイザー（SentencePiece）モデルの読み込み
+```py
+### トークナイザー（SentencePiece）モデルの読み込み
 tokenizer = T5Tokenizer.from_pretrained(PRETRAINED_MODEL_NAME, is_fast=True)
 
-# テストデータセットの読み込み
+### テストデータセットの読み込み
 train_dataset = TsvDataset(tokenizer, args_dict["data_dir"], "train.tsv", 
                            input_max_len=1024, target_max_len=128)
-"""
+```
 
-"""
+```py
 class T5FineTuner(pl.LightningModule):
     def __init__(self, hparams):
         super().__init__()
@@ -457,10 +457,10 @@ class T5FineTuner(pl.LightningModule):
                           num_workers=4)
 
 
-"""
+```
 
-"""
-# 学習に用いるハイパーパラメータを設定する
+```py
+### 学習に用いるハイパーパラメータを設定する
 args_dict.update({
     "max_input_length":  1024,  # 入力文の最大トークン数
     "max_target_length": 128,  # 出力文の最大トークン数
@@ -478,10 +478,10 @@ train_params = dict(
     amp_level=args.opt_level,
     gradient_clip_val=args.max_grad_norm,
 )
-"""
+```
 
-"""
-# 転移学習の実行（GPUを利用すれば1エポック10分程度）
+```py
+### 転移学習の実行（GPUを利用すれば1エポック10分程度）
 model = T5FineTuner(args)
 if finetune_is:
     trainer = pl.Trainer(**train_params)
@@ -492,14 +492,14 @@ if finetune_is:
     model.model.save_pretrained(MODEL_DIR)
 
 del model
-"""
+```
 
-"""
+```py
 import torch
 from torch.utils.data import Dataset, DataLoader
 from transformers import T5ForConditionalGeneration, T5Tokenizer
 
-# 学習済みモデル
+### 学習済みモデル
 if finetune_is:
     # トークナイザー（SentencePiece）
     tokenizer = T5Tokenizer.from_pretrained(MODEL_DIR, is_fast=True)
@@ -512,18 +512,18 @@ else:
     # 学習済みモデル
     trained_model = T5ForConditionalGeneration.from_pretrained(PRETRAINED_MODEL_NAME)
 
-# GPUの利用有無
+### GPUの利用有無
 USE_GPU = torch.cuda.is_available()
 if USE_GPU:
     trained_model.cuda()
-"""
+```
 
-"""
+```py
 import textwrap
 from tqdm.auto import tqdm
 from sklearn import metrics
 
-# テストデータの読み込み
+### テストデータの読み込み
 test_dataset = TsvDataset(tokenizer, args_dict["data_dir"], "test.tsv", 
                           input_max_len=args.max_input_length, 
                           target_max_len=args.max_target_length)
@@ -564,15 +564,15 @@ for batch in tqdm(test_loader):
     outputs.extend(output_text)
     targets.extend(target_text)
     
-"""
+```
 
-"""
+```py
 for output, target, input in zip(outputs, targets, inputs):
     print("generated: " + output)
     print("actual:    " + target)
     print("body:      " + input)
     print()
-"""
+```
 ## デモを触ってみた感想
 - 思った以上にうまく出力している印象を受けた。
 - リンク先のサンプルプログラムを多少改造することでそれぞれのタスクに対応できるという柔軟性の高さもいい感じ。
@@ -603,8 +603,3 @@ google colab で使用例が公開されているので、
 
 > ### [Googlecolaboratory と pythonで学ぶ初めての 自然言語処理入門](https://subcul-science.booth.pm/items/1562211)
 > 本ドキュメントを利用することで自然言語処理における分散表現の仕組みが理解でき、読者が新しい自然言語処理のサービスを開発する助けになる。
-
-
-<!-- MAF Rakuten Widget FROM HERE -->
-<script type="text/javascript">MafRakutenWidgetParam=function() { return{ size:'468x160',design:'slide',recommend:'on',auto_mode:'on',a_id:'2220301', border:'off'};};</script><script type="text/javascript" src="//image.moshimo.com/static/publish/af/rakuten/widget.js"></script>
-<!-- MAF Rakuten Widget TO HERE -->
