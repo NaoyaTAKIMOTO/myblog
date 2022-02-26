@@ -28,20 +28,14 @@ tags : [技術系,自然言語処理, fasttext,技術,分散表現,文書分類]
 
 ## Fasttext ライブラリの特徴
 
+- これはFasttextを用いて文書分類問題をend-to-endで解いてくれるライブラリになります。
+- そのため、文書ベクトルを分類タスク様に最適化できる仕様になっています。
+- 学習にかかる時間も数秒以内と非常に速く、たたき台としては有効です。
+- また、性能も悪くありません。[ハイパーパラメータチューニング](https://fasttext.cc/docs/en/autotune.html)もできます。
+- 基本は上記の通りです。
+- 固定したいパラメータ(分散表現の次元数など)だけ指定し以下のように実行します。
 
-これはFasttextを用いて文書分類問題をend-to-endで解いてくれるライブラリになります。
-
-そのため、文書ベクトルを分類タスク様に最適化できる仕様になっています。
-
-学習にかかる時間も数秒以内と非常に速く、たたき台としては有効です。
-
-また、性能も悪くありません。[ハイパーパラメータチューニング](https://fasttext.cc/docs/en/autotune.html)もできます。
-
-基本は上記の通りです。
-
-固定したいパラメータ(分散表現の次元数など)だけ指定し以下のように実行します。
-
-```
+```py
 model = fasttext.train_supervised(input='cooking.train', autotuneValidationFile='cooking.valid')
 ```
 
@@ -54,14 +48,11 @@ model = fasttext.train_supervised(input='cooking.train', autotuneValidationFile=
 pip install fasttext
 ```
 
-上のコマンドだけで、2020年6月時点ではpython用のfastText環境が整います。 非常に簡単です。
+- 上のコマンドだけで、2020年6月時点ではpython用のfastText環境が整います。 非常に簡単です。
 
 ## 文書分類問題での使い方
-
-
-教師データとして'data.train.txt'を作成する必要があります。
-
-データの形式は"**label**"とトークナイズされた文書を各行に持つテキストファイルです。
+- 教師データとして'data.train.txt'を作成する必要があります。
+- データの形式は"**label**"とトークナイズされた文書を各行に持つテキストファイルです。
 
 ```
 train.txt   
@@ -70,33 +61,29 @@ __label__1  愛 が 重 い
 __label__2  愛 し て ます
 ```
 
-同様にして教師データと同じ形式でテストデータ等を作成します。
+- 同様にして教師データと同じ形式でテストデータ等を作成します。
+- モデルの訓練は以下のコードを実行します。
 
-モデルの訓練は以下のコードを実行します。
-
-```
+```py
 import fasttext  
   
 model = fasttext.train_supervised('train.txt')
 ```
 
-学習時間は教師データの量に依存するが、CPUで対応可能であり、手元のデータ(約1000件)では数秒で学習が終了しました。
+- 学習時間は教師データの量に依存するが、CPUで対応可能であり、手元のデータ(約1000件)では数秒で学習が終了しました。
+- 学習したモデルを用いた推定結果は以下のようにして得られます。
 
-学習したモデルを用いた推定結果は以下のようにして得られます。
-
-```
+```py
 model.predict("あなた は 愛 を 信じ ます か ？")
 ```
 
-この時、分類されるクラスと予測確率の配列が返されます。
+- この時、分類されるクラスと予測確率の配列が返されます。
+- 以上によって、fastTextを用いた文書分類問題が解かれます。
 
-以上によって、fastTextを用いた文書分類問題が解かれます。
+## 評価
 
-評価
-
-sklearnを用いて混合行列や精度比較が出来ます。
-
-以下はscikit-learnの公式サイトからの引用です。
+- sklearnを用いて混合行列や精度比較が出来ます。
+- 以下はscikit-learnの公式サイトからの引用です。
 
 ```py
 from sklearn.metrics import confusion_matrix  
@@ -127,17 +114,10 @@ weighted avg       0.70      0.60
 ```
 
 ## まとめ
-
-
-fastText とscikit-learnを利用することで、
-
-python 環境下で、
-
-簡単に文書分類問題に取り組むことが出来ます。
-
-python はデータセット作成時にも便利なので、ひとまず文書分類を試したいという場合には有効な選択肢の一つです。
-
-実応用については下記のリンクを参考にしてください。
+- fastText とscikit-learnを利用することで、
+- python 環境下で、簡単に文書分類問題に取り組むことが出来ます。
+- python はデータセット作成時にも便利なので、ひとまず文書分類を試したいという場合には有効な選択肢の一つです。
+- 実応用については下記のリンクを参考にしてください。
 
 [文書分類問題の応用はなにがある？]({{<ref "/post/20200618blog-post_54.md">}})
 
@@ -159,6 +139,6 @@ python はデータセット作成時にも便利なので、ひとまず文書�
 ## 参考資料 
 - [NeuralNLP-NeuralClassifier](https://github.com/Tencent/NeuralNLP-NeuralClassifier)
 - [fastText](https://github.com/facebookresearch/fastText)
-<!-- MAF Rakuten Widget FROM HERE -->
-<script type="text/javascript">MafRakutenWidgetParam=function() { return{ size:'468x160',design:'slide',recommend:'on',auto_mode:'on',a_id:'2220301', border:'off'};};</script><script type="text/javascript" src="//image.moshimo.com/static/publish/af/rakuten/widget.js"></script>
-<!-- MAF Rakuten Widget TO HERE -->
+
+自然言語処理の全体感を掴みたい場合には下記の書籍が便利です。
+<div data-vc_mylinkbox_id="887685224"></div>

@@ -85,7 +85,5 @@ tags : [技術系,自然言語処理,技術,文書分類]
 > ### [Googlecolaboratory と pythonで学ぶ初めての 自然言語処理入門](https://subcul-science.booth.pm/items/1562211)
 > 本ドキュメントを利用することで自然言語処理における分散表現の仕組みが理解でき、読者が新しい自然言語処理のサービスを開発する助けになる。
 
-
-<!-- MAF Rakuten Widget FROM HERE -->
-<script type="text/javascript">MafRakutenWidgetParam=function() { return{ size:'468x160',design:'slide',recommend:'on',auto_mode:'on',a_id:'2220301', border:'off'};};</script><script type="text/javascript" src="//image.moshimo.com/static/publish/af/rakuten/widget.js"></script>
-<!-- MAF Rakuten Widget TO HERE -->
+自然言語処理の全体感を掴みたい場合には下記の書籍が便利です。
+<div data-vc_mylinkbox_id="887685224"></div>
