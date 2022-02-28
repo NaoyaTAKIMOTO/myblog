@@ -67,7 +67,7 @@ tags : [技術系,自然言語処理,技術,文書分類]
 
 - [Universal Sentence Encoder の使い方メモ]({{<ref "/post/universal-sentence-encoder.md">}})
 - [日本語Wikipediaで学習したBERTが公開されたので使い方のメモ]({{<ref "/post/wikipediabert.md">}})
-- [Google colaboratory を使ってWord2Vecの仕組みからモデルの学習まで]({{<ref "/post/20200615google-colaboratory-word2vec/index.md">}})
+- [Google colaboratory を使ってWord2Vecの仕組みからモデルの学習まで](https://subcul-science.booth.pm/items/1562211)
 - [Fasttext で文書分類問題までやったった]({{<ref "/post/20200613fasttext/index.md">}})
 - [文書分類問題を解くモデルを提供するNeuralClassifier の使い方メモ]({{<ref "/post/neuralclassifier.md">}})
 - [Sentence BERT 日本語モデルの学習 メモ]({{<ref "/post/20210203SBERT.md">}})
