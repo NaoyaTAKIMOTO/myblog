@@ -50,3 +50,5 @@ tags: [思考のネタ]
     - 就職にはつながった
 - 楽譜の販売
   - Youtubeで演奏動画など
+
+<script language="javascript" src="//ad.jp.ap.valuecommerce.com/servlet/jsbanner?sid=3563352&pid=887689140"></script><noscript><a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3563352&pid=887689140" rel="nofollow"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3563352&pid=887689140" border="0"></a></noscript>

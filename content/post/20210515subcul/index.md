@@ -68,3 +68,5 @@ R「そこで使われるときのニッチと本来の意味のニッチは意�
 > [サブカル科学研究会　第２回定例会　テーマ：環境型DNA]({{<ref "/post/20210523subcul/index.md">}})
 > 
 > R：「そういえば横浜での逃げ出したニシキヘビが屋根裏でみつかったって」
+
+<script language="javascript" src="//ad.jp.ap.valuecommerce.com/servlet/jsbanner?sid=3563352&pid=887689140"></script><noscript><a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3563352&pid=887689140" rel="nofollow"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3563352&pid=887689140" border="0"></a></noscript>

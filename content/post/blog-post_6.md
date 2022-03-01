@@ -95,8 +95,6 @@ tags : [思考のネタ,書籍]
 
 ぜひ皆さんもやりたいことを見つけて、より良い人生を送りましょう。
 
-購入は以下のリンクから
+<div data-vc_mylinkbox_id="887689143"></div>
 
-*世界一やさしい「やりたいこと」の見つけ方 人生のモヤモヤから解放される自己理解メソッド [ 八木　仁平 ]*
-- [amazon](https://amzn.to/2Xws6an)
-- [楽天ブックス](https://hb.afl.rakuten.co.jp/ichiba/1b0a2d31.d22da597.1b0a2d32.91386760/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F16303452%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9)
+<script language="javascript" src="//ad.jp.ap.valuecommerce.com/servlet/jsbanner?sid=3563352&pid=887689140"></script><noscript><a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3563352&pid=887689140" rel="nofollow"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3563352&pid=887689140" border="0"></a></noscript>

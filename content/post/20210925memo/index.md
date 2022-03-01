@@ -42,3 +42,6 @@ tags: [メモ]
 - 御用伺いみたいな感じで数理最適化屋さんが各企業に訪問する形をとるっきゃないのかなぁ？
   - そんな中身を他人に簡単に見せるか？
   - コンサルさんがうまく繋いでくれるといいんかなぁ？
+
+
+<script language="javascript" src="//ad.jp.ap.valuecommerce.com/servlet/jsbanner?sid=3563352&pid=887689140"></script><noscript><a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3563352&pid=887689140" rel="nofollow"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3563352&pid=887689140" border="0"></a></noscript>

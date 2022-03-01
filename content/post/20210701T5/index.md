@@ -25,16 +25,16 @@ tags: [自然言語処理,T5,技術]
 - 一つの原文から２種類の要約文を生成するファインチューニングが思いの外うまく働いた。
 
 データとしては
-|原文|要約文１|要約文２|
-|---|---|---|
-|原文のようなある程度の長さの文章|そこからの要約|タイトルとか|
+| 原文                             | 要約文１       | 要約文２     |
+| -------------------------------- | -------------- | ------------ |
+| 原文のようなある程度の長さの文章 | そこからの要約 | タイトルとか |
 
 これを以下のような形式に変換することでファインチューニング用の新たなタスクに落とし込む。
 
-|body|target|
-|---|---|
-|要約タスク1: 原文のようなある程度の長さの文章|そこからの要約|
-|要約タスク2: 原文のようなある程度の長さの文章|タイトルとか|
+| body                                          | target         |
+| --------------------------------------------- | -------------- |
+| 要約タスク1: 原文のようなある程度の長さの文章 | そこからの要約 |
+| 要約タスク2: 原文のようなある程度の長さの文章 | タイトルとか   |
 
 - 文頭にタスクの名前を入れるだけでよい。
 - これでそれなりに上手く動くのが不思議で仕方がない。
@@ -605,4 +605,4 @@ google colab で使用例が公開されているので、
 > 本ドキュメントを利用することで自然言語処理における分散表現の仕組みが理解でき、読者が新しい自然言語処理のサービスを開発する助けになる。
 
 
-<script language="javascript" src="//ad.jp.ap.valuecommerce.com/servlet/jsbanner?sid=3563352&pid=887685185"></script><noscript><a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3563352&pid=887685185" rel="nofollow"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3563352&pid=887685185" border="0"></a></noscript>
+<a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3563352&pid=887689136" rel="nofollow"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3563352&pid=887689136" height="1" width="1" border="0">BTOパソコンならパソコンショップSEVEN</a>
