@@ -3,41 +3,40 @@ title: "ffmpegで音声ファイルの音量の正規化(ノーマライゼー�
 description: ""
 date: "2021-05-22T17:41:25+09:00"
 thumbnail: "/img/equalizer-153212_1280.png"
-tags: [ffmpeg]
+tags: [ffmpeg,音量の正規化,ノイズ除去]
 ---
 
-音量の正規化のためにffmpegを用いた。
+- 音量の正規化のためにffmpegを用いた
+  - ffmpegはコマンドラインで利用できるメディアの加工ができる
+- 後々のために使用方法を記録しておく
 
-後々のために記録しておく。
+## ffmpegのインストール
+ubuntu 系の場合
+    sudo apt install ffmpeg
 ## コマンドの例
+- 例えば以下のような例で利用する
+  - この例では音量の正規化を行っている
+
     ffmpeg -i input.mp3 -af loudnorm=I=-16:LRA=11:TP=-1.5 output_norm.mp3
 
-input.mp3, output.mp3
-は適当な名前に変更すること。
-
-拡張子はmp3以外でも構わない。
+- *input.mp3*, *output.mp3*は適当な名前に変更すること。
+- 拡張子はmp3以外でも構わない
+  - mp4など多種多様なフォーマットに対応している
 
 ## ノイズ削除
+- ノイズを除去するために一定の音量以下の音声を削除する
     ffmpeg -i output_norm.mp3 -af "afftdn=nf=-25" output_nf.mp3
-
+- また不必要な周波数帯の音声を削除する
     ffmpeg -i output_nf.mp3 -af "highpass=f=200, lowpass=f=3000" output_pass.mp3
 
 ## 無音削除
+- 無音部分の削除を行う
+  - 一定の音量以下の部分を切り取る作業を行う
     ffmpeg -i output_pass.mp3 -af silenceremove=1:0:-10dB output_rm.mp3
 
-## 感想
-まあ、音量としてはちょうどいい。
-
-一般のストリーミングサービスの音量と同じくらいに調整できているんじゃかろうか？
-
-ただ賢いノーマライズをしていないので、
-ノイズも増幅される点には注意してほしい。
-
 ## 他の方法
-音量の正規化のアプリは色々とあるだろうけれど、
-コマンドで一発で変換したかったので今回はffmpegを利用することにした。
-
-シェルスクリプトにまとめた。
+- 音量の正規化のアプリは色々とあるだろうけれど、コマンドで一発で変換したかったので今回はffmpegを利用することにした。
+- シェルスクリプトにまとめた。
 ```sh
 #! /bin/bash
 ffmpeg -y -i $1 -af loudnorm=I=-16:LRA=11:TP=-1.5  temp.mp3
@@ -46,8 +45,14 @@ ffmpeg -y -i temp1.mp3 -af "highpass=f=200, lowpass=f=3000"  temp2.mp3
 ffmpeg -y -i temp2.mp3 -af silenceremove=1:0:-10dB $2.mp3
 rm temp*.mp3
 ```
+- `bash ./norm_and_cut.sh input.mp3 output`で利用する。
+## 感想
+- まあ、音量としてはちょうどいい。
+- 一般のストリーミングサービスの音量と同じくらいに調整できているんじゃかろうか？
+  - この点についてはパラメータの調整が必要になるかもしれない
+- ただ賢いノーマライズをしていないので、ノイズも増幅される点には注意してほしい
+  - 音量の正規化してからノイズの除去を行うのと、ノイズを除去してから音量の正規化を行うのとどちらがよいか？
 
-`bash ./norm_and_cut.sh input.mp3 output`で利用する。
 
 ## 参考リンク
 [(FFmpeg) How to normalize audio?](http://johnriselvato.com/ffmpeg-how-to-normalize-audio/)

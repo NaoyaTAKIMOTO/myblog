@@ -7,7 +7,7 @@ tags: [環境構築,python,poetry]
 ---
 - pythonのライブラリをインストールする方法としてメジャーなpip
 - より開発環境のバージョン管理に特化した高機能なpoetry
-- pyenvとの連携は公式でサポートしているっぽい。
+- pyenvとの連携は公式でサポートしているっぽい
 - mac os での導入方法とハマったところをメモしておく
 ## poetry の利点
 - ライブラリの依存関係を整理できる
@@ -40,7 +40,7 @@ export PATH="HOME/.poetry/bin:$PATH"
     poetry --version
 
 ## 使い方
-- プロジェクトの作成
+### プロジェクトの作成
 
     poetry new projec_name
 
@@ -50,7 +50,9 @@ export PATH="HOME/.poetry/bin:$PATH"
 
     poetry init
 
-- 仮想環境の設定
+### 仮想環境の設定
+（追記）
+- pycharm を利用している場合にはデフォルトでpoetry環境の設定をできるようになっている
 
 poetryはvirtualenvでやっていた仮想環境の構築を勝手にやってくれるらしい
 1. 利用するpythonのインストール
@@ -65,11 +67,11 @@ poetryはvirtualenvでやっていた仮想環境の構築を勝手にやって�
 
     poetry env use some.ver.sion
 
-- ライブラリのインストール
+### ライブラリのインストール
 
     poetry add library_name
-
-- 環境の再現
+上記コマンドで依存関係を解消しつつ、指定したライブラリをインストールできる
+### 環境の再現
 poetry.lockがあるディレクトリで下記のコマンドを実行する
 
     poetry install
@@ -93,5 +95,6 @@ poetry.lockがあるディレクトリで下記のコマンドを実行する
 
 ## 疑問
 - プライベートレポジトリはどうやって使うんや？
+  - 多分pip の場合と同様にできる
 
 <a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3563352&pid=887689136" rel="nofollow"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3563352&pid=887689136" height="1" width="1" border="0">BTOパソコンならパソコンショップSEVEN</a>
