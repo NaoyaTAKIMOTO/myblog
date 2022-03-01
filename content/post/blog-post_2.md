@@ -65,3 +65,5 @@ tags : [技術系,技術,数理最適化]
 [機関誌2019｜公益社団法人　日本オペレーションズ・リサーチ学会](www.orsj.or.jp)
 
 [東京大学　計画数理情報学研究室](www.or.mist.i.u-tokyo.ac.jp)
+
+<div data-vc_mylinkbox_id="887689559"></div>

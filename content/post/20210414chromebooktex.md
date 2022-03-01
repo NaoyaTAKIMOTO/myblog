@@ -32,3 +32,5 @@ sudo apt install texlive-latex-extra
 - [TEX Wiki](https://texwiki.texjp.org/?Linux%2FLinux%20Mint#texlive)
 - [WSL上のUbuntu18.04で日本語レポート作成環境を整える
 ](https://www.aise.ics.saitama-u.ac.jp/~gotoh/Ubuntu1804JPonWSL.html#toc5)
+
+<a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3563352&pid=887689136" rel="nofollow"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3563352&pid=887689136" height="1" width="1" border="0">BTOパソコンならパソコンショップSEVEN</a>

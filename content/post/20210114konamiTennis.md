@@ -55,3 +55,5 @@ tags: [テニス,スクール]
 
 ## 参考リンク
 https://www.konami.com/sportsclub/
+
+<script language="javascript" src="//ad.jp.ap.valuecommerce.com/servlet/jsbanner?sid=3563352&pid=887689598"></script><noscript><a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3563352&pid=887689598" rel="nofollow"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3563352&pid=887689598" border="0"></a></noscript>

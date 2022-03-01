@@ -72,5 +72,4 @@ firebase deploy
 *   [https://qiita.com/potato4d/items/cfddeb8732fec63cb29c#%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E5%88%9D%E6%9C%9F%E5%8C%96](https://qiita.com/potato4d/items/cfddeb8732fec63cb29c#%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E5%88%9D%E6%9C%9F%E5%8C%96)
 *   [https://cr-vue.mio3io.com/tutorials/todo.html#%E5%AE%8C%E6%88%90%E5%BD%A2](https://cr-vue.mio3io.com/tutorials/todo.html#%E5%AE%8C%E6%88%90%E5%BD%A2)
 *   [https://jp.vuejs.org/v2/examples/todomvc.html](https://jp.vuejs.org/v2/examples/todomvc.html)
-
-<a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3563352&pid=887689136" rel="nofollow"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3563352&pid=887689136" height="1" width="1" border="0">BTOパソコンならパソコンショップSEVEN</a>
+<div data-vc_mylinkbox_id="887689561"></div>

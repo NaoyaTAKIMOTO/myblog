@@ -127,18 +127,3 @@ GPUは必須です。
 学習自体はGoogle Colaboratory を利用すれば無料で出来ます。
 
 実際の予測にGPUマシンを利用するかどうかの判断はUXをどこまで優先するかによるでしよう。
-
-ちなみにエッジデバイスは2万円〜から購入可能です。
-<!-- START MoshimoAffiliateEasyLink -->
-<script type="text/javascript">
-(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
-b[a]=b[a]||function(){arguments.currentScript=c.currentScript
-||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
-c.getElementById(a)||(d=c.createElement(f),d.src=g,
-d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
-(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20210203","msmaflink");
-msmaflink({"n":"NVIDIA Jetson Nano Development Kit B01 開発キット AI コンピュータ 人工知能 エッジコンピューティング","b":"seeed studio","t":"102110417","d":"https:\/\/m.media-amazon.com","c_p":"\/images\/I","p":["\/41MS-MwSRQL.jpg","\/41YA7RcATyL.jpg","\/41GBxzliXlL.jpg","\/41ltAsDyX8L.jpg","\/51Ee7aI8ZyL.jpg","\/41vxaSNz0fL.jpg","\/41Uy4ZHfA8L.jpg","\/41dY1a5gpRL.jpg","\/31HSvdNRsJL._SL500_.jpg"],"u":{"u":"https:\/\/www.amazon.co.jp\/dp\/B085NQTKS9","t":"amazon","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"Amazonで見る","u_bc":"#f79256","u_url":"https:\/\/www.amazon.co.jp\/dp\/B085NQTKS9","a_id":2220302,"p_id":170,"pl_id":27060,"pc_id":185,"s_n":"amazon","u_so":1},{"id":2,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/search.rakuten.co.jp\/search\/mall\/NVIDIA%20Jetson%20Nano%20Development%20Kit%20B01%20%E9%96%8B%E7%99%BA%E3%82%AD%E3%83%83%E3%83%88%20AI%20%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%20%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD%20%E3%82%A8%E3%83%83%E3%82%B8%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0\/","a_id":2220301,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":2},{"id":3,"u_tx":"Yahoo!ショッピングで見る","u_bc":"#66a7ff","u_url":"https:\/\/shopping.yahoo.co.jp\/search?first=1\u0026p=NVIDIA%20Jetson%20Nano%20Development%20Kit%20B01%20%E9%96%8B%E7%99%BA%E3%82%AD%E3%83%83%E3%83%88%20AI%20%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%20%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD%20%E3%82%A8%E3%83%83%E3%82%B8%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0","a_id":2220303,"p_id":1225,"pl_id":27061,"pc_id":1925,"s_n":"yahoo","u_so":3}],"eid":"7dVh0","s":"s"});
-</script>
-<div id="msmaflink-7dVh0">リンク</div>
-<!-- MoshimoAffiliateEasyLink END -->
-

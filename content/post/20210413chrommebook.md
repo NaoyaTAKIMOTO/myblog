@@ -67,3 +67,4 @@ sudo gem install review
 - [visual studio code公式サイト](https://code.visualstudio.com)
 - [ChromeBookのVSCodeで日本語入力できるようにする](https://gotoblog.org/chromebook-vscode-japanese/)
 
+<a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3563352&pid=887689136" rel="nofollow"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3563352&pid=887689136" height="1" width="1" border="0">BTOパソコンならパソコンショップSEVEN</a>
