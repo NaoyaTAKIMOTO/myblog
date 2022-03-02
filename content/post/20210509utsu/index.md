@@ -2,6 +2,8 @@
 title: "うつ病の症状に対する個人的な感覚"
 description: "うつ病に関連して経験した症状を列挙して現状との比較を行う"
 date: "2021-05-09T10:41:35+09:00"
+draft: true
+
 thumbnail: "/img/TKL0614_19_TP_V.jpg"
 tags: [うつ病の対処法]
 ---

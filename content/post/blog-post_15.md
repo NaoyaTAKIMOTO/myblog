@@ -1,7 +1,7 @@
 ---
 title: '自己肯定感メモ'
 date: 2020-10-15T04:45:00.004+09:00
-draft: false
+draft: true
 aliases: [ "/2020/10/blog-post_15.html" ]
 tags : [思考のネタ,うつ病の対処法]
 ---

@@ -1,7 +1,7 @@
 ---
 title: 'うつ病で倒れて寝込んだレベルからのセルフコンパッション'
 date: 2020-12-29T21:34:00.002+09:00
-draft: false
+draft: true
 aliases: [ "/2020/12/blog-post_4.html" ]
 tags : [思考のネタ]
 ---

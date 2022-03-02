@@ -3,6 +3,8 @@ title: "うつで倒れて身動き一つとれなくなってからの回復の
 description: ""
 date: "2021-05-21T22:54:48+09:00"
 thumbnail: "/img/novice-4479081_1920.jpg"
+draft: true
+
 tags: [うつ病の対処法]
 ---
 うつ病になっていつまで通院が続くのかを考えると、

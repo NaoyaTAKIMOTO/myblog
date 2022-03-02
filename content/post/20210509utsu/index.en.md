@@ -3,6 +3,7 @@ title: "Personal Feelings about Symptoms of Depression"
 description: "List the symptoms experienced in relation to depression and compare them to the current situation"
 date: "2021-05-09T10:41:35+09:00"
 thumbnail: "/img/TKL0614_19_TP_V.jpg"
+draft: true
 tags: [how to deal with depression]
 ---
 ## Feeling depressed
