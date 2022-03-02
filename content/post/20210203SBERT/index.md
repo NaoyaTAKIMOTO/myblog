@@ -1,26 +1,23 @@
 ---
-title: "Sentence transformerで日本語モデルを学習して文章の分散表現を得る方法"
+title: "Sentence transformersを使って日本語版BERTで文章の分散表現を得る方法"
 description: ""
 date: "2021-02-03T15:58:41+09:00"
 thumbnail: ""
-tags: ["技術系","自然言語処理","BERT","分散表現",技術,sentence transformer]
+tags: ["技術系","自然言語処理","BERT","分散表現",技術,sentence transformers]
 ---
-BERTは自然言語処理タスクに強力に応用できるモデルである。
-
-しかし、文章単位の特徴量をうまく取得できない。
-
-\[ CLS\] に文の特徴量が現れるという主張もあるが、
-それほどタスクに対して有益な情報は含まれていないと[この論文](https://arxiv.org/abs/1908.10084)は主張する。
-
-文単位の特徴量を取得できるようにBERTを拡張するモデルがSentence BERTである。
+- BERTは自然言語処理タスクに強力に応用できるモデルである。
+- しかし、文章単位の特徴量をうまく取得できない。
+- \[ CLS\] に文の特徴量が現れるという主張もあるが、それほどタスクに対して有益な情報は含まれていないと[この論文](https://arxiv.org/abs/1908.10084)は主張する。
+- 文単位の特徴量を取得できるようにBERTを拡張するモデルがSentence BERTである。
 
 ## 2022/02/11追記
-(Hugging Face)[https://huggingface.co/sonoisa/sentence-bert-base-ja-mean-tokens-v2]
+- (Hugging Face)[https://huggingface.co/sonoisa/sentence-bert-base-ja-mean-tokens-v2]
 で日本語のSentence BERTが公開されているのでそちらを利用してもいい。
-fugashi ipadicが単語分割のために要求されるのでインストールしておく
+- fugashi ipadicが単語分割のために要求されるのでインストールしておく
 ```
 pip transformers fugashi ipadic
 ```
+
 ### サンプル
 ```py
 from transformers import BertJapaneseTokenizer, BertModel
@@ -70,21 +67,20 @@ sentence_embeddings = model.encode(sentences, batch_size=8)
 print("Sentence embeddings:", sentence_embeddings)
 ```
 
-## Sentence Transformer
-以下はSentence Transformer を日本語モデルでで作成する際の手順になる。
-
+## Sentence Transformers
+- 以下はSentence Transformers を日本語BERTモデルで作成する際の手順になる。
 ### 環境構築
-Google colabでのモデル学習方法を行う。 
+- 今回はGoogle colabでのモデル学習方法を行う。 
 
 ```
 !pip install -U sentence-transformers
 !apt-get install mecab mecab-ipadic-utf8 python-mecab libmecab-dev
 !pip install mecab-python3 fugashi ipadic
 ```
-日本語版BERTを使うのでそれに伴ってmecabなどのインストールが必要
+- 日本語版BERTを使うのでそれに伴ってmecabなどのインストールが必要
 
 ### モデル構築
-GPUについては指定しない場合、自動で利用する設定になるらしい。
+- sentence_transformersのライブラリを利用した場合、GPUについては指定しない場合、自動で利用する設定になるらしい。
 ```py
 import transformers
 from transformers import BertJapaneseTokenizer, BertModel
@@ -114,9 +110,8 @@ pooling = models.Pooling(
 model = SentenceTransformer(modules=[transformer, pooling])
 ```
 ### データセット作成
-センテンスに対してラベルを予測するモデルを考える。
-
-マルチラベルのデータを用意した。tripletのデータセットを作成する。
+- センテンスに対してラベルを予測するモデルを考える。
+- マルチラベルのデータを用意した。tripletのデータセットを作成する。
 ```py
 df = pd.read_excel(report_path, dtype={'text':str,'tokens':str,'label':int,"cause":int,"effect":int,})
 
@@ -135,25 +130,21 @@ for index1, row1 in df.iterrows():
 ```
 
     InputExample(texts=[row1.tokens], label=float(label))
-ここの記述は損失関数の選択によって修正する必要がある。
-
-今回は BatchAllTripletLoss を選択したため、一つの文とラベルのセットになっている。
-
-以下でpytorchでの学習用データローダーを作成する。
+- ここの記述は損失関数の選択によって修正する必要がある。
+- 今回は BatchAllTripletLoss を選択したため、一つの文とラベルのセットになっている。
+- 以下でpytorchでの学習用データローダーを作成する。
 ```py
 train_example = SentenceLabelDataset(train_exapmle, samples_per_label=16)
 train_dataloader = DataLoader(train_example, batch_size=32)
 ```
 - batch_sizeは計算環境に応じて調整する。メモリ使用量に影響する。
 - samples_per_labelは自動でtriplet datasetを作成する際のサンプリング数らしい。
-
-ここで samples_per_label は batch_size の約数でなければならない。
-
-他のデータの作り方は以下のリンクを参照する。
+  - ここで samples_per_label は batch_size の約数でなければならない。
+- 他のデータの作り方は以下のリンクを参照する。
 
 [Sentence transformer用にNatural Language Inference(NLI)形式でデータ作成]({{<ref "/post/20210217NLIBERT.md">}})
 
-### 学習
+### 学習 training
 
 ```py
 train_loss = losses.BatchAllTripletLoss(model)
