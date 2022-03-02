@@ -3,6 +3,7 @@ title: "医者とカウンセラーの相談内容の区別"
 description: ""
 date: "2021-05-08T12:58:21+09:00"
 thumbnail: "img/thumbnail.jpg"
+draft: true
 tags: [うつ病の対処法]
 ---
 
