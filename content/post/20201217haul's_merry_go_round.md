@@ -1,7 +1,7 @@
 ---
 title: '運命のメリーゴーランド ソロギターを弾いてみた'
 date: 2020-12-17T14:20:00.003+09:00
-draft: false
+draft: true
 aliases: [ "/2020/12/20201217_17.html" ]
 tags : [音楽, ソロギター,guitar cover]
 ---

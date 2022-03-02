@@ -1,7 +1,7 @@
 ---
 title: '20201227　ナウシカレクイエム　ソロギターを弾いてみた'
 date: 2020-12-27T17:01:00.004+09:00
-draft: false
+draft: true
 aliases: [ "/2020/12/20201227.html" ]
 tags : [音楽,ソロギター,guitar cover]
 ---

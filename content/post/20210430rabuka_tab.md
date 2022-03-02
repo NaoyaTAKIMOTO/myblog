@@ -4,6 +4,8 @@ description: ""
 date: "2021-04-30T12:16:38+09:00"
 thumbnail: ""
 tags: [tab譜,guitar cover]
+draft: true
+
 ---
 
 {{<youtube PVUjWDBIGyc>}}

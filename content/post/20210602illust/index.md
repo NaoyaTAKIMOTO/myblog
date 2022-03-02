@@ -4,6 +4,8 @@ description: ""
 date: "2021-06-02T05:12:15+09:00"
 thumbnail: "/img/IMG_0431_resize.png"
 tags: [イラスト,サブカル科学研究会]
+draft: true
+
 ---
 ## 体を丸めたポーズを描きたかった
 それはわりとイメージを形にできたんちゃうかな。

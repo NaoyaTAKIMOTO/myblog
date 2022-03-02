@@ -1,7 +1,7 @@
 ---
 title: '風の谷のナウシカ オープニングを弾いてみた'
 date: 2020-12-23T19:19:00.002+09:00
-draft: false
+draft: true
 aliases: [ "/2020/12/20201223.html" ]
 tags : [音楽,ソロギター,guitar cover]
 ---

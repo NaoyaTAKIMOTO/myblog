@@ -1,7 +1,7 @@
 ---
 title: 'あの夏へ　ソロギターを弾いてみた'
 date: 2020-12-19T18:20:00.002+09:00
-draft: false
+draft: true
 aliases: [ "/2020/12/20201219.html" ]
 tags : [音楽,guitar cover,ソロギター]
 ---

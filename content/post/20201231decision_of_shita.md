@@ -1,7 +1,7 @@
 ---
 title: '20201231シータの決意 ソロギターを弾いてみた'
 date: 2020-12-31T17:07:00.004+09:00
-draft: false
+draft: true
 aliases: [ "/2020/12/20201231.html" ]
 tags : [音楽,ソロギター,guitar cover]
 ---

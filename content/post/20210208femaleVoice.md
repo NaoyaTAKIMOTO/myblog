@@ -3,6 +3,8 @@ title: "女声の出し方や練習方について　男性向け メモ"
 description: ""
 date: "2021-02-08T20:52:26+09:00"
 thumbnail: ""
+draft: true
+
 tags: [音楽,両声類,発声方法]
 ---
 

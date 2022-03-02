@@ -1,7 +1,7 @@
 ---
 title: '死ぬほど書くのが苦手な人の取れる対策'
 date: 2020-06-25T03:56:00.002+09:00
-draft: false
+draft: true
 aliases: [ "/2020/06/blog-post_28.html" ]
 tags : [感想,思考のネタ,アウトラインライティング]
 ---

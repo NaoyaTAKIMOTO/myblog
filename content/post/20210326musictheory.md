@@ -4,6 +4,8 @@ description: ""
 date: "2021-03-26T17:36:14+09:00"
 thumbnail: ""
 tags: [音楽,音楽理論]
+draft: true
+
 ---
 ## コード進行の例
 Ⅵm→Ⅴ#→Ⅴ→Ⅳ#→Ⅳ

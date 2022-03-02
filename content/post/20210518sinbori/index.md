@@ -4,6 +4,8 @@ description: ""
 date: "2021-05-18T19:02:51+09:00"
 thumbnail: "/img/IMG_0415.PNG.jpg"
 tags: [ウマ娘 プリティーダービー,イラスト]
+draft: true
+
 ---
 {{<figure src="/img/IMG_0414.jpg" width="640">}}
 ## 試しにデッサン人形を使ってみた

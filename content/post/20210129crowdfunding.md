@@ -3,6 +3,8 @@ title: "成功するクラウドファンディング メモと感想"
 description: ""
 date: "2021-01-29T09:33:02+09:00"
 thumbnail: ""
+draft: true
+
 tags: [書籍,クラウドファンディング,感想]
 ---
 ## メモ

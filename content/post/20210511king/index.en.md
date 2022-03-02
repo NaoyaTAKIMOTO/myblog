@@ -4,6 +4,8 @@ description: ""
 date: "2021-05-11T12:23:25+09:00"
 thumbnail: "/img/horse-60153_1920.jpg"
 tags: [illustration, Uma Musume Pretty Derby]
+draft: true
+
 ---
 {{<tweet 1391721902217957376>}}
 ## I wanted to draw King Halo sweating and practicing.

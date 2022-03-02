@@ -1,7 +1,7 @@
 ---
 title: 'やさしさに包まれたならソロギターを弾いてみた'
 date: 2020-12-21T16:44:00.002+09:00
-draft: false
+draft: true
 aliases: [ "/2020/12/20201221.html" ]
 tags : [音楽,ソロギター,guitar cover]
 ---

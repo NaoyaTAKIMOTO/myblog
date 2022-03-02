@@ -4,6 +4,8 @@ description: ""
 date: "2021-08-10T20:37:28+09:00"
 thumbnail: ""
 tags: [漫画,感想]
+draft: true
+
 ---
 ## 概略
 妖怪が見える女の子と寿命がなくなった男性の家族話
