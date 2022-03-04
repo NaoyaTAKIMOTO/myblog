@@ -112,7 +112,9 @@ print(classification_report(y_true, y_pred, target_names=target_names))
   macro avg       0.50      0.56      0.49         5  
 weighted avg       0.70      0.60
 ```
-
+## 詰まるポイント
+- Docker でpython3.9-slimに`pip install fasttext`するとc++のコンパイラのバージョンのエラーが出る
+- `sudo apt install g++`で最近のバージョンのコンパイラを入れる
 ## まとめ
 - fastText とscikit-learnを利用することで、
 - python 環境下で、簡単に文書分類問題に取り組むことが出来ます。

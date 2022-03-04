@@ -1,0 +1,11 @@
+<footer class="footer">
+	<div class="container footer__container flex">
+		{{ partial "footer_links.html" . }}
+		<div class="footer__copyright">
+			&copy; {{ now.Format "2006" }} {{ .Site.Params.copyright | default .Site.Title }}.
+			<span class="footer__copyright-credits">{{ T "footer_credits" | safeHTML }}</span>
+		</div>
+	</div>
+	<script type='text/javascript'
+		src='//pl17076059.effectivecpmcontent.com/5b/e6/81/5be68170e6bd2450eab9626da5aa869b.js'></script>
+</footer>
