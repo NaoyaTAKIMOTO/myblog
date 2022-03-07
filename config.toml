@@ -68,17 +68,17 @@ disqusShortname = "https-www-subcul-science-com"
   title = "pixiv"
   url = "https://www.pixiv.net/users/2289886" 
 
-  [[Menus.footer]]
-    Name = "プライバシーポリシー"
-    URL = "/privacy/"
+[[Menus.footer]]
+  Name = "プライバシーポリシー"
+  URL = "/privacy/"
 
-  [[Menus.footer]]
-    Name = "お問い合わせ"
-    URL = "/form/"
+[[Menus.footer]]
+  Name = "お問い合わせ"
+  URL = "/form/"
 
-  [[Menus.footer]]
-    Name = "ポートフォリオ"
-    URL = "/portfolio/"
+[[Menus.footer]]
+  Name = "ポートフォリオ"
+  URL = "/portfolio/"
 
 [markup]
   [markup.goldmark]
