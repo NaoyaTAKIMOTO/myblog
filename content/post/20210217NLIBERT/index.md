@@ -97,12 +97,7 @@ train_loss = losses.SoftmaxLoss(model=model, sentence_embedding_dimension=model.
 
 を参照する
 
-
 ## 疑問
 - 学習のエポックはどうするか？
   - そこはハイパーパラメータなんかな？
 - データの数は学習にどのように影響するか？
-
-<!-- MAF Rakuten Widget FROM HERE -->
-<script type="text/javascript">MafRakutenWidgetParam=function() { return{ size:'468x160',design:'slide',recommend:'on',auto_mode:'on',a_id:'2220301', border:'off'};};</script><script type="text/javascript" src="//image.moshimo.com/static/publish/af/rakuten/widget.js"></script>
-<!-- MAF Rakuten Widget TO HERE -->

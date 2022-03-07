@@ -171,9 +171,12 @@ model2 = SentenceTransformer(path.join(ROOT, "model","sentenceBERT"))
 [分散表現の利用法 バギングによるクラス分類や汎化性能についてのメモ]({{<ref "/post/20210204classifier.md">}})
 
 ## 分散表現の基礎を学習する
+BERTなどに代表される言語モデルの基礎を抑えて、
+最新のモデルの根本を理解したいと思いませんか？
 > ### [Googlecolaboratory と pythonで学ぶ初めての 自然言語処理入門](https://subcul-science.booth.pm/items/1562211)
 > 本ドキュメントを利用することで自然言語処理における分散表現の仕組みが理解でき、読者が新しい自然言語処理のサービスを開発する助けになる。
 
 ## 参考リンク
 - [公式ドキュメント](https://www.sbert.net/docs/package_reference/losses.html)
 - [日本語での使用例](https://www.ogis-ri.co.jp/otc/hiroba/technical/similar-document-search/part9.html)
+

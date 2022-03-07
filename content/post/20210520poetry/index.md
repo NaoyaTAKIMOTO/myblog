@@ -96,5 +96,6 @@ poetry.lockがあるディレクトリで下記のコマンドを実行する
 ## 疑問
 - プライベートレポジトリはどうやって使うんや？
   - 多分pip の場合と同様にできる
+- pip でもインストールできる
 
-<a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3563352&pid=887689136" rel="nofollow"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3563352&pid=887689136" height="1" width="1" border="0">BTOパソコンならパソコンショップSEVEN</a>
+<div data-vc_mylinkbox_id="887698981"></div>
