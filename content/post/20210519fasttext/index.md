@@ -27,4 +27,7 @@ tags: [自然言語処理,分散表現]
 ## 論文を読んだだけではどこがfastなのかが分からない
 - なにをもって高速にしたのだろうね？
 
-<a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3563352&pid=887689136" rel="nofollow"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3563352&pid=887689136" height="1" width="1" border="0">BTOパソコンならパソコンショップSEVEN</a>
+## 分散表現の仕組みについて学ぶ
+- 単語の意味を学習する分散表現について、実際にプログラムを実行しながら仕組みを理解するために[Googlecolaboratory と pythonで学ぶ初めての 自然言語処理入門](https://subcul-science.booth.pm/items/1562211)をおすすめします。
+  - 分散表現の学習のイメージをつかめるとBERT系で何をどのように学習しているのかについても理解が深まります。
+- また[fasttext の説明してみました](https://subcul-science.booth.pm/items/3152477)

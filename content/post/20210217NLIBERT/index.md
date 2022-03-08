@@ -91,13 +91,12 @@ for i in range(data_size):
 train_loss = losses.SoftmaxLoss(model=model, sentence_embedding_dimension=model.get_sentence_embedding_dimension(), num_labels=len(label2int))
 ```
 ## 学習
-具体的なモデルの学習方法は
-
-[Sentence transformerで日本語モデルを学習して文章の分散表現を得る方法]({{<ref "/post/20210203SBERT.md">}})
-
-を参照する
+具体的なモデルの学習方法は[Sentence transformerで日本語モデルを学習して文章の分散表現を得る方法]({{<ref "/post/20210203SBERT.md">}})を参照する
 
 ## 疑問
 - 学習のエポックはどうするか？
   - そこはハイパーパラメータなんかな？
 - データの数は学習にどのように影響するか？
+
+DNN系の自然言語処理には以下の書籍がおすすめ！
+<div data-vc_mylinkbox_id="887699994"></div>

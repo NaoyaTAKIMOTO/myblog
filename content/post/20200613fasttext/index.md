@@ -124,19 +124,9 @@ weighted avg       0.70      0.60
 [文書分類問題の応用はなにがある？]({{<ref "/post/20200618blog-post_54.md">}})
 
 ## 分散表現の仕組みについて学ぶ
-
-単語の意味を学習する分散表現について、
-実際にプログラムを実行しながら仕組みを理解しませんか？
-
-分散表現の学習のイメージをつかめるとBERT系で何をどのように学習しているのかについても理解が深まります。
-
-詳しくは以下のリンク
-> ### [Googlecolaboratory と pythonで学ぶ初めての 自然言語処理入門](https://subcul-science.booth.pm/items/1562211)
-> 本ドキュメントを利用することで自然言語処理における分散表現の仕組みが理解でき、読者が新しい自然言語処理のサービスを開発する助けになる。
-
-> ### [fasttext の説明してみた](https://subcul-science.booth.pm/items/3152477)
-> 近年、自然言語処理の実生活への応用が広まっています。
-> そこで近年の自然言語処理の飛躍の原点となったアイデアの一つであるfasttext の概要と動作について説明します。
+- 単語の意味を学習する分散表現について、実際にプログラムを実行しながら仕組みを理解するために[Googlecolaboratory と pythonで学ぶ初めての 自然言語処理入門](https://subcul-science.booth.pm/items/1562211)をおすすめします。
+  - 分散表現の学習のイメージをつかめるとBERT系で何をどのように学習しているのかについても理解が深まります。
+- また[fasttext の説明してみました](https://subcul-science.booth.pm/items/3152477)
 
 ## 参考資料 
 - [NeuralNLP-NeuralClassifier](https://github.com/Tencent/NeuralNLP-NeuralClassifier)

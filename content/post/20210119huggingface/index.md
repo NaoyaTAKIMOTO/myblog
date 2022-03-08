@@ -59,17 +59,12 @@ max_lengthが生成される文の長さを調整する。
 - [transformers 公式ドキュメント](https://huggingface.co/transformers/model_doc/bart.html)
 
 ## 分散表現の仕組みについて学ぶ
-
-単語の意味を学習する分散表現について、
-実際にプログラムを実行しながら仕組みを理解しませんか？
-
-分散表現の学習のイメージをつかめるとBERT系で何をどのように学習しているのかについても理解が深まります。
-
-詳しくは以下のリンク
-> ### [Googlecolaboratory と pythonで学ぶ初めての 自然言語処理入門](https://subcul-science.booth.pm/items/1562211)
-> 本ドキュメントを利用することで自然言語処理における分散表現の仕組みが理解でき、読者が新しい自然言語処理のサービスを開発する助けになる。
+- 単語の意味を学習する分散表現について実際にプログラムを実行しながら仕組みを理解しませんか？
+  - [Googlecolaboratory と pythonで学ぶ初めての 自然言語処理入門](https://subcul-science.booth.pm/items/1562211)
+- 分散表現の学習のイメージをつかめるとBERT系で何をどのように学習しているのかについても理解が深まります。
 
 ## 最後に
 不明点などあればコメントお願いします！
 
-<a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3563352&pid=887689136" rel="nofollow"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3563352&pid=887689136" height="1" width="1" border="0">BTOパソコンならパソコンショップSEVEN</a>
+DNN系の自然言語処理には以下の書籍がおすすめ！
+<div data-vc_mylinkbox_id="887699994"></div>
