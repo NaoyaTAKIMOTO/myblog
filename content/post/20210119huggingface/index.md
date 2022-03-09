@@ -3,13 +3,16 @@ title: "hugging face でBART(文章要約モデル)を使ってみた"
 description: ""
 date: "2021-01-19T03:03:11+09:00"
 thumbnail: ""
-tags: [技術系,自然言語処理,python,技術,分散表現,文生成]
+tags: [技術系,自然言語処理,python,技術,分散表現,文生成, 要約,BART]
 ---
 
 - BARTは文書要約のためのモデル
 - BERTと同じtransformerの派生
 - BERTとは異なり、encoder-decoderの構造
     - これは文生成を目的とするため
+
+## 2022/03追記
+- [日本語の文章要約についてのまとめ]({{<ref "post/20220309summarize-matome/index.md">}})を作成した
 
 このページではBARTのチュートリアルを実行する手順を示す。
 
