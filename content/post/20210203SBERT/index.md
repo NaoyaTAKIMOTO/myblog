@@ -10,8 +10,8 @@ tags: ["技術系","自然言語処理","BERT","分散表現",技術,sentence tr
 - \[ CLS\] に文の特徴量が現れるという主張もあるが、それほどタスクに対して有益な情報は含まれていないと[この論文](https://arxiv.org/abs/1908.10084)は主張する。
 - 文単位の特徴量を取得できるようにBERTを拡張するモデルがSentence BERTである。
 
-## 2022/02/11追記
-- [Hugging Face(https://huggingface.co/sonoisa/sentence-bert-base-ja-mean-tokens-v2)
+## 2022/03追記
+- [Hugging Face](https://huggingface.co/sonoisa/sentence-bert-base-ja-mean-tokens-v2)
 で日本語のSentence BERTが公開されているのでそちらを利用してもいい。
 - fugashi ipadicが単語分割のために要求されるのでインストールしておく
 ```
@@ -171,7 +171,7 @@ model2 = SentenceTransformer(path.join(ROOT, "model","sentenceBERT"))
 
 ## 分散表現の基礎を学習する
 - BERTなどに代表される言語モデルの基礎を抑えて、最新のモデルの根本を理解してトレンドを抑えましょう
-  - [Googlecolaboratory と pythonで学ぶ初めての 自然言語処理入門](https://subcul-science.booth.pm/items/1562211)
+  - [Googlecolaboratory と pythonで学ぶ初めての 自然言語処理入門]({{<ref "/post/20200615google-colaboratory-word2vec/index.md">}})
 
 ## 参考リンク
 - [公式ドキュメント](https://www.sbert.net/docs/package_reference/losses.html)
