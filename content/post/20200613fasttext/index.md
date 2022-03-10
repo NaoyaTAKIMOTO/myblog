@@ -1,5 +1,5 @@
 ---
-title: 'Fasttext で文書分類問題までやったった'
+title: 'Fasttextで文書分類問題までやったった'
 date: 2020-06-13T07:29:00.016+09:00
 draft: false
 aliases: [ "/2020/06/fasttext.html" ]
@@ -124,13 +124,13 @@ weighted avg       0.70      0.60
 [文書分類問題の応用はなにがある？]({{<ref "/post/20200618blog-post_54.md">}})
 
 ## 分散表現の仕組みについて学ぶ
-- 単語の意味を学習する分散表現について、実際にプログラムを実行しながら仕組みを理解するために[Googlecolaboratory と pythonで学ぶ初めての 自然言語処理入門](https://subcul-science.booth.pm/items/1562211)をおすすめします。
-  - 分散表現の学習のイメージをつかめるとBERT系で何をどのように学習しているのかについても理解が深まります。
-- また[fasttext の説明してみました](https://subcul-science.booth.pm/items/3152477)
+- 分散表現の学習のイメージをつかめるとBERT系で何をどのように学習しているのかについても理解が深まります。
+  - 単語の意味を学習する分散表現について、実際にプログラムを実行しながら仕組みを理解するために[Googlecolaboratory と pythonで学ぶ初めての 自然言語処理入門](https://subcul-science.booth.pm/items/1562211)をおすすめします。
+  - また[fasttext の説明してみました](https://subcul-science.booth.pm/items/3152477)もオススメします。
 
 ## 参考資料 
 - [NeuralNLP-NeuralClassifier](https://github.com/Tencent/NeuralNLP-NeuralClassifier)
-- [fastText](https://github.com/facebookresearch/fastText)
+- [fasttext facebook research](https://github.com/facebookresearch/fastText)
 
 自然言語処理の全体感を掴みたい場合には下記の書籍が便利です。
 <div data-vc_mylinkbox_id="887685224"></div>

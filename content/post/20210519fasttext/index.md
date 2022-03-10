@@ -30,4 +30,4 @@ tags: [自然言語処理,分散表現]
 ## 分散表現の仕組みについて学ぶ
 - 単語の意味を学習する分散表現について、実際にプログラムを実行しながら仕組みを理解するために[Googlecolaboratory と pythonで学ぶ初めての 自然言語処理入門](https://subcul-science.booth.pm/items/1562211)をおすすめします。
   - 分散表現の学習のイメージをつかめるとBERT系で何をどのように学習しているのかについても理解が深まります。
-- また[fasttext の説明してみました](https://subcul-science.booth.pm/items/3152477)
+- また[fasttext の説明してみました](https://subcul-science.booth.pm/items/3152477)もオススメします。
