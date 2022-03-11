@@ -1,5 +1,5 @@
 ---
-title: 'Google colaboratory を使ってWord2Vec の仕組みからモデルの学習まで'
+title: 'word2vecのアルゴリズムを把握するためにプログラムを動かしながら挙動を理解しよう'
 date: 2020-06-15T02:13:00.006+09:00
 draft: false
 aliases: [ "/2020/06/google-colaboratory-word2vec.html" ]
@@ -40,5 +40,5 @@ tags : [技術系,技術,分散表現,word2vec,google colaboratory,制作物]
 - そこで皆さんの学習の助けとなるように、Google Colaboratoryのプログラムと解説を用意しました。
 
 ## 以下のリンクからどうぞ。
-
-[Googlecolaboratory と pythonで学ぶ初めての 自然言語処理入門](https://subcul-science.booth.pm/items/1562211)
+- 購入は以下のリンクから
+  - [Googlecolaboratory と pythonで学ぶ初めての 自然言語処理入門](https://subcul-science.booth.pm/items/1562211)

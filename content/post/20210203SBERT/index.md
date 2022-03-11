@@ -171,7 +171,7 @@ model2 = SentenceTransformer(path.join(ROOT, "model","sentenceBERT"))
 
 ## 分散表現の基礎を学習する
 - BERTなどに代表される言語モデルの基礎を抑えて、最新のモデルの根本を理解してトレンドを抑えましょう
-  - [Googlecolaboratory と pythonで学ぶ初めての 自然言語処理入門]({{<ref "/post/20200615google-colaboratory-word2vec/index.md">}})
+  - [word2vecのアルゴリズムを把握するためにプログラムを動かしながら挙動を理解しよう]({{<ref "/post/20200615google-colaboratory-word2vec/index.md">}})
 - またword2vecの派生系であり、未知語に強く計算時間が早いfasttextを抑えることもいいでしょう。
   - [Fasttextで文書分類問題までやったった]({{<ref "post/20200613fasttext/index.md">}})もオススメします。
 

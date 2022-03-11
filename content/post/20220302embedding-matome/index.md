@@ -7,7 +7,7 @@ tags: [自然言語処理, T5,BERT,Sentece Transformers,SBERT,word2vec,fasttext]
 ---
 
 ## 単語単位の分散表現
-- [Word2vec]({{<ref "/post/20200617word2vec.md">}})
+- [Word2vec]({{<ref "/post/20200615google-colaboratory-word2vec/index.md">}})
   - 自然言語処理における分散表現の一つのオリジナル
   - 基本原理くらいは知っていてもいいかもしれない
 - [Fasttext で文書分類問題までやったった]({{<ref "/post/20200613fasttext.md">}})
