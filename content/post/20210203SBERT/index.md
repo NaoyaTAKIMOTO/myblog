@@ -170,6 +170,9 @@ model2 = SentenceTransformer(path.join(ROOT, "model","sentenceBERT"))
 - [分散表現の利用法 バギングによるクラス分類や汎化性能についてのメモ]({{<ref "/post/20210204classifier.md">}})
 
 ## 分散表現の基礎を学習する
+- Sentence Transformersのデモを動かせるjupyter notebookを用意しました。
+- 実際に動かしてみて、感覚を掴みましょう
+  - [Google colabを使ってSentence Transformersで日本語の文章の分散表現を取得](https://subcul-science.booth.pm/items/3714846)
 - BERTなどに代表される言語モデルの基礎を抑えて、最新のモデルの根本を理解してトレンドを抑えましょう
   - [word2vecのアルゴリズムを把握するためにプログラムを動かしながら挙動を理解しよう]({{<ref "/post/20200615google-colaboratory-word2vec/index.md">}})
 - またword2vecの派生系であり、未知語に強く計算時間が早いfasttextを抑えることもいいでしょう。
