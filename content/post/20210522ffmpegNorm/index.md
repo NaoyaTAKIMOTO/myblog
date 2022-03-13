@@ -56,8 +56,9 @@ rm temp*.mp3
 - ただ賢いノーマライズをしていないので、ノイズも増幅される点には注意してほしい
   - 音量の正規化してからノイズの除去を行うのと、ノイズを除去してから音量の正規化を行うのとどちらがよいか？
 
+## 購入リンク
+- シェルスクリプトの購入は以下のリンクから
+  - [ffmpeg音量ノーマライズの.shファイル](https://subcul-science.booth.pm/items/3718764)
 
 ## 参考リンク
 [(FFmpeg) How to normalize audio?](http://johnriselvato.com/ffmpeg-how-to-normalize-audio/)
-
-<script language="javascript" src="//ad.jp.ap.valuecommerce.com/servlet/jsbanner?sid=3563352&pid=887698974"></script><noscript><a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3563352&pid=887698974" rel="nofollow"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3563352&pid=887698974" border="0"></a></noscript>
