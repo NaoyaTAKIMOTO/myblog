@@ -24,6 +24,12 @@ tags: [自然言語処理, T5,BERT,Sentece Transformers,SBERT,word2vec,fasttext]
   - また同じ作者がSBERTのモデルも公開している
 
 ## 文単位の分散表現
+- tf-idf
+  - 最初の選択肢
+  - 単語の出現頻度を計算してスコアを割り当てる
+- BM25
+  - 単語の出現頻度を計算してスコアを出す
+  - QAモデルの最初の大雑把な検索によく使われる印象
 - [Universal Sentence Encoder]({{<ref "/post/universal-sentence-encoder.md">}})
   - 結構重宝する
   - そこそこ性能もよく使い勝手がいい
