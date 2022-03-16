@@ -10,6 +10,7 @@ tags: [自然言語処理, T5,BERT,Sentece Transformers,SBERT,word2vec,fasttext]
 - [Word2vec]({{<ref "/post/20200615google-colaboratory-word2vec/index.md">}})
   - 自然言語処理における分散表現の一つのオリジナル
   - 基本原理くらいは知っていてもいいかもしれない
+  - gensimがよく使われる
 - [Fasttext で文書分類問題までやったった]({{<ref "/post/20200613fasttext.md">}})
   - fastと名前がついているだけあってfacebookが公開しているモデルは高速に動作する
   - 分散表現とクラス分類に対応していたり、利便性が高い
@@ -27,9 +28,13 @@ tags: [自然言語処理, T5,BERT,Sentece Transformers,SBERT,word2vec,fasttext]
 - tf-idf
   - 最初の選択肢
   - 単語の出現頻度を計算してスコアを割り当てる
+  - gensimがよく使われる
 - BM25
   - 単語の出現頻度を計算してスコアを出す
   - QAモデルの最初の大雑把な検索によく使われる印象
+- doc2vec
+  - word2vecの文書版
+  - gensimがよく使われる
 - [Universal Sentence Encoder]({{<ref "/post/universal-sentence-encoder.md">}})
   - 結構重宝する
   - そこそこ性能もよく使い勝手がいい
