@@ -42,12 +42,17 @@ ubuntu 系の場合、以下のコマンドでffmpegのダウンロードとイ�
 - シェルスクリプトにまとめた。
 ```sh
 #! /bin/bash
-ffmpeg -y -i $1 -af loudnorm=I=-16:LRA=11:TP=-1.5  temp.mp3
-ffmpeg -y -i temp.mp3 -af "afftdn=nf=-25" temp1.mp3
-ffmpeg -y -i temp1.mp3 -af "highpass=f=200, lowpass=f=3000"  $2.mp3
-rm temp*.mp3
+input_dir="$(dirname -- $1)"
+filename="$(basename -- $1)"
+echo "$1"
+echo "$input_dir"
+echo "$filename"
+ffmpeg -y -i $1 -af loudnorm=I=-16:LRA=11:TP=-1.5  $input_dir/temp_$filename
+ffmpeg -y -i $input_dir/temp_$filename -af "afftdn=nf=-25" $input_dir/temp1_$filename
+ffmpeg -y -i $input_dir/temp1_$filename -af "highpass=f=200, lowpass=f=3000" $2
+rm $input_dir/temp*
 ```
-- `bash ./norm_and_cut.sh input.mp3 output`で利用する。
+- `bash ./norm_and_cut.sh input.mp3 output.mp3`で利用する。
 ## 感想
 - まあ、音量としてはちょうどいい。
 - 一般のストリーミングサービスの音量と同じくらいに調整できているんじゃかろうか？
