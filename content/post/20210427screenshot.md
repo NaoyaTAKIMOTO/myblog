@@ -56,3 +56,5 @@ chromebookで音声つきの動画をスクリーンショットで撮影でき�
 - tux guitar の再生がカクつく問題
   - メモリ不足か？
   - いまいちlinux側のguiアプリは動作がスムーズでない。
+
+<script language="javascript" src="//ad.jp.ap.valuecommerce.com/servlet/jsbanner?sid=3563352&pid=887895158"></script><noscript><a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3563352&pid=887895158" rel="nofollow"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3563352&pid=887895158" border="0"></a></noscript>
