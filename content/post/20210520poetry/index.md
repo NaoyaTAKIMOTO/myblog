@@ -100,4 +100,4 @@ poetry.lockがあるディレクトリで下記のコマンドを実行する
   - 多分pip の場合と同様にできる
 - pip でもインストールできる
 
-<div data-vc_mylinkbox_id="887698981"></div>
+<div data-vc_mylinkbox_id="887898767"></div>

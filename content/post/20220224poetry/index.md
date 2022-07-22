@@ -22,5 +22,4 @@ pip3 uninstall virtualenv
 ## 反省
 - 不用意なアップデートは不具合の原因になる
 
-<a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3563352&pid=887689136" rel="nofollow"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3563352&pid=887689136" height="1" width="1" border="0">BTOパソコンならパソコンショップSEVEN</a>
-
+<div data-vc_mylinkbox_id="887898767"></div>

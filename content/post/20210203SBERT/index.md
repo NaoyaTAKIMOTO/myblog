@@ -184,4 +184,4 @@ model2 = SentenceTransformer(path.join(ROOT, "model","sentenceBERT"))
 - [日本語での使用例](https://www.ogis-ri.co.jp/otc/hiroba/technical/similar-document-search/part9.html)
 
 DNN系の自然言語処理には以下の書籍がおすすめ！
-<div data-vc_mylinkbox_id="887699994"></div>
+<div data-vc_mylinkbox_id="887898765"></div>

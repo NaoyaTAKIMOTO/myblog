@@ -600,3 +600,5 @@ google colab で使用例が公開されているので、
 
 > [Googlecolaboratory と pythonで学ぶ初めての 自然言語処理入門](https://subcul-science.booth.pm/items/1562211)
 > 本ドキュメントを利用することで自然言語処理における分散表現の仕組みが理解でき、読者が新しい自然言語処理のサービスを開発する助けになる。
+
+<div data-vc_mylinkbox_id="887898765"></div>

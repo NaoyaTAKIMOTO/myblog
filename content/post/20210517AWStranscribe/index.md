@@ -110,4 +110,4 @@ CLIで処理を自動化できると無料枠が大きくなるため、
 - 同じ話者が続くときにはくっつけてしまってもいいかも知れない。
 - やはりcliで自動化したい。
 
-<script language="javascript" src="//ad.jp.ap.valuecommerce.com/servlet/jsbanner?sid=3563352&pid=887700003"></script><noscript><a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3563352&pid=887700003" rel="nofollow"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3563352&pid=887700003" border="0"></a></noscript>
+<div data-vc_mylinkbox_id="887898769"></div>

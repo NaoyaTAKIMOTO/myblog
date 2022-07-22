@@ -70,4 +70,4 @@ max_lengthが生成される文の長さを調整する。
 不明点などあればコメントお願いします！
 
 DNN系の自然言語処理には以下の書籍がおすすめ！
-<div data-vc_mylinkbox_id="887699994"></div>
+<div data-vc_mylinkbox_id="887898765"></div>
