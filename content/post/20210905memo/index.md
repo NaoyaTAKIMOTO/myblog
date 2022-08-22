@@ -4,6 +4,7 @@ description: ""
 date: "2021-09-05T20:33:49+09:00"
 thumbnail: ""
 tags: [メモ]
+draft: true
 ---
 
 ## 自動要約の展望

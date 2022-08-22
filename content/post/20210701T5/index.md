@@ -601,4 +601,4 @@ google colab で使用例が公開されているので、
 > [Googlecolaboratory と pythonで学ぶ初めての 自然言語処理入門](https://subcul-science.booth.pm/items/1562211)
 > 本ドキュメントを利用することで自然言語処理における分散表現の仕組みが理解でき、読者が新しい自然言語処理のサービスを開発する助けになる。
 
-<a href="//af.moshimo.com/af/c/click?a_id=2274112&p_id=1386&pc_id=2364&pl_id=48429&guid=ON" rel="nofollow" referrerpolicy="no-referrer-when-downgrade"><img src="//image.moshimo.com/af-img/0598/000000048429.png" width="640" height="640" style="border:none;"></a><img src="//i.moshimo.com/af/i/impression?a_id=2274112&p_id=1386&pc_id=2364&pl_id=48429" width="1" height="1" style="border:none;">
+<script language="javascript" src="//ad.jp.ap.valuecommerce.com/servlet/jsbanner?sid=3639942&pid=887928593"></script><noscript><a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3639942&pid=887928593" rel="nofollow"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3639942&pid=887928593" border="0"></a></noscript>

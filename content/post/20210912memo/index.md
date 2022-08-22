@@ -4,6 +4,8 @@ description: ""
 date: "2021-09-12T21:41:31+09:00"
 thumbnail: ""
 tags: [メモ]
+draft: true
+
 ---
 ## 温室効果ガス関連
 {{<tweet 1435557423389962249>}}

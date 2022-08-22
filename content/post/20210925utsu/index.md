@@ -3,7 +3,6 @@ title: "うつ病の状態の変遷　2021年9月"
 description: ""
 date: "2021-09-25T12:41:19+09:00"
 thumbnail: ""
-draft: true
 tags: [うつ病の対処法]
 ---
 

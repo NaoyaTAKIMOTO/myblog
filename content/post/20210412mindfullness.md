@@ -3,7 +3,6 @@ title: "うつによる不安や胸の痛みなど持続する苦痛に対して
 description: ""
 date: "2021-04-12T21:32:08+09:00"
 thumbnail: ""
-draft: true
 
 tags: [うつ病の対処法]
 ---
