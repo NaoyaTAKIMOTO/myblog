@@ -3,7 +3,7 @@ title: "自己紹介　ポートフォリオ"
 description: ""
 date: "2021-04-08T13:07:22+09:00"
 thumbnail: ""
-tags: [制作物,ポートフォリオ]
+tags: [制作物,ポートフォリオ,自然言語処理,画像処理,python,R]
 ---
 ## 背景
 国立大学院にて機械学習、統計解析、数理最適化を研究しておりました。
@@ -26,6 +26,8 @@ tags: [制作物,ポートフォリオ]
     - NVIDIAが公開した画像生成モデルの実行に関するアドバイス
       - [coconala ](https://coconala.com/users/1117897/services)
     - Rによる統計処理にに関するアドバイス
+      - [coconala ](https://coconala.com/users/1117897/services)
+    - GANを用いた画像生成モデルのデモ作成
       - [coconala ](https://coconala.com/users/1117897/services)
     - 自然言語処理における単語の分散表現モデルの実装と解説を行う本の執筆
       - [Googlecolaboratory と pythonで学ぶ初めての 自然言語処理入門](https://subcul-science.booth.pm/items/1562211)
